@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 345 30" width="345" height="30" role="img" aria-labelledby="t">
+  <title id="t">Training... (live sys)[streaming]</title>
+  <style>text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }</style>
+  <rect x="0.5" y="0.5" width="344" height="29" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="12" y="20" font-size="16" fill="#c9d1d9" xml:space="preserve">Training<tspan fill="#6e7681">.<animate attributeName="opacity" values="0.2;1;0.2;0.2" keyTimes="0;0.15;0.3;1" dur="1.8s" repeatCount="indefinite"/></tspan><tspan fill="#6e7681">.<animate attributeName="opacity" values="0.2;0.2;1;0.2;0.2" keyTimes="0;0.15;0.3;0.45;1" dur="1.8s" repeatCount="indefinite"/></tspan><tspan fill="#6e7681">.<animate attributeName="opacity" values="0.2;0.2;1;0.2;0.2" keyTimes="0;0.3;0.45;0.6;1" dur="1.8s" repeatCount="indefinite"/></tspan> <tspan fill="#6e7681">(live sys)[</tspan><tspan fill="#3fb950" font-weight="700">streaming<animate attributeName="opacity" values="1;0.25;1" dur="1.4s" repeatCount="indefinite"/></tspan><tspan fill="#6e7681">]</tspan></text>
+</svg>

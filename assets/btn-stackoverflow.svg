@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139 22" width="139" height="22" role="img" aria-label="stackoverflow">
+  <title>stackoverflow</title>
+  <style>text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }</style>
+  <rect x="0.5" y="0.5" width="138" height="21" rx="5" fill="#0d1117" stroke="#30363d"/>
+  <text x="10" y="15" font-size="11" xml:space="preserve"><tspan fill="#d29922">[so]</tspan><tspan fill="#c9d1d9"> stackoverflow</tspan></text>
+</svg>

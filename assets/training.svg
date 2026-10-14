@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="900" height="350" role="img" aria-labelledby="t d">
+  <title id="t">Training run</title>
+  <desc id="d">Ten small terminals print production-style service logs with pauses between bursts, next to a scrolling btop-style loss graph.</desc>
+  <style>text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }</style>
+  <defs>
+    <g id="b0" font-size="9"><text x="0" y="0" xml:space="preserve"><tspan fill="#6e7681">11:42:07</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">GET /v1/users/42 200 12ms</tspan></text><text x="0" y="11" xml:space="preserve"><tspan fill="#6e7681">11:42:09</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">POST /v1/events 201 8ms</tspan></text><text x="0" y="22" xml:space="preserve"><tspan fill="#6e7681">11:42:10</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">GET /v1/me 200 4ms</tspan></text><text x="0" y="33" xml:space="preserve"><tspan fill="#6e7681">11:42:18</tspan> <tspan fill="#d29922">WARN </tspan> <tspan fill="#c9d1d9">rate limit 80% client=a91f</tspan></text><text x="0" y="44" xml:space="preserve"><tspan fill="#6e7681">11:42:26</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">GET /healthz 200 1ms</tspan></text><text x="0" y="55" xml:space="preserve"><tspan fill="#6e7681">11:42:34</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">GET /v1/orders 200 31ms</tspan></text><text x="0" y="66" xml:space="preserve"><tspan fill="#6e7681">11:42:40</tspan> <tspan fill="#f85149">ERROR</tspan> <tspan fill="#c9d1d9">upstream timeout 5002ms</tspan></text><text x="0" y="77" xml:space="preserve"><tspan fill="#6e7681">11:42:41</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">retry 1/3 ok 118ms</tspan></text><text x="0" y="88" xml:space="preserve"><tspan fill="#6e7681">11:42:49</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">GET /v1/users 200 9ms</tspan></text><text x="0" y="99" xml:space="preserve"><tspan fill="#6e7681">11:42:50</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">GET /healthz 200 1ms</tspan></text></g>
+    <g id="b1" font-size="9"><text x="0" y="0" xml:space="preserve"><tspan fill="#6e7681">11:42:09</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">login ok user=ezekiel</tspan></text><text x="0" y="11" xml:space="preserve"><tspan fill="#6e7681">11:42:11</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">token issued ttl=3600s</tspan></text><text x="0" y="22" xml:space="preserve"><tspan fill="#6e7681">11:42:17</tspan> <tspan fill="#58a6ff">DEBUG</tspan> <tspan fill="#c9d1d9">jwks cache hit</tspan></text><text x="0" y="33" xml:space="preserve"><tspan fill="#6e7681">11:42:23</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">refresh ok user=u_1042</tspan></text><text x="0" y="44" xml:space="preserve"><tspan fill="#6e7681">11:42:25</tspan> <tspan fill="#d29922">WARN </tspan> <tspan fill="#c9d1d9">bad password user=u_77</tspan></text><text x="0" y="55" xml:space="preserve"><tspan fill="#6e7681">11:42:27</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">login ok user=u_318</tspan></text><text x="0" y="66" xml:space="preserve"><tspan fill="#6e7681">11:42:29</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">session revoked sid=4f2a</tspan></text><text x="0" y="77" xml:space="preserve"><tspan fill="#6e7681">11:42:37</tspan> <tspan fill="#58a6ff">DEBUG</tspan> <tspan fill="#c9d1d9">jwks cache hit</tspan></text><text x="0" y="88" xml:space="preserve"><tspan fill="#6e7681">11:42:39</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">login ok user=u_92</tspan></text></g>
+    <g id="b2" font-size="9"><text x="0" y="0" xml:space="preserve"><tspan fill="#6e7681">11:41:55</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">epoch 01/50 loss=0.912</tspan></text><text x="0" y="11" xml:space="preserve"><tspan fill="#6e7681">11:42:01</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">epoch 02/50 loss=0.644</tspan></text><text x="0" y="22" xml:space="preserve"><tspan fill="#6e7681">11:42:03</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">checkpoint saved step=500</tspan></text><text x="0" y="33" xml:space="preserve"><tspan fill="#6e7681">11:42:05</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">epoch 03/50 loss=0.381</tspan></text><text x="0" y="44" xml:space="preserve"><tspan fill="#6e7681">11:42:07</tspan> <tspan fill="#d29922">WARN </tspan> <tspan fill="#c9d1d9">grad norm 4.2 clipped</tspan></text><text x="0" y="55" xml:space="preserve"><tspan fill="#6e7681">11:42:09</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">epoch 04/50 loss=0.214</tspan></text><text x="0" y="66" xml:space="preserve"><tspan fill="#6e7681">11:42:11</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">eval acc=0.931</tspan></text><text x="0" y="77" xml:space="preserve"><tspan fill="#6e7681">11:42:13</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">epoch 05/50 loss=0.158</tspan></text><text x="0" y="88" xml:space="preserve"><tspan fill="#6e7681">11:42:20</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">checkpoint saved step=1000</tspan></text></g>
+    <g id="b3" font-size="9"><text x="0" y="0" xml:space="preserve"><tspan fill="#6e7681">11:42:01</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">running 42 tests</tspan></text><text x="0" y="11" xml:space="preserve"><tspan fill="#6e7681">11:42:03</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">auth_test ........ ok</tspan></text><text x="0" y="22" xml:space="preserve"><tspan fill="#6e7681">11:42:04</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">api_test ......... ok</tspan></text><text x="0" y="33" xml:space="preserve"><tspan fill="#6e7681">11:42:11</tspan> <tspan fill="#f85149">ERROR</tspan> <tspan fill="#c9d1d9">db_test FAILED 1 of 9</tspan></text><text x="0" y="44" xml:space="preserve"><tspan fill="#6e7681">11:42:18</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">retrying db_test</tspan></text><text x="0" y="55" xml:space="preserve"><tspan fill="#6e7681">11:42:25</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">db_test .......... ok</tspan></text><text x="0" y="66" xml:space="preserve"><tspan fill="#6e7681">11:42:26</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">embed_test ....... ok</tspan></text><text x="0" y="77" xml:space="preserve"><tspan fill="#6e7681">11:42:28</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">42 passed 0 failed 6.1s</tspan></text></g>
+    <g id="b4" font-size="9"><text x="0" y="0" xml:space="preserve"><tspan fill="#6e7681">11:42:03</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">chunk doc=001 tokens=512</tspan></text><text x="0" y="11" xml:space="preserve"><tspan fill="#6e7681">11:42:05</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">embed batch=32 41ms</tspan></text><text x="0" y="22" xml:space="preserve"><tspan fill="#6e7681">11:42:11</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">chunk doc=002 tokens=498</tspan></text><text x="0" y="33" xml:space="preserve"><tspan fill="#6e7681">11:42:13</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">embed batch=32 39ms</tspan></text><text x="0" y="44" xml:space="preserve"><tspan fill="#6e7681">11:42:14</tspan> <tspan fill="#d29922">WARN </tspan> <tspan fill="#c9d1d9">doc=003 truncated 8192</tspan></text><text x="0" y="55" xml:space="preserve"><tspan fill="#6e7681">11:42:22</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">upsert vectors n=96</tspan></text><text x="0" y="66" xml:space="preserve"><tspan fill="#6e7681">11:42:24</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">index refresh ok 120ms</tspan></text><text x="0" y="77" xml:space="preserve"><tspan fill="#6e7681">11:42:26</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">chunk doc=004 tokens=511</tspan></text></g>
+    <g id="b5" font-size="9"><text x="0" y="0" xml:space="preserve"><tspan fill="#6e7681">11:41:48</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">fetch origin main</tspan></text><text x="0" y="11" xml:space="preserve"><tspan fill="#6e7681">11:41:55</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">merge fast-forward 3 commits</tspan></text><text x="0" y="22" xml:space="preserve"><tspan fill="#6e7681">11:41:56</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">push origin main</tspan></text><text x="0" y="33" xml:space="preserve"><tspan fill="#6e7681">11:41:58</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">tag v1.4.2 created</tspan></text><text x="0" y="44" xml:space="preserve"><tspan fill="#6e7681">11:42:00</tspan> <tspan fill="#d29922">WARN </tspan> <tspan fill="#c9d1d9">stale branch fix/typo</tspan></text><text x="0" y="55" xml:space="preserve"><tspan fill="#6e7681">11:42:02</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">gc --auto done</tspan></text><text x="0" y="66" xml:space="preserve"><tspan fill="#6e7681">11:42:04</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">fetch origin main</tspan></text><text x="0" y="77" xml:space="preserve"><tspan fill="#6e7681">11:42:11</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">up to date</tspan></text></g>
+    <g id="b6" font-size="9"><text x="0" y="0" xml:space="preserve"><tspan fill="#6e7681">11:42:12</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">checkpoint starting: time</tspan></text><text x="0" y="11" xml:space="preserve"><tspan fill="#6e7681">11:42:14</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">checkpoint complete 4.1s</tspan></text><text x="0" y="22" xml:space="preserve"><tspan fill="#6e7681">11:42:16</tspan> <tspan fill="#58a6ff">DEBUG</tspan> <tspan fill="#c9d1d9">autovacuum users 0.3s</tspan></text><text x="0" y="33" xml:space="preserve"><tspan fill="#6e7681">11:42:18</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">conn accepted 10.0.0.12</tspan></text><text x="0" y="44" xml:space="preserve"><tspan fill="#6e7681">11:42:20</tspan> <tspan fill="#d29922">WARN </tspan> <tspan fill="#c9d1d9">slow query 842ms orders</tspan></text><text x="0" y="55" xml:space="preserve"><tspan fill="#6e7681">11:42:22</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">conn closed 10.0.0.12</tspan></text><text x="0" y="66" xml:space="preserve"><tspan fill="#6e7681">11:42:28</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">vacuum analyze events ok</tspan></text><text x="0" y="77" xml:space="preserve"><tspan fill="#6e7681">11:42:34</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">checkpoint starting: time</tspan></text></g>
+    <g id="b7" font-size="9"><text x="0" y="0" xml:space="preserve"><tspan fill="#6e7681">11:41:30</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">build image sha=9fd2c1a</tspan></text><text x="0" y="11" xml:space="preserve"><tspan fill="#6e7681">11:41:37</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">push registry 34MB</tspan></text><text x="0" y="22" xml:space="preserve"><tspan fill="#6e7681">11:41:44</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">rollout api-gw 1/3 ready</tspan></text><text x="0" y="33" xml:space="preserve"><tspan fill="#6e7681">11:41:46</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">rollout api-gw 3/3 ready</tspan></text><text x="0" y="44" xml:space="preserve"><tspan fill="#6e7681">11:41:47</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">health check 200 ok</tspan></text><text x="0" y="55" xml:space="preserve"><tspan fill="#6e7681">11:41:49</tspan> <tspan fill="#d29922">WARN </tspan> <tspan fill="#c9d1d9">old pod draining 30s</tspan></text><text x="0" y="66" xml:space="preserve"><tspan fill="#6e7681">11:41:51</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">traffic shifted 100%</tspan></text><text x="0" y="77" xml:space="preserve"><tspan fill="#6e7681">11:41:59</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">deploy complete 48s</tspan></text></g>
+    <g id="b8" font-size="9"><text x="0" y="0" xml:space="preserve"><tspan fill="#6e7681">11:42:05</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">lint src/*.c 0 issues</tspan></text><text x="0" y="11" xml:space="preserve"><tspan fill="#6e7681">11:42:11</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">lint src/*.zig 0 issues</tspan></text><text x="0" y="22" xml:space="preserve"><tspan fill="#6e7681">11:42:12</tspan> <tspan fill="#d29922">WARN </tspan> <tspan fill="#c9d1d9">src/net.c:88 unused var</tspan></text><text x="0" y="33" xml:space="preserve"><tspan fill="#6e7681">11:42:13</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">lint app/*.py 0 issues</tspan></text><text x="0" y="44" xml:space="preserve"><tspan fill="#6e7681">11:42:21</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">lint web/*.js 0 issues</tspan></text><text x="0" y="55" xml:space="preserve"><tspan fill="#6e7681">11:42:27</tspan> <tspan fill="#d29922">WARN </tspan> <tspan fill="#c9d1d9">src/db.c:41 shadow decl</tspan></text><text x="0" y="66" xml:space="preserve"><tspan fill="#6e7681">11:42:28</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">autofix applied 2 files</tspan></text><text x="0" y="77" xml:space="preserve"><tspan fill="#6e7681">11:42:34</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">lint clean</tspan></text></g>
+    <g id="b9" font-size="9"><text x="0" y="0" xml:space="preserve"><tspan fill="#6e7681">11:42:10</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">plan: 3 steps</tspan></text><text x="0" y="11" xml:space="preserve"><tspan fill="#6e7681">11:42:12</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">tool grep "TODO" 12 hits</tspan></text><text x="0" y="22" xml:space="preserve"><tspan fill="#6e7681">11:42:14</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">tool edit src/brain.py</tspan></text><text x="0" y="33" xml:space="preserve"><tspan fill="#6e7681">11:42:21</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">observe tests 41 passed</tspan></text><text x="0" y="44" xml:space="preserve"><tspan fill="#6e7681">11:42:23</tspan> <tspan fill="#d29922">WARN </tspan> <tspan fill="#c9d1d9">1 flaky test, retrying</tspan></text><text x="0" y="55" xml:space="preserve"><tspan fill="#6e7681">11:42:25</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">tool run pytest</tspan></text><text x="0" y="66" xml:space="preserve"><tspan fill="#6e7681">11:42:31</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">observe tests 42 passed</tspan></text><text x="0" y="77" xml:space="preserve"><tspan fill="#6e7681">11:42:33</tspan> <tspan fill="#3fb950">INFO </tspan> <tspan fill="#c9d1d9">reflect: goal met, done</tspan></text></g>
+  </defs>
+
+  <rect width="900" height="350" rx="10" fill="#0d1117"/>
+  <text x="24" y="36" font-size="14" xml:space="preserve"><tspan fill="#3fb950">zek@zek-debian</tspan><tspan fill="#6e7681">:</tspan><tspan fill="#58a6ff">~</tspan><tspan fill="#6e7681">$ </tspan><tspan fill="#c9d1d9">tmux attach -t night-shift</tspan></text>
+
+  <g>
+    <rect x="24.5" y="56.5" width="261" height="49" rx="4" fill="#0d1117" stroke="#30363d"/>
+    <path d="M25 70V61a4 4 0 0 1 4-4h252a4 4 0 0 1 4 4V70z" fill="#161b22"/>
+    <text x="32" y="66.5" font-size="9" fill="#6e7681">api-gateway</text>
+    <circle cx="276" cy="63.5" r="2.5" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/></circle>
+    <svg x="32" y="72" width="246" height="33" overflow="hidden">
+      <g transform="translate(0 9)"><g>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0;0 -11;0 -22;0 -33;0 -44;0 -55;0 -66;0 -77;0 -88;0 -99" keyTimes="0.0000;0.0330;0.0577;0.2445;0.4313;0.6181;0.7390;0.7637;0.9505;0.9753" dur="18.20s" repeatCount="indefinite"/>
+        <use href="#b0"/><use href="#b0" y="110"/>
+      </g></g>
+    </svg>
+  </g>
+  <g>
+    <rect x="294.5" y="56.5" width="261" height="49" rx="4" fill="#0d1117" stroke="#30363d"/>
+    <path d="M295 70V61a4 4 0 0 1 4-4h252a4 4 0 0 1 4 4V70z" fill="#161b22"/>
+    <text x="302" y="66.5" font-size="9" fill="#6e7681">auth-svc</text>
+    <circle cx="546" cy="63.5" r="2.5" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.55s" repeatCount="indefinite"/></circle>
+    <svg x="302" y="72" width="246" height="33" overflow="hidden">
+      <g transform="translate(0 9)"><g>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0;0 -11;0 -22;0 -33;0 -44;0 -55;0 -66;0 -77;0 -88" keyTimes="0.0000;0.0667;0.2133;0.3600;0.4000;0.4533;0.4933;0.7200;0.7733" dur="15.00s" repeatCount="indefinite"/>
+        <use href="#b1"/><use href="#b1" y="99"/>
+      </g></g>
+    </svg>
+  </g>
+  <g>
+    <rect x="24.5" y="112.5" width="261" height="49" rx="4" fill="#0d1117" stroke="#30363d"/>
+    <path d="M25 126V117a4 4 0 0 1 4-4h252a4 4 0 0 1 4 4V126z" fill="#161b22"/>
+    <text x="32" y="122.5" font-size="9" fill="#6e7681">trainer</text>
+    <circle cx="276" cy="119.5" r="2.5" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.9s" repeatCount="indefinite"/></circle>
+    <svg x="32" y="128" width="246" height="33" overflow="hidden">
+      <g transform="translate(0 9)"><g>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0;0 -11;0 -22;0 -33;0 -44;0 -55;0 -66;0 -77;0 -88" keyTimes="0.0000;0.2000;0.2909;0.3818;0.4727;0.5636;0.6182;0.6727;0.9273" dur="11.00s" repeatCount="indefinite"/>
+        <use href="#b2"/><use href="#b2" y="99"/>
+      </g></g>
+    </svg>
+  </g>
+  <g>
+    <rect x="294.5" y="112.5" width="261" height="49" rx="4" fill="#0d1117" stroke="#30363d"/>
+    <path d="M295 126V117a4 4 0 0 1 4-4h252a4 4 0 0 1 4 4V126z" fill="#161b22"/>
+    <text x="302" y="122.5" font-size="9" fill="#6e7681">test-runner</text>
+    <circle cx="546" cy="119.5" r="2.5" fill="#d29922"><animate attributeName="opacity" values="1;0.25;1" dur="2.25s" repeatCount="indefinite"/></circle>
+    <svg x="302" y="128" width="246" height="33" overflow="hidden">
+      <g transform="translate(0 9)"><g>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0;0 -11;0 -22;0 -33;0 -44;0 -55;0 -66;0 -77" keyTimes="0.0000;0.0684;0.1068;0.3462;0.5855;0.8248;0.8632;0.9316" dur="11.70s" repeatCount="indefinite"/>
+        <use href="#b3"/><use href="#b3" y="88"/>
+      </g></g>
+    </svg>
+  </g>
+  <g>
+    <rect x="24.5" y="168.5" width="261" height="49" rx="4" fill="#0d1117" stroke="#30363d"/>
+    <path d="M25 182V173a4 4 0 0 1 4-4h252a4 4 0 0 1 4 4V182z" fill="#161b22"/>
+    <text x="32" y="178.5" font-size="9" fill="#6e7681">embedder</text>
+    <circle cx="276" cy="175.5" r="2.5" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/></circle>
+    <svg x="32" y="184" width="246" height="33" overflow="hidden">
+      <g transform="translate(0 9)"><g>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0;0 -11;0 -22;0 -33;0 -44;0 -55;0 -66;0 -77" keyTimes="0.0000;0.0922;0.2949;0.3871;0.4286;0.7419;0.8341;0.9263" dur="10.85s" repeatCount="indefinite"/>
+        <use href="#b4"/><use href="#b4" y="88"/>
+      </g></g>
+    </svg>
+  </g>
+  <g>
+    <rect x="294.5" y="168.5" width="261" height="49" rx="4" fill="#0d1117" stroke="#30363d"/>
+    <path d="M295 182V173a4 4 0 0 1 4-4h252a4 4 0 0 1 4 4V182z" fill="#161b22"/>
+    <text x="302" y="178.5" font-size="9" fill="#6e7681">git-sync</text>
+    <circle cx="546" cy="175.5" r="2.5" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.55s" repeatCount="indefinite"/></circle>
+    <svg x="302" y="184" width="246" height="33" overflow="hidden">
+      <g transform="translate(0 9)"><g>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0;0 -11;0 -22;0 -33;0 -44;0 -55;0 -66;0 -77" keyTimes="0.0000;0.2786;0.3234;0.3831;0.4428;0.5423;0.6418;0.9204" dur="10.05s" repeatCount="indefinite"/>
+        <use href="#b5"/><use href="#b5" y="88"/>
+      </g></g>
+    </svg>
+  </g>
+  <g>
+    <rect x="24.5" y="224.5" width="261" height="49" rx="4" fill="#0d1117" stroke="#30363d"/>
+    <path d="M25 238V229a4 4 0 0 1 4-4h252a4 4 0 0 1 4 4V238z" fill="#161b22"/>
+    <text x="32" y="234.5" font-size="9" fill="#6e7681">postgres</text>
+    <circle cx="276" cy="231.5" r="2.5" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.9s" repeatCount="indefinite"/></circle>
+    <svg x="32" y="240" width="246" height="33" overflow="hidden">
+      <g transform="translate(0 9)"><g>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0;0 -11;0 -22;0 -33;0 -44;0 -55;0 -66;0 -77" keyTimes="0.0000;0.0833;0.1500;0.2167;0.3000;0.3500;0.5333;0.7167" dur="12.00s" repeatCount="indefinite"/>
+        <use href="#b6"/><use href="#b6" y="88"/>
+      </g></g>
+    </svg>
+  </g>
+  <g>
+    <rect x="294.5" y="224.5" width="261" height="49" rx="4" fill="#0d1117" stroke="#30363d"/>
+    <path d="M295 238V229a4 4 0 0 1 4-4h252a4 4 0 0 1 4 4V238z" fill="#161b22"/>
+    <text x="302" y="234.5" font-size="9" fill="#6e7681">deployer</text>
+    <circle cx="546" cy="231.5" r="2.5" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="2.25s" repeatCount="indefinite"/></circle>
+    <svg x="302" y="240" width="246" height="33" overflow="hidden">
+      <g transform="translate(0 9)"><g>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0;0 -11;0 -22;0 -33;0 -44;0 -55;0 -66;0 -77" keyTimes="0.0000;0.2179;0.4358;0.4981;0.5331;0.6109;0.6887;0.9533" dur="12.85s" repeatCount="indefinite"/>
+        <use href="#b7"/><use href="#b7" y="88"/>
+      </g></g>
+    </svg>
+  </g>
+  <g>
+    <rect x="24.5" y="280.5" width="261" height="49" rx="4" fill="#0d1117" stroke="#30363d"/>
+    <path d="M25 294V285a4 4 0 0 1 4-4h252a4 4 0 0 1 4 4V294z" fill="#161b22"/>
+    <text x="32" y="290.5" font-size="9" fill="#6e7681">linter</text>
+    <circle cx="276" cy="287.5" r="2.5" fill="#d29922"><animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/></circle>
+    <svg x="32" y="296" width="246" height="33" overflow="hidden">
+      <g transform="translate(0 9)"><g>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0;0 -11;0 -22;0 -33;0 -44;0 -55;0 -66;0 -77" keyTimes="0.0000;0.1841;0.2218;0.2594;0.5439;0.7280;0.7657;0.9498" dur="11.95s" repeatCount="indefinite"/>
+        <use href="#b8"/><use href="#b8" y="88"/>
+      </g></g>
+    </svg>
+  </g>
+  <g>
+    <rect x="294.5" y="280.5" width="261" height="49" rx="4" fill="#0d1117" stroke="#30363d"/>
+    <path d="M295 294V285a4 4 0 0 1 4-4h252a4 4 0 0 1 4 4V294z" fill="#161b22"/>
+    <text x="302" y="290.5" font-size="9" fill="#6e7681">agent</text>
+    <circle cx="546" cy="287.5" r="2.5" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.55s" repeatCount="indefinite"/></circle>
+    <svg x="302" y="296" width="246" height="33" overflow="hidden">
+      <g transform="translate(0 9)"><g>
+        <animateTransform attributeName="transform" type="translate" calcMode="discrete" values="0 0;0 -11;0 -22;0 -33;0 -44;0 -55;0 -66;0 -77" keyTimes="0.0000;0.0800;0.1800;0.4600;0.5600;0.6400;0.8600;0.9400" dur="10.00s" repeatCount="indefinite"/>
+        <use href="#b9"/><use href="#b9" y="88"/>
+      </g></g>
+    </svg>
+  </g>
+
+  <!-- loss graph -->
+  <defs>
+    <linearGradient id="heat" gradientUnits="userSpaceOnUse" x1="0" y1="302" x2="0" y2="86">
+      <stop offset="0" stop-color="#3fb950"/><stop offset="0.55" stop-color="#d29922"/><stop offset="1" stop-color="#f85149"/>
+    </linearGradient>
+    <pattern id="rowgap" width="6" height="6" patternUnits="userSpaceOnUse" y="302">
+      <rect width="6" height="6" fill="#fff"/><rect y="5" width="6" height="1" fill="#000"/>
+    </pattern>
+    <mask id="cells" maskUnits="userSpaceOnUse" x="584" y="86" width="264" height="216">
+      <rect x="584" y="86" width="264" height="216" fill="url(#rowgap)"/>
+    </mask>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="2"/></filter>
+    <clipPath id="gclip"><rect x="584" y="86" width="264" height="216"/></clipPath>
+  </defs>
+  <rect x="572" y="56" width="304" height="274" rx="6" fill="none" stroke="#30363d"/>
+  <rect x="586" y="48" width="86" height="16" fill="#0d1117"/>
+  <text x="592" y="60" font-size="12" fill="#3fb950" xml:space="preserve">loss <tspan fill="#6e7681">/ step</tspan></text>
+  <rect x="814" y="48" width="52" height="16" fill="#0d1117"/>
+  <circle cx="824" cy="56" r="4" fill="#3fb950" filter="url(#glow)" opacity="0.5">
+    <animate attributeName="r" values="3;5.5;3" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0.15;0.7" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="824" cy="56" r="2.5" fill="#3fb950"/>
+  <text x="862" y="60" font-size="11" fill="#3fb950" text-anchor="end">live</text>
+  <g mask="url(#cells)">
+    <g clip-path="url(#gclip)">
+      <g transform="translate(584 0)" fill="url(#heat)">
+        <animateTransform attributeName="transform" type="translate" values="584 0;566 0;566 0;548 0;548 0;524 0;524 0;512 0;512 0;488 0;488 0;452 0;452 0;440 0;440 0;422 0;422 0;410 0;410 0;386 0;386 0;350 0;350 0;326 0;326 0;308 0;308 0;272 0;272 0;236 0;236 0;212 0;212 0;200 0;200 0" keyTimes="0.0000;0.0153;0.0804;0.0957;0.1375;0.1561;0.2212;0.2333;0.2472;0.2658;0.3076;0.3327;0.3978;0.4099;0.4168;0.4322;0.4554;0.4675;0.4744;0.4930;0.5953;0.6204;0.6273;0.6459;0.6877;0.7031;0.8053;0.8304;0.8954;0.9205;0.9345;0.9531;0.9600;0.9721;1.0000" dur="21.52s" repeatCount="indefinite"/>
+        <rect x="0" y="158" width="5" height="144"/><rect x="6" y="134" width="5" height="168"/><rect x="12" y="158" width="5" height="144"/><rect x="18" y="182" width="5" height="120"/><rect x="24" y="188" width="5" height="114"/><rect x="30" y="194" width="5" height="108"/><rect x="36" y="194" width="5" height="108"/><rect x="42" y="182" width="5" height="120"/><rect x="48" y="164" width="5" height="138"/><rect x="54" y="176" width="5" height="126"/><rect x="60" y="200" width="5" height="102"/><rect x="66" y="182" width="5" height="120"/><rect x="72" y="158" width="5" height="144"/><rect x="78" y="176" width="5" height="126"/><rect x="84" y="206" width="5" height="96"/><rect x="90" y="230" width="5" height="72"/><rect x="96" y="254" width="5" height="48"/><rect x="102" y="278" width="5" height="24"/><rect x="108" y="278" width="5" height="24"/><rect x="114" y="260" width="5" height="42"/><rect x="120" y="266" width="5" height="36"/><rect x="126" y="284" width="5" height="18"/><rect x="132" y="278" width="5" height="24"/><rect x="138" y="236" width="5" height="66"/><rect x="144" y="212" width="5" height="90"/><rect x="150" y="212" width="5" height="90"/><rect x="156" y="212" width="5" height="90"/><rect x="162" y="218" width="5" height="84"/><rect x="168" y="230" width="5" height="72"/><rect x="174" y="236" width="5" height="66"/><rect x="180" y="206" width="5" height="96"/><rect x="186" y="194" width="5" height="108"/><rect x="192" y="212" width="5" height="90"/><rect x="198" y="218" width="5" height="84"/><rect x="204" y="188" width="5" height="114"/><rect x="210" y="152" width="5" height="150"/><rect x="216" y="140" width="5" height="162"/><rect x="222" y="134" width="5" height="168"/><rect x="228" y="134" width="5" height="168"/><rect x="234" y="158" width="5" height="144"/><rect x="240" y="182" width="5" height="120"/><rect x="246" y="176" width="5" height="126"/><rect x="252" y="176" width="5" height="126"/><rect x="258" y="206" width="5" height="96"/><rect x="264" y="242" width="5" height="60"/><rect x="270" y="248" width="5" height="54"/><rect x="276" y="236" width="5" height="66"/><rect x="282" y="230" width="5" height="72"/><rect x="288" y="224" width="5" height="78"/><rect x="294" y="212" width="5" height="90"/><rect x="300" y="224" width="5" height="78"/><rect x="306" y="254" width="5" height="48"/><rect x="312" y="254" width="5" height="48"/><rect x="318" y="230" width="5" height="72"/><rect x="324" y="242" width="5" height="60"/><rect x="330" y="272" width="5" height="30"/><rect x="336" y="290" width="5" height="12"/><rect x="342" y="272" width="5" height="30"/><rect x="348" y="260" width="5" height="42"/><rect x="354" y="242" width="5" height="60"/><rect x="360" y="206" width="5" height="96"/><rect x="366" y="188" width="5" height="114"/><rect x="372" y="194" width="5" height="108"/><rect x="378" y="188" width="5" height="114"/><rect x="384" y="158" width="5" height="144"/><rect x="390" y="134" width="5" height="168"/><rect x="396" y="158" width="5" height="144"/><rect x="402" y="182" width="5" height="120"/><rect x="408" y="188" width="5" height="114"/><rect x="414" y="194" width="5" height="108"/><rect x="420" y="194" width="5" height="108"/><rect x="426" y="182" width="5" height="120"/><rect x="432" y="164" width="5" height="138"/><rect x="438" y="176" width="5" height="126"/><rect x="444" y="200" width="5" height="102"/><rect x="450" y="182" width="5" height="120"/><rect x="456" y="158" width="5" height="144"/><rect x="462" y="176" width="5" height="126"/><rect x="468" y="206" width="5" height="96"/><rect x="474" y="230" width="5" height="72"/><rect x="480" y="254" width="5" height="48"/><rect x="486" y="278" width="5" height="24"/><rect x="492" y="278" width="5" height="24"/><rect x="498" y="260" width="5" height="42"/><rect x="504" y="266" width="5" height="36"/><rect x="510" y="284" width="5" height="18"/><rect x="516" y="278" width="5" height="24"/><rect x="522" y="236" width="5" height="66"/><rect x="528" y="212" width="5" height="90"/><rect x="534" y="212" width="5" height="90"/><rect x="540" y="212" width="5" height="90"/><rect x="546" y="218" width="5" height="84"/><rect x="552" y="230" width="5" height="72"/><rect x="558" y="236" width="5" height="66"/><rect x="564" y="206" width="5" height="96"/><rect x="570" y="194" width="5" height="108"/><rect x="576" y="212" width="5" height="90"/><rect x="582" y="218" width="5" height="84"/><rect x="588" y="188" width="5" height="114"/><rect x="594" y="152" width="5" height="150"/><rect x="600" y="140" width="5" height="162"/><rect x="606" y="134" width="5" height="168"/><rect x="612" y="134" width="5" height="168"/><rect x="618" y="158" width="5" height="144"/><rect x="624" y="182" width="5" height="120"/><rect x="630" y="176" width="5" height="126"/><rect x="636" y="176" width="5" height="126"/><rect x="642" y="206" width="5" height="96"/>
+      </g>
+    </g>
+  </g>
+  <text x="868" y="94" font-size="10" fill="#6e7681" text-anchor="end">1.0</text>
+  <text x="868" y="302" font-size="10" fill="#6e7681" text-anchor="end">0.0</text>
+  <text x="584" y="318" font-size="11" fill="#6e7681">step &#8594;</text>
+</svg>

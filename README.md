@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Meta released Muse Wonder, its first frontier model, offering the base version via API while the stronger Wonder Full is limited to Muse Code subscribers ([TechCrunch](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)).
-- Google made Gemini 4 Argon, its most powerful model yet, broadly available with limited-time API pricing of $2/$10 per million tokens ([VentureBeat](https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token)).
-- OpenAI is reportedly in talks to raise a $30B round at a $1.4T valuation ([TechCrunch](https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/)).
+- Meta released Muse Wonder, its first frontier model ([TechCrunch](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)).
+- Microsoft CEO Satya Nadella called for AI models to have an "emergency brake," including readable action logs and the ability to pause a model mid-task ([TechCrunch](https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/)).
+- TikTok rolled out an AI shopping assistant and one-click checkout so users can buy directly from brands in the app ([TechCrunch](https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/)).

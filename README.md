@@ -24,6 +24,6 @@
 
 ## AI News
 
+- Amazon's Bee launched two new personal AI devices, the Bee Frontier wearable and the card-sized Bee Eclipse, starting at $75 ([TechCrunch](https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75)).
 - YouTube Music is launching new labels to flag AI-assisted songs as AI-generated tracks flood streaming platforms ([TechCrunch](https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms)).
-- Ricursive Intelligence is betting that AI-designed chips that learn from each iteration can help ease the compute crisis ([TechCrunch](https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis)).
-- Apate sends undercover AI agents to get scammed so it can gather fraud intelligence for banks and telecoms ([TechCrunch](https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence)).
+- Microsoft's Satya Nadella says AI models need an "emergency brake", including tamper-proof records of model actions and the ability to pause or shut down a model mid-task ([TechCrunch](https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
+- Anthropic is giving six METR researchers employee-level access to independently assess its frontier models and safety practices, with METR free to publish its findings ([TechCrunch](https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access)).
 - Amazon's Bee launched two new personal AI devices, the Bee Frontier wearable and the card-sized Bee Eclipse, starting at $75 ([TechCrunch](https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75)).
-- Rivian's CEO said future Rivian cars will be able to run AI agents from other companies like Anthropic, while keeping vehicle-level controls out of an agent's hands ([TechCrunch](https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars)).
-- Meta released its first frontier model, Muse Wonder, offering the standard version via API and reserving the more capable Wonder Full for Muse Code subscribers ([TechCrunch](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)).
+- Black Forest Labs released open weights for its 5.6-billion-parameter FLUX 3 Image Klein model, with free commercial use limited to smaller businesses ([VentureBeat](https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses)).

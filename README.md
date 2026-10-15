@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Ricursive Intelligence, presenting at TechCrunch Disrupt, is betting that AI-designed chips that improve their own designs can help ease the compute crisis ([TechCrunch](https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/)).
-- Microsoft CEO Satya Nadella said AI models need an "emergency brake" and should be assumed compromised and contained from the start ([TechCrunch](https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/)).
-- OpenAI is launching labeled visual ads alongside ChatGPT image-generation results, starting later this month in the U.S. ([TechCrunch](https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/)).
+- Meta released Muse Wonder, its first frontier model, offering the base version via API while the stronger Wonder Full is limited to Muse Code subscribers ([TechCrunch](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)).
+- Google made Gemini 4 Argon, its most powerful model yet, broadly available with limited-time API pricing of $2/$10 per million tokens ([VentureBeat](https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token)).
+- OpenAI is reportedly in talks to raise a $30B round at a $1.4T valuation ([TechCrunch](https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/)).

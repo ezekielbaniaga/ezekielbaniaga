@@ -27,6 +27,16 @@ def active_flag(i, on, off):
     return discrete(segs)
 
 
+def flicker(seed, n=16, lo=0.3, hi=1.0):
+    """Irregular TV-style brightness: random levels at random times, looping seamlessly."""
+    r = random.Random(seed)
+    ts = sorted(r.uniform(0.02, 0.98) for _ in range(n - 2))
+    kt = [0.0] + ts + [1.0]
+    vals = [r.uniform(lo, hi) for _ in range(n - 1)]
+    vals.append(vals[0])
+    return f'values="{";".join(f"{v:.2f}" for v in vals)}" keyTimes="{";".join(f"{k:.3f}" for k in kt)}"'
+
+
 def meter_width(i, lo=12, hi=(84, 90, 80, 88)):
     s = i / 4
     sub = 1 / 16
@@ -39,39 +49,67 @@ def meter_width(i, lo=12, hi=(84, 90, 80, 88)):
 
 
 # ---- left: proc box ----
+HI_DIM = "#b1bac4"   # PID colour while its row is highlighted (needs contrast on the noise)
 LX, LY, LW, LH = 24, 56, 330, 190
 MX, MW, CELL = 174, 96, 6           # meter x, width (16 cells), cell width
 rows = []
 for i, (name, desc, pid) in enumerate(STEPS):
     y = 112 + i * 26
     rows.append(f"""<g>
+    <g opacity="0">
+      <animate attributeName="opacity" {active_flag(i, 1, 0)} dur="{T:g}s" repeatCount="indefinite"/>
+      <rect x="{LX + 8}" y="{y - 17}" width="{LW - 16}" height="24" rx="3" fill="none" stroke="{GREEN}" stroke-width="2" filter="url(#hglow)">
+        <animate attributeName="opacity" {flicker(40 + i)} dur="{1.1 + i * 0.37:.2f}s" repeatCount="indefinite"/>
+      </rect>
+    </g>
     <rect x="{LX + 8}" y="{y - 17}" width="{LW - 16}" height="24" rx="3" fill="#12261a" stroke="{GREEN}" opacity="0">
       <animate attributeName="opacity" {active_flag(i, 1, 0)} dur="{T:g}s" repeatCount="indefinite"/>
     </rect>
-    <text x="{LX + 16}" y="{y}" font-size="13" fill="{DIM}">{pid}</text>
-    <text x="{LX + 60}" y="{y}" font-size="13" fill="{FG}" xml:space="preserve">{name}</text>
+    <g opacity="0">
+      <animate attributeName="opacity" {active_flag(i, 1, 0)} dur="{T:g}s" repeatCount="indefinite"/>
+      <rect x="{LX + 9}" y="{y - 16}" width="{LW - 18}" height="22" rx="2" fill="#fff" filter="url(#tvnoise)">
+        <animate attributeName="opacity" values="1;0.8;1;0.9;0.7;1" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="{LX + 9}" y="{y - 16}" width="{LW - 18}" height="22" rx="2" fill="url(#scan)"/>
+    </g>
+    <text x="{LX + 16}" y="{y}" font-size="13" fill="{DIM}">{pid}<animate attributeName="filter" {active_flag(i, "url(#tshadow)", "none")} dur="{T:g}s" repeatCount="indefinite"/><animate attributeName="fill" {active_flag(i, HI_DIM, DIM)} dur="{T:g}s" repeatCount="indefinite"/></text>
+    <text x="{LX + 60}" y="{y}" font-size="13" fill="{FG}" xml:space="preserve">{name}<animate attributeName="filter" {active_flag(i, "url(#tshadow)", "none")} dur="{T:g}s" repeatCount="indefinite"/><animate attributeName="fill" {active_flag(i, "#ffffff", FG)} dur="{T:g}s" repeatCount="indefinite"/></text>
     <text x="{MX - 20}" y="{y}" font-size="13" fill="{DIM}">S<animate attributeName="opacity" {active_flag(i, 0, 1)} dur="{T:g}s" repeatCount="indefinite"/></text>
-    <text x="{MX - 20}" y="{y}" font-size="13" fill="{GREEN}" opacity="0">R<animate attributeName="opacity" {active_flag(i, 1, 0)} dur="{T:g}s" repeatCount="indefinite"/></text>
-    <g mask="url(#cellmask)">
+    <text x="{MX - 20}" y="{y}" font-size="13" fill="#7ee787" opacity="0" filter="url(#tshadow)">R<animate attributeName="opacity" {active_flag(i, 1, 0)} dur="{T:g}s" repeatCount="indefinite"/></text>
+    <g filter="url(#mglow)"><g mask="url(#cellmask)">
       <rect x="{MX}" y="{y - 11}" width="{MW}" height="12" fill="#21262d"/>
       <rect x="{MX}" y="{y - 11}" width="12" height="12" fill="url(#meter)">
         <animate attributeName="width" {meter_width(i)} dur="{T:g}s" repeatCount="indefinite"/>
       </rect>
-    </g>
+    </g></g>
     <text x="{LX + LW - 14}" y="{y}" font-size="13" fill="{DIM}" text-anchor="end">03%<animate attributeName="opacity" {active_flag(i, 0, 1)} dur="{T:g}s" repeatCount="indefinite"/></text>
-    <text x="{LX + LW - 14}" y="{y}" font-size="13" fill="{AMBER}" text-anchor="end" opacity="0">95%<animate attributeName="opacity" {active_flag(i, 1, 0)} dur="{T:g}s" repeatCount="indefinite"/></text>
+    <text x="{LX + LW - 14}" y="{y}" font-size="13" fill="#f2cc60" text-anchor="end" opacity="0" filter="url(#tshadow)">95%<animate attributeName="opacity" {active_flag(i, 1, 0)} dur="{T:g}s" repeatCount="indefinite"/></text>
   </g>""")
 rows_svg = "\n  ".join(rows)
 
-spinner = "".join(
-    f'<text x="{LX + 18}" y="{LY + LH - 14}" font-size="12" fill="{GREEN}" opacity="0">{ch}'
-    f'<animate attributeName="opacity" {discrete([(j / 4, 1 if j == k else 0) for j in range(4)])} dur="0.6s" repeatCount="indefinite"/></text>'
-    for k, ch in enumerate(["|", "/", "-", "\\"])
-)
+def comet(x0, y0, pitch=2.8, r=0.8, dur=1.6, tail=(1, .8, .62, .46, .32, .2, .12)):
+    """Small braille-style 6x4 dot grid; a green comet chases its tail around the ring."""
+    per = [(c, 0) for c in range(6)] + [(5, 1), (5, 2)] + [(c, 3) for c in range(5, -1, -1)] + [(0, 2), (0, 1)]
+    n = len(per)
+    kt = ";".join(f"{f / n:.4f}" for f in range(n))
+    out = []
+    for c in range(6):
+        for rr in range(4):
+            if (c, rr) not in per:
+                out.append(f'<circle cx="{x0 + c * pitch:g}" cy="{y0 + rr * pitch:g}" r="{r}" fill="#30363d"/>')
+    for k, (c, rr) in enumerate(per):
+        cx, cy = f"{x0 + c * pitch:g}", f"{y0 + rr * pitch:g}"
+        vals = ";".join(str(tail[(f - k) % n]) if (f - k) % n < len(tail) else "0" for f in range(n))
+        out.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="#30363d"/><circle cx="{cx}" cy="{cy}" r="{r + 0.1:g}" fill="{GREEN}" opacity="0">'
+                   f'<animate attributeName="opacity" calcMode="discrete" values="{vals}" keyTimes="{kt}" dur="{dur}s" repeatCount="indefinite"/></circle>')
+    return "".join(out)
+
+
+spinner = comet(LX + 18, LY + LH - 21)
 
 # ---- right: mirrored token graph ----
 RX, RY, RW, RH = 362, 56, 230, 190
-CW, CH, UP, DN, VIS, P = 6, 6, 11, 11, 30, 64
+CW, CH, UP, DN, VIS, P = 6, 6, 9, 9, 30, 64
 GX, MID = RX + 14, RY + 30 + UP * CH
 
 
@@ -139,21 +177,88 @@ for gi, (label, base, jit, fmt) in enumerate(GAUGES):
         f'<animate attributeName="opacity" calcMode="discrete" values="{";".join("1" if j == k else "0" for j in range(n))}" keyTimes="{kt}" dur="{total:.2f}s" repeatCount="indefinite"/></text>'
         for k, f in enumerate(fs))
     gauge_rows.append(f"""<text x="{SX + 12}" y="{y}" font-size="11" fill="{DIM}">{label}</text>
-  <g mask="url(#rcellmask)">
+  <g filter="url(#mglow)"><g mask="url(#rcellmask)">
     <rect x="{RMX}" y="{y - 9}" width="{RMW}" height="10" fill="#21262d"/>
     <rect x="{RMX}" y="{y - 9}" width="{CELL}" height="10" fill="url(#rmeter)">
       <animate attributeName="width" calcMode="discrete" values="{widths}" keyTimes="{kt}" dur="{total:.2f}s" repeatCount="indefinite"/>
     </rect>
-  </g>
+  </g></g>
   {texts}""")
 gauges_svg = "\n  ".join(gauge_rows)
 
+
+def strip(sid, top, heights, color, label, anim, gap, vis=VIS, box_right=RX + RW):
+    """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll."""
+    rows = max(heights)
+    h = rows * CH
+    w = vis * CW
+    bars = "".join(f'<rect x="{k * CW}" y="{top + h - heights[k % P] * CH}" width="{CW - 1}" height="{heights[k % P] * CH}"/>'
+                   for k in range(P + vis))
+    return f"""<mask id="{sid}m" maskUnits="userSpaceOnUse" x="{GX}" y="{top}" width="{w}" height="{h}"><rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#{gap})"/></mask>
+  <clipPath id="{sid}c"><rect x="{GX}" y="{top}" width="{w}" height="{h}"/></clipPath>
+  <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#empty)"/>
+  <g filter="url(#mglow)"><g mask="url(#{sid}m)"><g clip-path="url(#{sid}c)"><g transform="translate({GX} 0)" fill="{color}">
+    {anim}
+    {bars}
+  </g></g></g></g>
+  <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="#fff" filter="url(#gnoisedark)" mask="url(#{sid}m)"/>
+  <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="#fff" filter="url(#gnoise)" mask="url(#{sid}m)"/>
+  <text x="{box_right - 6}" y="{top + h - 1}" font-size="8" fill="{DIM}" text-anchor="end">{label}</text>"""
+
+_r2 = random.Random(31)
+lag_h = [min(4, 1 + int(2 * (0.5 + 0.5 * math.sin(2 * math.pi * 3 * k / P + 1))) + (1 if _r2.random() < 0.15 else 0)) for k in range(P)]
+strips_svg = strip("lag", MID + 60, lag_h, BLUE, "lag", f'<animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>', "hgap")
 
 svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="900" height="262" role="img" aria-labelledby="t d">
   <title id="t">Agent loop</title>
   <desc id="d">A btop-style process list where plan, tool, observe and reflect take turns running, next to a scrolling tokens in and out graph and a sys box with GPU, VRAM, context, memory and disk meters.</desc>
   <defs>
     <style>text {{ font-family: {FONT}; }}</style>
+    <filter id="phosphor" filterUnits="userSpaceOnUse" x="{GX - 12}" y="{MID - UP * CH - 12}" width="{VIS * CW + 24}" height="{(UP + DN) * CH + 24}">
+      <feColorMatrix in="SourceGraphic" type="saturate" values="1.0" result="soft"/>
+      <feComponentTransfer in="soft" result="dim"><feFuncR type="linear" slope="0.9"/><feFuncG type="linear" slope="0.9"/><feFuncB type="linear" slope="0.9"/></feComponentTransfer>
+      <feGaussianBlur in="dim" stdDeviation="2.2" result="blur"/>
+      <feComponentTransfer in="blur" result="glow"><feFuncA type="linear" slope="0.8"/></feComponentTransfer>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="dim"/></feMerge>
+    </filter>
+    <filter id="gnoisedark" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
+        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.5 0 0 0 0.66" result="d"/>
+      <feComposite in="d" in2="SourceGraphic" operator="in"/>
+    </filter>
+    <filter id="mglow" x="-5%" y="-70%" width="110%" height="240%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" result="b"/>
+      <feComponentTransfer in="b" result="glow"><feFuncA type="linear" slope="0.5"/></feComponentTransfer>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="mnoise" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
+        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -0.75 0 0 0 0.33" result="d"/>
+      <feComposite in="d" in2="SourceGraphic" operator="in"/>
+    </filter>
+    <filter id="gnoise" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
+        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.95  0 0 0 0 0.6  1.1 0 0 0 -0.6" result="g"/>
+      <feComposite in="g" in2="SourceGraphic" operator="in"/>
+    </filter>
+    <filter id="tshadow" x="-20%" y="-40%" width="140%" height="180%"><feDropShadow dx="1" dy="1.3" stdDeviation="1" flood-color="#000"/></filter>
+    <filter id="hglow" x="-5%" y="-60%" width="110%" height="220%"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="tvnoise" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.5 1.1" numOctaves="1" seed="1" result="n">
+        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.4s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.35  0 0 0 0 0.9  0 0 0 0 0.45  1.1 0 0 0 -0.38" result="g"/>
+      <feComposite in="g" in2="SourceGraphic" operator="in"/>
+    </filter>
+    <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" y="2" fill="#000" opacity="0.35"/>
+    </pattern>
     <linearGradient id="meter" gradientUnits="userSpaceOnUse" x1="{MX}" y1="0" x2="{MX + MW}" y2="0">
       <stop offset="0" stop-color="#3fb950"/><stop offset="0.6" stop-color="#d29922"/><stop offset="1" stop-color="#f85149"/>
     </linearGradient>
@@ -184,6 +289,9 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="9
     <mask id="gcells" maskUnits="userSpaceOnUse" x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}">
       <rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}" fill="url(#hgap)"/>
     </mask>
+    <pattern id="empty" width="{CW}" height="{CH}" patternUnits="userSpaceOnUse" x="{GX}" y="{MID}">
+      <rect width="{CW - 1}" height="{CH - 1}" fill="#161b22"/>
+    </pattern>
     <clipPath id="gclip"><rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}"/></clipPath>
   </defs>
 
@@ -200,13 +308,16 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="9
     <text x="{MX}" y="{LY + 34}">LOAD</text><text x="{LX + LW - 14}" y="{LY + 34}" text-anchor="end">CPU%</text>
   </g>
   {rows_svg}
+  <rect x="{MX}" y="{112 - 11}" width="{MW}" height="{3 * 26 + 12}" fill="#fff" filter="url(#mnoise)" mask="url(#cellmask)"/>
   {spinner}
-  <text x="{LX + 36}" y="{LY + LH - 14}" font-size="12" fill="{DIM}">looping until done</text>
+  <text x="{LX + 42}" y="{LY + LH - 14}" font-size="12" fill="{DIM}">looping until done</text>
 
   <!-- tokens graph -->
   <rect x="{RX}" y="{RY}" width="{RW}" height="{RH}" rx="6" fill="none" stroke="#30363d"/>
   <rect x="{RX + 14}" y="{RY - 8}" width="100" height="16" fill="#0d1117"/>
   <text x="{RX + 20}" y="{RY + 4}" font-size="12" fill="{GREEN}" xml:space="preserve">tokens <tspan fill="{DIM}">/ s</tspan></text>
+  <rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}" fill="url(#empty)"/>
+  <g filter="url(#phosphor)">
   <g mask="url(#gcells)">
     <g clip-path="url(#gclip)">
       <g transform="translate({GX} 0)">
@@ -216,6 +327,12 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="9
       </g>
     </g>
   </g>
+  </g>
+  <rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}" fill="#fff" filter="url(#gnoisedark)" mask="url(#gcells)"/>
+  <rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}" fill="#fff" filter="url(#gnoise)" mask="url(#gcells)">
+    <animate attributeName="opacity" values="1;0.7;1;0.85;0.6;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+  {strips_svg}
   <text x="{RX + RW - 10}" y="{MID - UP * CH + 8}" font-size="10" fill="{GREEN}" text-anchor="end">in</text>
   <text x="{RX + RW - 10}" y="{MID + DN * CH}" font-size="10" fill="{BLUE}" text-anchor="end">out</text>
 
@@ -225,6 +342,7 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="9
   <text x="{SX + 20}" y="{SY + 4}" font-size="12" fill="{GREEN}">sys</text>
   <text x="{SX + 12}" y="{SY + 28}" font-size="10" fill="{DIM}">NVIDIA GeForce RTX 4090 x2</text>
   {gauges_svg}
+  <rect x="{RMX}" y="{SY + 48 - 9}" width="{RMW}" height="{7 * 17 + 10}" fill="#fff" filter="url(#mnoise)" mask="url(#rcellmask)"/>
 </svg>
 """
 

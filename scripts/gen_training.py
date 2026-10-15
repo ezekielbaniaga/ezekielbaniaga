@@ -111,7 +111,7 @@ minis_svg = "\n  ".join(minis)
 
 # --- loss graph (right): btop-style block graph that scrolls forever ---
 FX, FY, FW, FH = 572, 56, 304, 274       # frame
-CW, CH, ROWS = 6, 6, 36                   # cell width/height, rows
+CW, CH, ROWS = 6, 6, 28                   # cell width/height, rows
 VIS = 44                                  # visible columns
 P = 64                                    # columns in one seamless period
 GX, GBOT = FX + 12, FY + 30 + ROWS * CH   # graph left, bottom y
@@ -146,6 +146,31 @@ def scroll_attrs(seed, gx, cw, cols):
 
 scroll = scroll_attrs(11, GX, CW, P)
 
+
+def strip(sid, top, heights, color, label, anim, gap, vis=VIS, box_right=FX + FW):
+    """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll."""
+    rows = max(heights)
+    h = rows * CH
+    w = vis * CW
+    bars = "".join(f'<rect x="{k * CW}" y="{top + h - heights[k % P] * CH}" width="{CW - 1}" height="{heights[k % P] * CH}"/>'
+                   for k in range(P + vis))
+    return f"""<mask id="{sid}m" maskUnits="userSpaceOnUse" x="{GX}" y="{top}" width="{w}" height="{h}"><rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#{gap})"/></mask>
+  <clipPath id="{sid}c"><rect x="{GX}" y="{top}" width="{w}" height="{h}"/></clipPath>
+  <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#empty)"/>
+  <g filter="url(#mglow)"><g mask="url(#{sid}m)"><g clip-path="url(#{sid}c)"><g transform="translate({GX} 0)" fill="{color}">
+    {anim}
+    {bars}
+  </g></g></g></g>
+  <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="#fff" filter="url(#gnoisedark)" mask="url(#{sid}m)"/>
+  <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="#fff" filter="url(#gnoise)" mask="url(#{sid}m)"/>
+  <text x="{box_right - 6}" y="{top + h - 1}" font-size="8" fill="{DIM}" text-anchor="end">{label}</text>"""
+
+_r = random.Random(77)
+lr_h = [3 if k < 22 else 2 if k < 44 else 1 for k in range(P)]                     # step-down schedule, restarts each lap
+grad_h = [_r.choice([1, 1, 1, 2, 2, 3]) for _ in range(P)]
+strips_svg = (strip("lr", GBOT + 12, lr_h, BLUE, "lr", f'<animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>', "rowgap")
+              + "\n  " + strip("grad", GBOT + 36, grad_h, "#bc8cff", "grad", f'<animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>', "rowgap"))
+
 svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="900" height="350" role="img" aria-labelledby="t d">
   <title id="t">Training run</title>
   <desc id="d">Ten small terminals print production-style service logs with pauses between bursts, next to a scrolling btop-style loss graph.</desc>
@@ -170,6 +195,35 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="9
     <mask id="cells" maskUnits="userSpaceOnUse" x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}">
       <rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}" fill="url(#rowgap)"/>
     </mask>
+    <pattern id="empty" width="{CW}" height="{CH}" patternUnits="userSpaceOnUse" x="{GX}" y="{GBOT}">
+      <rect width="{CW - 1}" height="{CH - 1}" fill="#161b22"/>
+    </pattern>
+    <filter id="phosphor" filterUnits="userSpaceOnUse" x="{GX - 12}" y="{GBOT - ROWS * CH - 12}" width="{VIS * CW + 24}" height="{ROWS * CH + 24}">
+      <feColorMatrix in="SourceGraphic" type="saturate" values="1.0" result="soft"/>
+      <feComponentTransfer in="soft" result="dim"><feFuncR type="linear" slope="0.9"/><feFuncG type="linear" slope="0.9"/><feFuncB type="linear" slope="0.9"/></feComponentTransfer>
+      <feGaussianBlur in="dim" stdDeviation="2.2" result="blur"/>
+      <feComponentTransfer in="blur" result="glow"><feFuncA type="linear" slope="0.8"/></feComponentTransfer>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="dim"/></feMerge>
+    </filter>
+    <filter id="gnoisedark" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
+        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.5 0 0 0 0.66" result="d"/>
+      <feComposite in="d" in2="SourceGraphic" operator="in"/>
+    </filter>
+    <filter id="gnoise" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
+        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.95  0 0 0 0 0.6  1.1 0 0 0 -0.6" result="g"/>
+      <feComposite in="g" in2="SourceGraphic" operator="in"/>
+    </filter>
+    <filter id="mglow" x="-5%" y="-70%" width="110%" height="240%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" result="b"/>
+      <feComponentTransfer in="b" result="glow"><feFuncA type="linear" slope="0.5"/></feComponentTransfer>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
     <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="2"/></filter>
     <clipPath id="gclip"><rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}"/></clipPath>
   </defs>
@@ -183,17 +237,23 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="9
   </circle>
   <circle cx="{FX + FW - 52}" cy="{FY}" r="2.5" fill="{GREEN}"/>
   <text x="{FX + FW - 14}" y="{FY + 4}" font-size="11" fill="{GREEN}" text-anchor="end">live</text>
-  <g mask="url(#cells)">
+  <rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}" fill="url(#empty)"/>
+  <g filter="url(#phosphor)"><g mask="url(#cells)">
     <g clip-path="url(#gclip)">
       <g transform="translate({GX} 0)" fill="url(#heat)">
         <animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>
         {cols_svg}
       </g>
     </g>
-  </g>
+  </g></g>
+  <rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}" fill="#fff" filter="url(#gnoisedark)" mask="url(#cells)"/>
+  <rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}" fill="#fff" filter="url(#gnoise)" mask="url(#cells)">
+    <animate attributeName="opacity" values="1;0.7;1;0.85;0.6;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+  {strips_svg}
   <text x="{FX + FW - 8}" y="{GBOT - ROWS * CH + 8}" font-size="10" fill="{DIM}" text-anchor="end">1.0</text>
   <text x="{FX + FW - 8}" y="{GBOT}" font-size="10" fill="{DIM}" text-anchor="end">0.0</text>
-  <text x="{GX}" y="{GBOT + 16}" font-size="11" fill="{DIM}">step &#8594;</text>
+  <text x="{GX}" y="{GBOT + 68}" font-size="11" fill="{DIM}">step &#8594;</text>
 </svg>
 """
 

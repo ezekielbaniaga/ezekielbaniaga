@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate assets/footer.svg: a btop-style 'sleep' dashboard with zek-debian asleep."""
 import math
+import random
 from pathlib import Path
 
 T = 8.0  # seconds per loop
@@ -57,10 +58,10 @@ def meter(y, name, w_vals, pct_vals, color_text=FG):
         for i, p in enumerate(pct_vals)
     )
     return f"""<text x="{SX + 16}" y="{y}" font-size="13" fill="{color_text}">{name}</text>
-    <g mask="url(#cellmask)">
+    <g filter="url(#mglow)"><g mask="url(#cellmask)">
       <rect x="{MX}" y="{y - 11}" width="{MW}" height="12" fill="#21262d"/>
       <rect x="{MX}" y="{y - 11}" width="{w_vals[0]}" height="12" fill="url(#meter)">{w_anim}</rect>
-    </g>
+    </g></g>
     {pcts}"""
 
 
@@ -73,7 +74,7 @@ status_box = (f'<rect x="{SX}" y="{BY}" width="{SW}" height="{BH}" rx="6" fill="
 
 # ---- cpu idle graph ----
 GXB, GW = 536, 340
-CW, CH, ROWS, VIS, P = 6, 6, 12, 50, 64
+CW, CH, ROWS, VIS, P = 6, 6, 8, 50, 64
 GX, GBOT = GXB + 14, BY + 28 + ROWS * CH
 
 
@@ -92,6 +93,28 @@ cpu_box = (f'<rect x="{GXB}" y="{BY}" width="{GW}" height="{BH}" rx="6" fill="no
            f'<text x="{GXB + 20}" y="{BY + 4}" font-size="12" fill="{GREEN}" xml:space="preserve">cpu <tspan fill="{DIM}">idle</tspan></text>'
            f'<rect x="{GXB + GW - 84}" y="{BY - 8}" width="72" height="16" fill="#0d1117"/>'
            f'<text x="{GXB + GW - 16}" y="{BY + 4}" font-size="11" fill="{DIM}" text-anchor="end">99% idle</text>')
+
+
+def strip(sid, top, heights, color, label, anim, gap, vis=VIS, box_right=GXB + GW):
+    """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll."""
+    rows = max(heights)
+    h = rows * CH
+    w = vis * CW
+    bars = "".join(f'<rect x="{k * CW}" y="{top + h - heights[k % P] * CH}" width="{CW - 1}" height="{heights[k % P] * CH}"/>'
+                   for k in range(P + vis))
+    return f"""<mask id="{sid}m" maskUnits="userSpaceOnUse" x="{GX}" y="{top}" width="{w}" height="{h}"><rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#{gap})"/></mask>
+  <clipPath id="{sid}c"><rect x="{GX}" y="{top}" width="{w}" height="{h}"/></clipPath>
+  <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#empty)"/>
+  <g filter="url(#mglow)"><g mask="url(#{sid}m)"><g clip-path="url(#{sid}c)"><g transform="translate({GX} 0)" fill="{color}">
+    {anim}
+    {bars}
+  </g></g></g></g>
+  <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="#fff" filter="url(#gnoisedark)" mask="url(#{sid}m)"/>
+  <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="#fff" filter="url(#gnoise)" mask="url(#{sid}m)"/>
+  <text x="{box_right - 6}" y="{top + h - 1}" font-size="8" fill="{DIM}" text-anchor="end">{label}</text>"""
+
+temp_h = [2 + (1 if math.sin(2 * math.pi * 2 * k / P) > 0.3 else 0) for k in range(P)]
+strips_svg = strip("temp", GBOT + 6, temp_h, AMBER, "temp", f'<animateTransform attributeName="transform" type="translate" from="{GX} 0" to="{GX - P * CW} 0" dur="12s" repeatCount="indefinite"/>', "hgap")
 
 svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 214" width="900" height="214" role="img" aria-labelledby="t d">
   <title id="t">Signing off</title>
@@ -116,6 +139,42 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 214" width="9
     <mask id="gcells" maskUnits="userSpaceOnUse" x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}">
       <rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}" fill="url(#hgap)"/>
     </mask>
+    <pattern id="empty" width="{CW}" height="{CH}" patternUnits="userSpaceOnUse" x="{GX}" y="{GBOT}">
+      <rect width="{CW - 1}" height="{CH - 1}" fill="#161b22"/>
+    </pattern>
+    <filter id="phosphor" filterUnits="userSpaceOnUse" x="{GX - 12}" y="{GBOT - ROWS * CH - 12}" width="{VIS * CW + 24}" height="{ROWS * CH + 24}">
+      <feColorMatrix in="SourceGraphic" type="saturate" values="1.0" result="soft"/>
+      <feComponentTransfer in="soft" result="dim"><feFuncR type="linear" slope="0.9"/><feFuncG type="linear" slope="0.9"/><feFuncB type="linear" slope="0.9"/></feComponentTransfer>
+      <feGaussianBlur in="dim" stdDeviation="2.2" result="blur"/>
+      <feComponentTransfer in="blur" result="glow"><feFuncA type="linear" slope="0.8"/></feComponentTransfer>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="dim"/></feMerge>
+    </filter>
+    <filter id="gnoisedark" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
+        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.5 0 0 0 0.66" result="d"/>
+      <feComposite in="d" in2="SourceGraphic" operator="in"/>
+    </filter>
+    <filter id="mglow" x="-5%" y="-70%" width="110%" height="240%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" result="b"/>
+      <feComponentTransfer in="b" result="glow"><feFuncA type="linear" slope="0.5"/></feComponentTransfer>
+      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="mnoise" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
+        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -0.75 0 0 0 0.33" result="d"/>
+      <feComposite in="d" in2="SourceGraphic" operator="in"/>
+    </filter>
+    <filter id="gnoise" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
+        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.95  0 0 0 0 0.6  1.1 0 0 0 -0.6" result="g"/>
+      <feComposite in="g" in2="SourceGraphic" operator="in"/>
+    </filter>
     <clipPath id="gclip"><rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}"/></clipPath>
     <clipPath id="say"><rect x="176" y="170" width="0" height="26">
       <animate attributeName="width" values="0;0;232;232;0" keyTimes="0;0.08;0.5;0.94;1" dur="10s" repeatCount="indefinite"/>
@@ -133,15 +192,24 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 214" width="9
   {energy}
   {dreams}
   {coffee}
+  <rect x="{MX}" y="{88 - 11}" width="{MW}" height="{140 - 88 + 12}" fill="#fff" filter="url(#mnoise)" mask="url(#cellmask)"/>
 
   {cpu_box}
+  <rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}" fill="url(#empty)"/>
+  <g filter="url(#phosphor)">
   <g mask="url(#gcells)"><g clip-path="url(#gclip)">
     <g transform="translate({GX} 0)" fill="url(#heat)">
       <animateTransform attributeName="transform" type="translate" from="{GX} 0" to="{GX - P * CW} 0" dur="12s" repeatCount="indefinite"/>
       {cols}
     </g>
   </g></g>
+  </g>
+  <rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}" fill="#fff" filter="url(#gnoisedark)" mask="url(#gcells)"/>
+  <rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}" fill="#fff" filter="url(#gnoise)" mask="url(#gcells)">
+    <animate attributeName="opacity" values="1;0.7;1;0.85;0.6;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
 
+  {strips_svg}
   <text x="24" y="190" font-size="14" xml:space="preserve"><tspan fill="{GREEN}">zek@zek-debian</tspan><tspan fill="{DIM}">:</tspan><tspan fill="{BLUE}">~</tspan><tspan fill="{DIM}">$ </tspan><tspan fill="{FG}" clip-path="url(#say)">echo "back on the next shift"</tspan></text>
   <rect x="176" y="177" width="9" height="16" fill="{GREEN}">
     <animate attributeName="x" values="176;176;400;400;176" keyTimes="0;0.08;0.5;0.94;1" dur="10s" repeatCount="indefinite"/>

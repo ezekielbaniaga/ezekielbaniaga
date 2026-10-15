@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Meta announced Muse Wonder and Muse Wonder Full, offering the weaker model via API while keeping the strongest one for paid Muse Code subscribers ([VentureBeat](https://venturebeat.com/technology/metas-new-muse-wonder-and-muse-wonder-full-models-achieve-frontier-performance-but-only-the-weaker-one-is-available-via-api)).
-- OpenAI reportedly told investors its annualized revenue is approaching $50 billion, about $20 billion below earlier projections ([TechCrunch](https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/)).
+- Ricursive Intelligence, presenting at TechCrunch Disrupt, is betting that AI-designed chips that improve their own designs can help ease the compute crisis ([TechCrunch](https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/)).
 - Microsoft CEO Satya Nadella said AI models need an "emergency brake" and should be assumed compromised and contained from the start ([TechCrunch](https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/)).
+- OpenAI is launching labeled visual ads alongside ChatGPT image-generation results, starting later this month in the U.S. ([TechCrunch](https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/)).

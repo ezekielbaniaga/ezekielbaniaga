@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Meta released Muse Wonder, its first frontier model ([TechCrunch](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)).
-- Microsoft CEO Satya Nadella called for AI models to have an "emergency brake," including readable action logs and the ability to pause a model mid-task ([TechCrunch](https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/)).
-- TikTok rolled out an AI shopping assistant and one-click checkout so users can buy directly from brands in the app ([TechCrunch](https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/)).
+- YouTube Music is launching new labels to flag AI-assisted songs as AI-generated tracks flood streaming platforms ([TechCrunch](https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms)).
+- Ricursive Intelligence is betting that AI-designed chips that learn from each iteration can help ease the compute crisis ([TechCrunch](https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis)).
+- Apate sends undercover AI agents to get scammed so it can gather fraud intelligence for banks and telecoms ([TechCrunch](https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence)).

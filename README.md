@@ -25,5 +25,5 @@
 ## AI News
 
 - Amazon's Bee launched two new personal AI devices, the Bee Frontier wearable and the card-sized Bee Eclipse, starting at $75 ([TechCrunch](https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75)).
-- YouTube Music is launching new labels to flag AI-assisted songs as AI-generated tracks flood streaming platforms ([TechCrunch](https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms)).
-- Microsoft's Satya Nadella says AI models need an "emergency brake", including tamper-proof records of model actions and the ability to pause or shut down a model mid-task ([TechCrunch](https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/)).
+- Rivian's CEO said future Rivian cars will be able to run AI agents from other companies like Anthropic, while keeping vehicle-level controls out of an agent's hands ([TechCrunch](https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars)).
+- Meta released its first frontier model, Muse Wonder, offering the standard version via API and reserving the more capable Wonder Full for Muse Code subscribers ([TechCrunch](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)).

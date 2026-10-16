@@ -26,4 +26,4 @@
 
 - Anthropic is giving six METR researchers employee-level access to independently assess its frontier models and safety practices, with METR free to publish its findings ([TechCrunch](https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access)).
 - Amazon's Bee launched two new personal AI devices, the Bee Frontier wearable and the card-sized Bee Eclipse, starting at $75 ([TechCrunch](https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75)).
-- Black Forest Labs released open weights for its 5.6-billion-parameter FLUX 3 Image Klein model, with free commercial use limited to smaller businesses ([VentureBeat](https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses)).
+- Meta launched Muse Spark Open, an open-weight model it calls the most capable in the US, built to run locally on Macs ([TechCrunch](https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Meta launched Muse Spark Open, an 816-billion-parameter open-weight model it calls the most capable in the US, built to run locally on Apple silicon Macs ([VentureBeat](https://venturebeat.com/technology/meta-unveils-muse-spark-open-the-new-top-u-s-open-weights-model-and-it-runs-on-two-paired-mac-desktops)).
-- Amazon's Bee launched two new personal AI wearables, the $74.99 Bee Frontier and the $99.99 Bee Eclipse, that turn everyday conversations into notes, to-dos and summaries ([TechCrunch](https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75)).
-- Anthropic is giving six METR researchers employee-level access to independently assess its frontier models and safety practices ([TechCrunch](https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access)).
+- Vercel's Jev decision model became its fastest-adopted AI model ever, used by 35% of paid teams within two weeks of launch ([TechCrunch](https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever)).
+- Meta launched Muse Spark Open, an 816-billion-parameter open-weight model that can run locally on Apple silicon Macs ([TechCrunch](https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/)).
+- Anthropic is giving METR researchers employee-level access to independently assess its frontier models and safety practices ([TechCrunch](https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access)).

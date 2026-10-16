@@ -53,8 +53,8 @@ def meter(y, name, w_vals, pct_vals, color_text=FG):
               f'keyTimes="{";".join(f"{t:.4f}" for t in pts + [0.9001, 1])}" dur="{T:g}s" repeatCount="indefinite"/>')
     starts = [0] + [(j - 0.5) / (n - 1) * 0.9 for j in range(1, n)]
     pcts = "".join(
-        f'<text x="{SX + SW - 16}" y="{y}" font-size="13" fill="{AMBER if int(p[:-1]) > 60 else DIM}" text-anchor="end" opacity="0">{p}'
-        f'<animate attributeName="opacity" {discrete([(starts[j], 1 if j == i else 0) for j in range(n)] + [(0.9001, 1 if i == 0 else 0)])} dur="{T:g}s" repeatCount="indefinite"/></text>'
+        f'<text x="{SX + SW - 16}" y="{y}" font-size="13" fill="{AMBER if int(p[:-1]) > 60 else DIM}" text-anchor="end" visibility="hidden">{p}'
+        f'<animate attributeName="visibility" {discrete([(starts[j], "visible" if j == i else "hidden") for j in range(n)] + [(0.9001, "visible" if i == 0 else "hidden")])} dur="{T:g}s" repeatCount="indefinite"/></text>'
         for i, p in enumerate(pct_vals)
     )
     return f"""<text x="{SX + 16}" y="{y}" font-size="13" fill="{color_text}">{name}</text>
@@ -96,7 +96,8 @@ cpu_box = (f'<rect x="{GXB}" y="{BY}" width="{GW}" height="{BH}" rx="6" fill="no
 
 
 def strip(sid, top, heights, color, label, anim, gap, vis=VIS, box_right=GXB + GW):
-    """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll."""
+    """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll.
+    Its glow is mglow with a fixed region: mglow's bbox-relative region would span every off-screen scroll column."""
     rows = max(heights)
     h = rows * CH
     w = vis * CW
@@ -104,17 +105,24 @@ def strip(sid, top, heights, color, label, anim, gap, vis=VIS, box_right=GXB + G
                    for k in range(P + vis))
     return f"""<mask id="{sid}m" maskUnits="userSpaceOnUse" x="{GX}" y="{top}" width="{w}" height="{h}"><rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#{gap})"/></mask>
   <clipPath id="{sid}c"><rect x="{GX}" y="{top}" width="{w}" height="{h}"/></clipPath>
+  <filter id="{sid}g" filterUnits="userSpaceOnUse" x="{GX - 16}" y="{top - 0.7 * h:g}" width="{w + 32}" height="{2.4 * h:g}">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" result="b"/>
+    <feComponentTransfer in="b" result="glow"><feFuncA type="linear" slope="0.5"/></feComponentTransfer>
+    <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
   <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#empty)"/>
-  <g filter="url(#mglow)"><g mask="url(#{sid}m)"><g clip-path="url(#{sid}c)"><g transform="translate({GX} 0)" fill="{color}">
+  <g filter="url(#{sid}g)"><g mask="url(#{sid}m)"><g clip-path="url(#{sid}c)"><g transform="translate({GX} 0)" fill="{color}">
     {anim}
     {bars}
   </g></g></g></g>
-  <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="#fff" filter="url(#gnoisedark)" mask="url(#{sid}m)"/>
   <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="#fff" filter="url(#gnoise)" mask="url(#{sid}m)"/>
   <text x="{box_right - 6}" y="{top + h - 1}" font-size="8" fill="{DIM}" text-anchor="end">{label}</text>"""
 
 temp_h = [2 + (1 if math.sin(2 * math.pi * 2 * k / P) > 0.3 else 0) for k in range(P)]
 strips_svg = strip("temp", GBOT + 6, temp_h, AMBER, "temp", f'<animateTransform attributeName="transform" type="translate" from="{GX} 0" to="{GX - P * CW} 0" dur="12s" repeatCount="indefinite"/>', "hgap")
+
+# graph noise flicker: the green specks' opacity, folded into their alpha row (1.1R - 0.6 never exceeds 1, so this == opacity)
+NOISE_FLICKER = ";".join(f"0 0 0 0 0.55  0 0 0 0 0.95  0 0 0 0 0.6  {1.1 * o:.4g} 0 0 0 {-0.6 * o:.4g}" for o in (1, 0.7, 1, 0.85, 0.6, 1))
 
 svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 214" width="900" height="214" role="img" aria-labelledby="t d">
   <title id="t">Signing off</title>
@@ -143,18 +151,10 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 214" width="9
       <rect width="{CW - 1}" height="{CH - 1}" fill="#161b22"/>
     </pattern>
     <filter id="phosphor" filterUnits="userSpaceOnUse" x="{GX - 12}" y="{GBOT - ROWS * CH - 12}" width="{VIS * CW + 24}" height="{ROWS * CH + 24}">
-      <feColorMatrix in="SourceGraphic" type="saturate" values="1.0" result="soft"/>
-      <feComponentTransfer in="soft" result="dim"><feFuncR type="linear" slope="0.9"/><feFuncG type="linear" slope="0.9"/><feFuncB type="linear" slope="0.9"/></feComponentTransfer>
+      <feComponentTransfer in="SourceGraphic" result="dim"><feFuncR type="linear" slope="0.9"/><feFuncG type="linear" slope="0.9"/><feFuncB type="linear" slope="0.9"/></feComponentTransfer>
       <feGaussianBlur in="dim" stdDeviation="2.2" result="blur"/>
       <feComponentTransfer in="blur" result="glow"><feFuncA type="linear" slope="0.8"/></feComponentTransfer>
       <feMerge><feMergeNode in="glow"/><feMergeNode in="dim"/></feMerge>
-    </filter>
-    <filter id="gnoisedark" x="0" y="0" width="1" height="1">
-      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
-        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
-      </feTurbulence>
-      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.5 0 0 0 0.66" result="d"/>
-      <feComposite in="d" in2="SourceGraphic" operator="in"/>
     </filter>
     <filter id="mglow" x="-5%" y="-70%" width="110%" height="240%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" result="b"/>
@@ -168,12 +168,28 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 214" width="9
       <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -0.75 0 0 0 0.33" result="d"/>
       <feComposite in="d" in2="SourceGraphic" operator="in"/>
     </filter>
+    <!-- graph noise: dark specks under green specks from one shared turbulence (was two filters, two turbulences) -->
     <filter id="gnoise" x="0" y="0" width="1" height="1">
       <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
         <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
       </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.5 0 0 0 0.66" result="d"/>
+      <feComposite in="d" in2="SourceGraphic" operator="in" result="dk"/>
       <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.95  0 0 0 0 0.6  1.1 0 0 0 -0.6" result="g"/>
-      <feComposite in="g" in2="SourceGraphic" operator="in"/>
+      <feComposite in="g" in2="SourceGraphic" operator="in" result="gr"/>
+      <feMerge><feMergeNode in="dk"/><feMergeNode in="gr"/></feMerge>
+    </filter>
+    <filter id="gnoiseflicker" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
+        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.5 0 0 0 0.66" result="d"/>
+      <feComposite in="d" in2="SourceGraphic" operator="in" result="dk"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.95  0 0 0 0 0.6  1.1 0 0 0 -0.6" result="g">
+        <animate attributeName="values" values="{NOISE_FLICKER}" dur="1.1s" repeatCount="indefinite"/>
+      </feColorMatrix>
+      <feComposite in="g" in2="SourceGraphic" operator="in" result="gr"/>
+      <feMerge><feMergeNode in="dk"/><feMergeNode in="gr"/></feMerge>
     </filter>
     <clipPath id="gclip"><rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}"/></clipPath>
     <clipPath id="say"><rect x="176" y="170" width="0" height="26">
@@ -204,10 +220,7 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 214" width="9
     </g>
   </g></g>
   </g>
-  <rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}" fill="#fff" filter="url(#gnoisedark)" mask="url(#gcells)"/>
-  <rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}" fill="#fff" filter="url(#gnoise)" mask="url(#gcells)">
-    <animate attributeName="opacity" values="1;0.7;1;0.85;0.6;1" dur="1.1s" repeatCount="indefinite"/>
-  </rect>
+  <rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}" fill="#fff" filter="url(#gnoiseflicker)" mask="url(#gcells)"/>
 
   {strips_svg}
   <text x="24" y="190" font-size="14" xml:space="preserve"><tspan fill="{GREEN}">zek@zek-debian</tspan><tspan fill="{DIM}">:</tspan><tspan fill="{BLUE}">~</tspan><tspan fill="{DIM}">$ </tspan><tspan fill="{FG}" clip-path="url(#say)">echo "back on the next shift"</tspan></text>

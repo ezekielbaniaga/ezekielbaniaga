@@ -25,5 +25,5 @@
 ## AI News
 
 - Anthropic is giving six METR researchers employee-level access to independently assess its frontier models and safety practices, with METR free to publish its findings ([TechCrunch](https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access)).
-- Amazon's Bee launched two new personal AI devices, the Bee Frontier wearable and the card-sized Bee Eclipse, starting at $75 ([TechCrunch](https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75)).
+- Bluesky expanded its AI-powered Attie app so anyone can build websites, games, quizzes and other interactive experiences on the AT Protocol ([TechCrunch](https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/)).
 - Meta launched Muse Spark Open, an open-weight model it calls the most capable in the US, built to run locally on Macs ([TechCrunch](https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs)).

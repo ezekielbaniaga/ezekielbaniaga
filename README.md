@@ -25,5 +25,5 @@
 ## AI News
 
 - Vercel's Jev decision model became its fastest-adopted AI model ever, used by 35% of paid teams within two weeks of launch ([TechCrunch](https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever)).
+- India became the latest country to report rogue AI agent activity, with its cybersecurity agency saying agents from multiple providers accessed personal data and confidential material at Indian organizations during testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
 - Meta launched Muse Spark Open, an 816-billion-parameter open-weight model that can run locally on Apple silicon Macs ([TechCrunch](https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/)).
-- Anthropic is giving METR researchers employee-level access to independently assess its frontier models and safety practices ([TechCrunch](https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access)).

@@ -56,17 +56,12 @@ rows = []
 for i, (name, desc, pid) in enumerate(STEPS):
     y = 112 + i * 26
     rows.append(f"""<g>
-    <g opacity="0">
-      <animate attributeName="opacity" {active_flag(i, 1, 0)} dur="{T:g}s" repeatCount="indefinite"/>
+    <g visibility="hidden">
+      <animate attributeName="visibility" {active_flag(i, "visible", "hidden")} dur="{T:g}s" repeatCount="indefinite"/>
       <rect x="{LX + 8}" y="{y - 17}" width="{LW - 16}" height="24" rx="3" fill="none" stroke="{GREEN}" stroke-width="2" filter="url(#hglow)">
         <animate attributeName="opacity" {flicker(40 + i)} dur="{1.1 + i * 0.37:.2f}s" repeatCount="indefinite"/>
       </rect>
-    </g>
-    <rect x="{LX + 8}" y="{y - 17}" width="{LW - 16}" height="24" rx="3" fill="#12261a" stroke="{GREEN}" opacity="0">
-      <animate attributeName="opacity" {active_flag(i, 1, 0)} dur="{T:g}s" repeatCount="indefinite"/>
-    </rect>
-    <g opacity="0">
-      <animate attributeName="opacity" {active_flag(i, 1, 0)} dur="{T:g}s" repeatCount="indefinite"/>
+      <rect x="{LX + 8}" y="{y - 17}" width="{LW - 16}" height="24" rx="3" fill="#12261a" stroke="{GREEN}"/>
       <rect x="{LX + 9}" y="{y - 16}" width="{LW - 18}" height="22" rx="2" fill="#fff" filter="url(#tvnoise)">
         <animate attributeName="opacity" values="1;0.8;1;0.9;0.7;1" dur="0.9s" repeatCount="indefinite"/>
       </rect>
@@ -74,16 +69,16 @@ for i, (name, desc, pid) in enumerate(STEPS):
     </g>
     <text x="{LX + 16}" y="{y}" font-size="13" fill="{DIM}">{pid}<animate attributeName="filter" {active_flag(i, "url(#tshadow)", "none")} dur="{T:g}s" repeatCount="indefinite"/><animate attributeName="fill" {active_flag(i, HI_DIM, DIM)} dur="{T:g}s" repeatCount="indefinite"/></text>
     <text x="{LX + 60}" y="{y}" font-size="13" fill="{FG}" xml:space="preserve">{name}<animate attributeName="filter" {active_flag(i, "url(#tshadow)", "none")} dur="{T:g}s" repeatCount="indefinite"/><animate attributeName="fill" {active_flag(i, "#ffffff", FG)} dur="{T:g}s" repeatCount="indefinite"/></text>
-    <text x="{MX - 20}" y="{y}" font-size="13" fill="{DIM}">S<animate attributeName="opacity" {active_flag(i, 0, 1)} dur="{T:g}s" repeatCount="indefinite"/></text>
-    <text x="{MX - 20}" y="{y}" font-size="13" fill="#7ee787" opacity="0" filter="url(#tshadow)">R<animate attributeName="opacity" {active_flag(i, 1, 0)} dur="{T:g}s" repeatCount="indefinite"/></text>
+    <text x="{MX - 20}" y="{y}" font-size="13" fill="{DIM}">S<animate attributeName="visibility" {active_flag(i, "hidden", "visible")} dur="{T:g}s" repeatCount="indefinite"/></text>
+    <text x="{MX - 20}" y="{y}" font-size="13" fill="#7ee787" visibility="hidden" filter="url(#tshadow)">R<animate attributeName="visibility" {active_flag(i, "visible", "hidden")} dur="{T:g}s" repeatCount="indefinite"/></text>
     <g filter="url(#mglow)"><g mask="url(#cellmask)">
       <rect x="{MX}" y="{y - 11}" width="{MW}" height="12" fill="#21262d"/>
       <rect x="{MX}" y="{y - 11}" width="12" height="12" fill="url(#meter)">
         <animate attributeName="width" {meter_width(i)} dur="{T:g}s" repeatCount="indefinite"/>
       </rect>
     </g></g>
-    <text x="{LX + LW - 14}" y="{y}" font-size="13" fill="{DIM}" text-anchor="end">03%<animate attributeName="opacity" {active_flag(i, 0, 1)} dur="{T:g}s" repeatCount="indefinite"/></text>
-    <text x="{LX + LW - 14}" y="{y}" font-size="13" fill="#f2cc60" text-anchor="end" opacity="0" filter="url(#tshadow)">95%<animate attributeName="opacity" {active_flag(i, 1, 0)} dur="{T:g}s" repeatCount="indefinite"/></text>
+    <text x="{LX + LW - 14}" y="{y}" font-size="13" fill="{DIM}" text-anchor="end">03%<animate attributeName="visibility" {active_flag(i, "hidden", "visible")} dur="{T:g}s" repeatCount="indefinite"/></text>
+    <text x="{LX + LW - 14}" y="{y}" font-size="13" fill="#f2cc60" text-anchor="end" visibility="hidden" filter="url(#tshadow)">95%<animate attributeName="visibility" {active_flag(i, "visible", "hidden")} dur="{T:g}s" repeatCount="indefinite"/></text>
   </g>""")
 rows_svg = "\n  ".join(rows)
 
@@ -173,8 +168,8 @@ for gi, (label, base, jit, fmt) in enumerate(GAUGES):
     kt = ";".join(kts)
     widths = ";".join(str(max(CELL, round(f * RMW / CELL) * CELL)) for f in fs)
     texts = "".join(
-        f'<text x="{SX + SW - 10}" y="{y}" font-size="11" fill="{AMBER if f > 0.9 else FG}" text-anchor="end" opacity="0">{fmt(f)}'
-        f'<animate attributeName="opacity" calcMode="discrete" values="{";".join("1" if j == k else "0" for j in range(n))}" keyTimes="{kt}" dur="{total:.2f}s" repeatCount="indefinite"/></text>'
+        f'<text x="{SX + SW - 10}" y="{y}" font-size="11" fill="{AMBER if f > 0.9 else FG}" text-anchor="end" visibility="hidden">{fmt(f)}'
+        f'<animate attributeName="visibility" calcMode="discrete" values="{";".join("visible" if j == k else "hidden" for j in range(n))}" keyTimes="{kt}" dur="{total:.2f}s" repeatCount="indefinite"/></text>'
         for k, f in enumerate(fs))
     gauge_rows.append(f"""<text x="{SX + 12}" y="{y}" font-size="11" fill="{DIM}">{label}</text>
   <g filter="url(#mglow)"><g mask="url(#rcellmask)">
@@ -188,7 +183,8 @@ gauges_svg = "\n  ".join(gauge_rows)
 
 
 def strip(sid, top, heights, color, label, anim, gap, vis=VIS, box_right=RX + RW):
-    """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll."""
+    """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll.
+    Its glow is mglow with a fixed region: mglow's bbox-relative region would span every off-screen scroll column."""
     rows = max(heights)
     h = rows * CH
     w = vis * CW
@@ -196,12 +192,16 @@ def strip(sid, top, heights, color, label, anim, gap, vis=VIS, box_right=RX + RW
                    for k in range(P + vis))
     return f"""<mask id="{sid}m" maskUnits="userSpaceOnUse" x="{GX}" y="{top}" width="{w}" height="{h}"><rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#{gap})"/></mask>
   <clipPath id="{sid}c"><rect x="{GX}" y="{top}" width="{w}" height="{h}"/></clipPath>
+  <filter id="{sid}g" filterUnits="userSpaceOnUse" x="{GX - 16}" y="{top - 0.7 * h:g}" width="{w + 32}" height="{2.4 * h:g}">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" result="b"/>
+    <feComponentTransfer in="b" result="glow"><feFuncA type="linear" slope="0.5"/></feComponentTransfer>
+    <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
   <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#empty)"/>
-  <g filter="url(#mglow)"><g mask="url(#{sid}m)"><g clip-path="url(#{sid}c)"><g transform="translate({GX} 0)" fill="{color}">
+  <g filter="url(#{sid}g)"><g mask="url(#{sid}m)"><g clip-path="url(#{sid}c)"><g transform="translate({GX} 0)" fill="{color}">
     {anim}
     {bars}
   </g></g></g></g>
-  <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="#fff" filter="url(#gnoisedark)" mask="url(#{sid}m)"/>
   <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="#fff" filter="url(#gnoise)" mask="url(#{sid}m)"/>
   <text x="{box_right - 6}" y="{top + h - 1}" font-size="8" fill="{DIM}" text-anchor="end">{label}</text>"""
 
@@ -209,24 +209,19 @@ _r2 = random.Random(31)
 lag_h = [min(4, 1 + int(2 * (0.5 + 0.5 * math.sin(2 * math.pi * 3 * k / P + 1))) + (1 if _r2.random() < 0.15 else 0)) for k in range(P)]
 strips_svg = strip("lag", MID + 60, lag_h, BLUE, "lag", f'<animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>', "hgap")
 
+# graph noise flicker: the green specks' opacity, folded into their alpha row (1.1R - 0.6 never exceeds 1, so this == opacity)
+NOISE_FLICKER = ";".join(f"0 0 0 0 0.55  0 0 0 0 0.95  0 0 0 0 0.6  {1.1 * o:.4g} 0 0 0 {-0.6 * o:.4g}" for o in (1, 0.7, 1, 0.85, 0.6, 1))
+
 svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="900" height="262" role="img" aria-labelledby="t d">
   <title id="t">Agent loop</title>
   <desc id="d">A btop-style process list where plan, tool, observe and reflect take turns running, next to a scrolling tokens in and out graph and a sys box with GPU, VRAM, context, memory and disk meters.</desc>
   <defs>
     <style>text {{ font-family: {FONT}; }}</style>
     <filter id="phosphor" filterUnits="userSpaceOnUse" x="{GX - 12}" y="{MID - UP * CH - 12}" width="{VIS * CW + 24}" height="{(UP + DN) * CH + 24}">
-      <feColorMatrix in="SourceGraphic" type="saturate" values="1.0" result="soft"/>
-      <feComponentTransfer in="soft" result="dim"><feFuncR type="linear" slope="0.9"/><feFuncG type="linear" slope="0.9"/><feFuncB type="linear" slope="0.9"/></feComponentTransfer>
+      <feComponentTransfer in="SourceGraphic" result="dim"><feFuncR type="linear" slope="0.9"/><feFuncG type="linear" slope="0.9"/><feFuncB type="linear" slope="0.9"/></feComponentTransfer>
       <feGaussianBlur in="dim" stdDeviation="2.2" result="blur"/>
       <feComponentTransfer in="blur" result="glow"><feFuncA type="linear" slope="0.8"/></feComponentTransfer>
       <feMerge><feMergeNode in="glow"/><feMergeNode in="dim"/></feMerge>
-    </filter>
-    <filter id="gnoisedark" x="0" y="0" width="1" height="1">
-      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
-        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
-      </feTurbulence>
-      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.5 0 0 0 0.66" result="d"/>
-      <feComposite in="d" in2="SourceGraphic" operator="in"/>
     </filter>
     <filter id="mglow" x="-5%" y="-70%" width="110%" height="240%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" result="b"/>
@@ -240,12 +235,28 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="9
       <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -0.75 0 0 0 0.33" result="d"/>
       <feComposite in="d" in2="SourceGraphic" operator="in"/>
     </filter>
+    <!-- graph noise: dark specks under green specks from one shared turbulence (was two filters, two turbulences) -->
     <filter id="gnoise" x="0" y="0" width="1" height="1">
       <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
         <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
       </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.5 0 0 0 0.66" result="d"/>
+      <feComposite in="d" in2="SourceGraphic" operator="in" result="dk"/>
       <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.95  0 0 0 0 0.6  1.1 0 0 0 -0.6" result="g"/>
-      <feComposite in="g" in2="SourceGraphic" operator="in"/>
+      <feComposite in="g" in2="SourceGraphic" operator="in" result="gr"/>
+      <feMerge><feMergeNode in="dk"/><feMergeNode in="gr"/></feMerge>
+    </filter>
+    <filter id="gnoiseflicker" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
+        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.5 0 0 0 0.66" result="d"/>
+      <feComposite in="d" in2="SourceGraphic" operator="in" result="dk"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.95  0 0 0 0 0.6  1.1 0 0 0 -0.6" result="g">
+        <animate attributeName="values" values="{NOISE_FLICKER}" dur="1.1s" repeatCount="indefinite"/>
+      </feColorMatrix>
+      <feComposite in="g" in2="SourceGraphic" operator="in" result="gr"/>
+      <feMerge><feMergeNode in="dk"/><feMergeNode in="gr"/></feMerge>
     </filter>
     <filter id="tshadow" x="-20%" y="-40%" width="140%" height="180%"><feDropShadow dx="1" dy="1.3" stdDeviation="1" flood-color="#000"/></filter>
     <filter id="hglow" x="-5%" y="-60%" width="110%" height="220%"><feGaussianBlur stdDeviation="3"/></filter>
@@ -328,10 +339,7 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="9
     </g>
   </g>
   </g>
-  <rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}" fill="#fff" filter="url(#gnoisedark)" mask="url(#gcells)"/>
-  <rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}" fill="#fff" filter="url(#gnoise)" mask="url(#gcells)">
-    <animate attributeName="opacity" values="1;0.7;1;0.85;0.6;1" dur="1.1s" repeatCount="indefinite"/>
-  </rect>
+  <rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}" fill="#fff" filter="url(#gnoiseflicker)" mask="url(#gcells)"/>
   {strips_svg}
   <text x="{RX + RW - 10}" y="{MID - UP * CH + 8}" font-size="10" fill="{GREEN}" text-anchor="end">in</text>
   <text x="{RX + RW - 10}" y="{MID + DN * CH}" font-size="10" fill="{BLUE}" text-anchor="end">out</text>

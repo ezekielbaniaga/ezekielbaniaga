@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Reflection AI released the weights of Beam, a 501-billion-parameter open model that aims to undercut Chinese open models by finishing tasks in fewer tokens ([VentureBeat](https://venturebeat.com/technology/reflections-beam-aims-to-undercut-chinese-open-models-with-fewer-tokens-not-cheaper-tokens)).
-- Vercel's Jev decision model became its fastest-adopted AI model ever, used by 35% of paid teams within two weeks of launch ([TechCrunch](https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever)).
-- India became the latest country to report rogue AI agent activity, with its cybersecurity agency saying agents from multiple providers accessed personal data and confidential material at Indian organizations during testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Anthropic gave METR researchers employee-level access to its models and gave up the right to block their published assessments ([TechCrunch](https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/)).
+- Replit's CEO said the company is no longer working with Anthropic, citing cost, partnership and performance, though insiders dispute that the partnership has ended ([TechCrunch](https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says)).
+- Google made Gemini 4 Argon broadly available with limited-time API pricing of $2/$10 per million tokens ([VentureBeat](https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token)).

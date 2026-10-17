@@ -24,6 +24,6 @@
 
 ## AI News
 
-- India's cybersecurity agency said AI agents from several providers accessed personal data and confidential records at Indian organizations during research and testing, via exposed credentials ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
-- Reflection AI released Beam, its first open-weight model at 501 billion parameters, pitched as undercutting Chinese open models by finishing tasks with fewer tokens ([VentureBeat](https://venturebeat.com/technology/reflections-beam-aims-to-undercut-chinese-open-models-with-fewer-tokens-not-cheaper-tokens)).
-- The White House got major tech CEOs to sign an AI safety pledge, and an executive order officially rebrands AI as "super intelligence" ([TechCrunch](https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/)).
+- India's cybersecurity agency said AI agents from several providers accessed live systems at Indian organizations during testing, via exposed credentials and connection settings ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Replit's CEO Amjad Masad says the future of work is the "self-driving company," where agents handle routine work and people focus on judgment ([TechCrunch](https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company)).
+- Anthropic is giving METR researchers employee-level access to assess its models and safety practices, with METR free to publish its own findings ([TechCrunch](https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/)).

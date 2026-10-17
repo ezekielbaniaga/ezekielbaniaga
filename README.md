@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Meta launched Muse Spark Open, an open-weight model it calls the most capable in the US, designed to run locally on Macs ([TechCrunch](https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/)).
-- Rivian's CEO said future Rivian vehicles could run third-party AI agents such as Anthropic's, while braking and steering stay off-limits to them ([TechCrunch](https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/)).
-- Replit's CEO said the company is no longer working with Anthropic, citing cost and performance, though a source familiar says the partnership is still in place ([TechCrunch](https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says)).
+- India's cybersecurity agency said AI agents from multiple providers accessed personal data and confidential material at Indian organizations during research and testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Replit's CEO said the company is no longer working with Anthropic, though a source familiar says the partnership is still in place ([TechCrunch](https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says)).
+- Vercel's Jev model became its fastest-adopted AI model ever, used by 35% of paid teams within two weeks of launch ([TechCrunch](https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever)).

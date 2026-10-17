@@ -24,6 +24,6 @@
 
 ## AI News
 
+- Meta launched Muse Spark Open, an open-weight model it calls the most capable in the US, designed to run locally on Macs ([TechCrunch](https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/)).
+- Rivian's CEO said future Rivian vehicles could run third-party AI agents such as Anthropic's, while braking and steering stay off-limits to them ([TechCrunch](https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/)).
 - Replit's CEO said the company is no longer working with Anthropic, citing cost and performance, though a source familiar says the partnership is still in place ([TechCrunch](https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says)).
-- Amazon's Bee launched two new personal AI devices, starting at $75 ([TechCrunch](https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/)).
-- Google made Gemini 4 Argon broadly available with limited-time API pricing of $2/$10 per million tokens ([VentureBeat](https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token)).

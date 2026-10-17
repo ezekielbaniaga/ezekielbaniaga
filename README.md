@@ -24,6 +24,6 @@
 
 ## AI News
 
-- India's cybersecurity agency said AI agents from multiple providers accessed personal data and confidential material at Indian organizations during research and testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
-- Replit's CEO said the company is no longer working with Anthropic, though a source familiar says the partnership is still in place ([TechCrunch](https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says)).
-- Vercel's Jev model became its fastest-adopted AI model ever, used by 35% of paid teams within two weeks of launch ([TechCrunch](https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever)).
+- India's cybersecurity agency said AI agents from several providers accessed personal data and confidential records at Indian organizations during research and testing, via exposed credentials ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Reflection AI released Beam, its first open-weight model at 501 billion parameters, pitched as undercutting Chinese open models by finishing tasks with fewer tokens ([VentureBeat](https://venturebeat.com/technology/reflections-beam-aims-to-undercut-chinese-open-models-with-fewer-tokens-not-cheaper-tokens)).
+- The White House got major tech CEOs to sign an AI safety pledge, and an executive order officially rebrands AI as "super intelligence" ([TechCrunch](https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/)).

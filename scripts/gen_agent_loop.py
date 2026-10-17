@@ -4,6 +4,9 @@ import math
 import random
 from pathlib import Path
 
+from fps import quantize
+from glow import cell_rects, glow_image, gradient, hex_rgb
+
 T = 8.0  # seconds per full loop, 2s per step
 FG, DIM, GREEN, AMBER, BLUE = "#c9d1d9", "#6e7681", "#3fb950", "#d29922", "#58a6ff"
 FONT = 'ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace'
@@ -16,6 +19,21 @@ def discrete(segments):
     kt = ";".join(f"{s:.4f}" for s, _ in segments)
     vals = ";".join(str(v) for _, v in segments)
     return f'calcMode="discrete" values="{vals}" keyTimes="{kt}"'
+
+
+
+def meter_bar(cid, img, x0, ytop, w, h, paint, slide_anim):
+    """One meter: its pre-blurred glow (`img`, see glow.py), the empty track, and the fill drawn full width as a dashed
+    line. A clip whose right edge slides to the fill's end reveals the glow and the fill. It slides by a translate
+    because Chrome repaints an animated SVG image on every frame while any width/x/x2 animation runs, but on a
+    transform only when it moves. slide_anim is the translate's timing, values "<fill width> 0". Glow spills 5px left
+    and 6 above/below but not past the fill's end, where the full meter's glow would light up the empty track."""
+    return (f'<clipPath id="{cid}"><rect x="{x0 - w - 5}" y="{ytop - 6}" width="{w + 5}" height="{h + 12}">'
+            f'<animateTransform attributeName="transform" type="translate" {slide_anim} repeatCount="indefinite"/></rect></clipPath>'
+            f'<g clip-path="url(#{cid})"><use href="#{img}" y="{ytop}"/></g>'
+            f'<rect x="{x0}" y="{ytop}" width="{w}" height="{h}" fill="url(#track)"/>'
+            f'<line x1="{x0}" y1="{ytop + h / 2:g}" x2="{x0 + w}" y2="{ytop + h / 2:g}" stroke="{paint}" stroke-width="{h}" '
+            f'stroke-dasharray="{CELL - 1} 1" clip-path="url(#{cid})"/>')
 
 
 def active_flag(i, on, off):
@@ -37,7 +55,9 @@ def flicker(seed, n=16, lo=0.3, hi=1.0):
     return f'values="{";".join(f"{v:.2f}" for v in vals)}" keyTimes="{";".join(f"{k:.3f}" for k in kt)}"'
 
 
-def meter_width(i, lo=12, hi=(84, 90, 80, 88)):
+def meter_slide(i, lo=12, hi=(84, 90, 80, 88)):
+    """Fill width over the loop, as meter_bar's translate values."""
+    lo, hi = f"{lo} 0", tuple(f"{h} 0" for h in hi)
     s = i / 4
     sub = 1 / 16
     segs = [(0, lo)] if i else []
@@ -49,9 +69,12 @@ def meter_width(i, lo=12, hi=(84, 90, 80, 88)):
 
 
 # ---- left: proc box ----
-HI_DIM = "#b1bac4"   # PID colour while its row is highlighted (needs contrast on the noise)
+HI_DIM = "#b1bac4"   # PID colour while its row is highlighted (needs contrast on the green tint)
 LX, LY, LW, LH = 24, 56, 330, 190
 MX, MW, CELL = 174, 96, 6           # meter x, width (16 cells), cell width
+meter_cells = gradient([(0, "#3fb950"), (0.6, "#d29922"), (1, "#f85149")])
+mglow_img = glow_image([(MX + c * CELL, 0, CELL - 1, 12, meter_cells((c + 0.5) * CELL / MW)) for c in range(MW // CELL)], 1.6, 0.5,
+                       extra=' id="mglowimg"')   # was mglow; meter_bar reveals it up to each fill
 rows = []
 for i, (name, desc, pid) in enumerate(STEPS):
     y = 112 + i * 26
@@ -62,7 +85,7 @@ for i, (name, desc, pid) in enumerate(STEPS):
         <animate attributeName="opacity" {flicker(40 + i)} dur="{1.1 + i * 0.37:.2f}s" repeatCount="indefinite"/>
       </rect>
       <rect x="{LX + 8}" y="{y - 17}" width="{LW - 16}" height="24" rx="3" fill="#12261a" stroke="{GREEN}"/>
-      <rect x="{LX + 9}" y="{y - 16}" width="{LW - 18}" height="22" rx="2" fill="#fff" filter="url(#tvnoise)">
+      <rect x="{LX + 9}" y="{y - 16}" width="{LW - 18}" height="22" rx="2" fill="#5ae673" fill-opacity="0.14">
         <animate attributeName="opacity" values="1;0.8;1;0.9;0.7;1" dur="0.9s" repeatCount="indefinite"/>
       </rect>
       <rect x="{LX + 9}" y="{y - 16}" width="{LW - 18}" height="22" rx="2" fill="url(#scan)"/>
@@ -71,12 +94,8 @@ for i, (name, desc, pid) in enumerate(STEPS):
     <text x="{LX + 60}" y="{y}" font-size="13" fill="{FG}" xml:space="preserve">{name}<animate attributeName="filter" {active_flag(i, "url(#tshadow)", "none")} dur="{T:g}s" repeatCount="indefinite"/><animate attributeName="fill" {active_flag(i, "#ffffff", FG)} dur="{T:g}s" repeatCount="indefinite"/></text>
     <text x="{MX - 20}" y="{y}" font-size="13" fill="{DIM}">S<animate attributeName="visibility" {active_flag(i, "hidden", "visible")} dur="{T:g}s" repeatCount="indefinite"/></text>
     <text x="{MX - 20}" y="{y}" font-size="13" fill="#7ee787" visibility="hidden" filter="url(#tshadow)">R<animate attributeName="visibility" {active_flag(i, "visible", "hidden")} dur="{T:g}s" repeatCount="indefinite"/></text>
-    <g filter="url(#mglow)"><g mask="url(#cellmask)">
-      <rect x="{MX}" y="{y - 11}" width="{MW}" height="12" fill="#21262d"/>
-      <rect x="{MX}" y="{y - 11}" width="12" height="12" fill="url(#meter)">
-        <animate attributeName="width" {meter_width(i)} dur="{T:g}s" repeatCount="indefinite"/>
-      </rect>
-    </g></g>
+    {meter_bar(f"pg{i}", "mglowimg", MX, y - 11, MW, 12, "url(#meter)", f'{meter_slide(i)} dur="{T:g}s"')}
+    <rect x="{MX}" y="{y - 11}" width="{MW}" height="12" fill="url(#mcrt)"/>
     <text x="{LX + LW - 14}" y="{y}" font-size="13" fill="{DIM}" text-anchor="end">03%<animate attributeName="visibility" {active_flag(i, "hidden", "visible")} dur="{T:g}s" repeatCount="indefinite"/></text>
     <text x="{LX + LW - 14}" y="{y}" font-size="13" fill="#f2cc60" text-anchor="end" visibility="hidden" filter="url(#tshadow)">95%<animate attributeName="visibility" {active_flag(i, "visible", "hidden")} dur="{T:g}s" repeatCount="indefinite"/></text>
   </g>""")
@@ -114,12 +133,24 @@ def sig(k, a, b, c):
     return min(max(v, 0.06), 1.0)
 
 
+
+
+def bars_path(tops_heights, paint, opacity=1):
+    """All columns as one filled path of cell squares, row gaps left open. Cheaper per frame than masking whole bars
+    (a mask is an extra offscreen layer every frame) or dashing a stroke (the dashes are rebuilt every frame)."""
+    cell = f"h{CW - 1}v{CH - 1}h{1 - CW}z"
+    d = "".join(f"M{k * CW} {top}" + f"m0 {CH}".join([cell] * (h // CH)) for k, (top, h) in enumerate(tops_heights))
+    return f'<path d="{d}" fill="{paint}"' + (f' fill-opacity="{opacity}"' if opacity < 1 else "") + "/>"
+
+
+
+
 up, dn = [], []
 for k in range(P + VIS):
     hu = max(1, round(sig(k % P, 2, 7, 13) * UP)) * CH
     hd = max(1, round(sig((k + 17) % P, 3, 5, 11) * DN)) * CH
-    up.append(f'<rect x="{k * CW}" y="{MID - hu}" width="{CW - 1}" height="{hu}"/>')
-    dn.append(f'<rect x="{k * CW}" y="{MID}" width="{CW - 1}" height="{hd}"/>')
+    up.append((MID - hu, hu))
+    dn.append((MID, hd))
 def scroll_attrs(seed, gx, cw, cols):
     """Stop-and-go scroll: short moves of a few columns separated by random pauses (seamless over `cols` columns)."""
     r = random.Random(seed)
@@ -137,11 +168,15 @@ def scroll_attrs(seed, gx, cw, cols):
     return f'values="{vals}" keyTimes="{keys}" dur="{t:.2f}s"'
 
 scroll = scroll_attrs(23, GX, CW, P)
-up_svg, dn_svg = "".join(up), "".join(dn)
+up_svg, dn_svg = bars_path(up, "url(#gup)", 0.9), bars_path(dn, "url(#gdn)", 0.9)   # 0.9: the old phosphor dimmed bars by 10%
+gup, gdn = gradient([(0, "#3fb950"), (0.6, "#d29922"), (1, "#f85149")]), gradient([(0, "#58a6ff"), (1, "#bc8cff")])
+updn_glow = glow_image(cell_rects(up, CW, CH, lambda y: gup((MID - y) / (UP * CH)))
+                       + cell_rects(dn, CW, CH, lambda y: gdn((y - MID) / (DN * CH))), 2.2, 0.8, dim=0.9)   # was phosphor
 
 # ---- third box: system + GPU meters ----
 SX, SY, SW, SH = 600, 56, 276, 190
 RMX, RMW = SX + 66, 84                 # meter x, width (14 cells)
+assert MX % CELL == RMX % CELL == 0     # both meters share the x=0 track pattern
 GAUGES = [  # label, base, jitter, formatter
     ("gpu0", 0.97, 0.05, lambda f: f"{f * 100:.0f}%"),
     ("gpu1", 0.82, 0.14, lambda f: f"{f * 100:.0f}%"),
@@ -153,6 +188,8 @@ GAUGES = [  # label, base, jitter, formatter
     ("pwr", 0.78, 0.14, lambda f: f"{f * 450:.0f}W/450W"),
 ]
 grng = random.Random(5)
+rglow_img = glow_image([(RMX + c * CELL, 0, CELL - 1, 10, meter_cells((c + 0.5) * CELL / RMW)) for c in range(RMW // CELL)], 1.6, 0.5,
+                       extra=' id="rglowimg"')
 gauge_rows = []
 for gi, (label, base, jit, fmt) in enumerate(GAUGES):
     y = SY + 48 + gi * 17
@@ -166,144 +203,90 @@ for gi, (label, base, jit, fmt) in enumerate(GAUGES):
         kts.append(f"{cum / total:.4f}")
         cum += h
     kt = ";".join(kts)
-    widths = ";".join(str(max(CELL, round(f * RMW / CELL) * CELL)) for f in fs)
+    slide = f'calcMode="discrete" values="{";".join(f"{max(CELL, round(f * RMW / CELL) * CELL)} 0" for f in fs)}" keyTimes="{kt}" dur="{total:.2f}s"'
     texts = "".join(
         f'<text x="{SX + SW - 10}" y="{y}" font-size="11" fill="{AMBER if f > 0.9 else FG}" text-anchor="end" visibility="hidden">{fmt(f)}'
         f'<animate attributeName="visibility" calcMode="discrete" values="{";".join("visible" if j == k else "hidden" for j in range(n))}" keyTimes="{kt}" dur="{total:.2f}s" repeatCount="indefinite"/></text>'
         for k, f in enumerate(fs))
     gauge_rows.append(f"""<text x="{SX + 12}" y="{y}" font-size="11" fill="{DIM}">{label}</text>
-  <g filter="url(#mglow)"><g mask="url(#rcellmask)">
-    <rect x="{RMX}" y="{y - 9}" width="{RMW}" height="10" fill="#21262d"/>
-    <rect x="{RMX}" y="{y - 9}" width="{CELL}" height="10" fill="url(#rmeter)">
-      <animate attributeName="width" calcMode="discrete" values="{widths}" keyTimes="{kt}" dur="{total:.2f}s" repeatCount="indefinite"/>
-    </rect>
-  </g></g>
+  {meter_bar(f"sg{gi}", "rglowimg", RMX, y - 9, RMW, 10, "url(#rmeter)", slide)}
+  <rect x="{RMX}" y="{y - 9}" width="{RMW}" height="10" fill="url(#mcrt)"/>
   {texts}""")
 gauges_svg = "\n  ".join(gauge_rows)
 
 
-def strip(sid, top, heights, color, label, anim, gap, vis=VIS, box_right=RX + RW):
+def strip(sid, top, heights, color, label, anim, vis=VIS, box_right=RX + RW):
     """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll.
-    Its glow is mglow with a fixed region: mglow's bbox-relative region would span every off-screen scroll column."""
+    Its glow is a pre-blurred image (glow.py) clipped a few px taller than the pane (not wider: off-screen scroll
+    columns would glow in from the sides)."""
     rows = max(heights)
     h = rows * CH
     w = vis * CW
-    bars = "".join(f'<rect x="{k * CW}" y="{top + h - heights[k % P] * CH}" width="{CW - 1}" height="{heights[k % P] * CH}"/>'
-                   for k in range(P + vis))
-    return f"""<mask id="{sid}m" maskUnits="userSpaceOnUse" x="{GX}" y="{top}" width="{w}" height="{h}"><rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#{gap})"/></mask>
-  <clipPath id="{sid}c"><rect x="{GX}" y="{top}" width="{w}" height="{h}"/></clipPath>
-  <filter id="{sid}g" filterUnits="userSpaceOnUse" x="{GX - 16}" y="{top - 0.7 * h:g}" width="{w + 32}" height="{2.4 * h:g}">
-    <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" result="b"/>
-    <feComponentTransfer in="b" result="glow"><feFuncA type="linear" slope="0.5"/></feComponentTransfer>
-    <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
-  </filter>
+    cols = [(top + h - heights[k % P] * CH, heights[k % P] * CH) for k in range(P + vis)]
+    bars, glow = bars_path(cols, color), glow_image(cell_rects(cols, CW, CH, lambda y: hex_rgb(color)), 1.6, 0.5)   # was mglow
+    return f"""<clipPath id="{sid}c"><rect x="{GX}" y="{top}" width="{w}" height="{h}"/></clipPath>
+  <clipPath id="{sid}h"><rect x="{GX}" y="{top - 5}" width="{w}" height="{h + 10}"/></clipPath>
   <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#empty)"/>
-  <g filter="url(#{sid}g)"><g mask="url(#{sid}m)"><g clip-path="url(#{sid}c)"><g transform="translate({GX} 0)" fill="{color}">
+  <g clip-path="url(#{sid}h)"><g transform="translate({GX} 0)">
+    {anim}
+    {glow}
+  </g></g>
+  <g clip-path="url(#{sid}c)"><g transform="translate({GX} 0)">
     {anim}
     {bars}
-  </g></g></g></g>
-  <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="#fff" filter="url(#gnoise)" mask="url(#{sid}m)"/>
+  </g></g>
+  <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#crt)"/>
   <text x="{box_right - 6}" y="{top + h - 1}" font-size="8" fill="{DIM}" text-anchor="end">{label}</text>"""
 
 _r2 = random.Random(31)
 lag_h = [min(4, 1 + int(2 * (0.5 + 0.5 * math.sin(2 * math.pi * 3 * k / P + 1))) + (1 if _r2.random() < 0.15 else 0)) for k in range(P)]
-strips_svg = strip("lag", MID + 60, lag_h, BLUE, "lag", f'<animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>', "hgap")
-
-# graph noise flicker: the green specks' opacity, folded into their alpha row (1.1R - 0.6 never exceeds 1, so this == opacity)
-NOISE_FLICKER = ";".join(f"0 0 0 0 0.55  0 0 0 0 0.95  0 0 0 0 0.6  {1.1 * o:.4g} 0 0 0 {-0.6 * o:.4g}" for o in (1, 0.7, 1, 0.85, 0.6, 1))
+strips_svg = strip("lag", MID + 60, lag_h, BLUE, "lag", f'<animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>')
 
 svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="900" height="262" role="img" aria-labelledby="t d">
   <title id="t">Agent loop</title>
   <desc id="d">A btop-style process list where plan, tool, observe and reflect take turns running, next to a scrolling tokens in and out graph and a sys box with GPU, VRAM, context, memory and disk meters.</desc>
   <defs>
+    {mglow_img}
+    {rglow_img}
     <style>text {{ font-family: {FONT}; }}</style>
-    <filter id="phosphor" filterUnits="userSpaceOnUse" x="{GX - 12}" y="{MID - UP * CH - 12}" width="{VIS * CW + 24}" height="{(UP + DN) * CH + 24}">
-      <feComponentTransfer in="SourceGraphic" result="dim"><feFuncR type="linear" slope="0.9"/><feFuncG type="linear" slope="0.9"/><feFuncB type="linear" slope="0.9"/></feComponentTransfer>
-      <feGaussianBlur in="dim" stdDeviation="2.2" result="blur"/>
-      <feComponentTransfer in="blur" result="glow"><feFuncA type="linear" slope="0.8"/></feComponentTransfer>
-      <feMerge><feMergeNode in="glow"/><feMergeNode in="dim"/></feMerge>
-    </filter>
-    <filter id="mglow" x="-5%" y="-70%" width="110%" height="240%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" result="b"/>
-      <feComponentTransfer in="b" result="glow"><feFuncA type="linear" slope="0.5"/></feComponentTransfer>
-      <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="mnoise" x="0" y="0" width="1" height="1">
-      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
-        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
-      </feTurbulence>
-      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -0.75 0 0 0 0.33" result="d"/>
-      <feComposite in="d" in2="SourceGraphic" operator="in"/>
-    </filter>
-    <!-- graph noise: dark specks under green specks from one shared turbulence (was two filters, two turbulences) -->
-    <filter id="gnoise" x="0" y="0" width="1" height="1">
-      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
-        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
-      </feTurbulence>
-      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.5 0 0 0 0.66" result="d"/>
-      <feComposite in="d" in2="SourceGraphic" operator="in" result="dk"/>
-      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.95  0 0 0 0 0.6  1.1 0 0 0 -0.6" result="g"/>
-      <feComposite in="g" in2="SourceGraphic" operator="in" result="gr"/>
-      <feMerge><feMergeNode in="dk"/><feMergeNode in="gr"/></feMerge>
-    </filter>
-    <filter id="gnoiseflicker" x="0" y="0" width="1" height="1">
-      <feTurbulence type="fractalNoise" baseFrequency="0.7 1.1" numOctaves="1" seed="1" result="n">
-        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.5s" repeatCount="indefinite"/>
-      </feTurbulence>
-      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -1.5 0 0 0 0.66" result="d"/>
-      <feComposite in="d" in2="SourceGraphic" operator="in" result="dk"/>
-      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.55  0 0 0 0 0.95  0 0 0 0 0.6  1.1 0 0 0 -0.6" result="g">
-        <animate attributeName="values" values="{NOISE_FLICKER}" dur="1.1s" repeatCount="indefinite"/>
-      </feColorMatrix>
-      <feComposite in="g" in2="SourceGraphic" operator="in" result="gr"/>
-      <feMerge><feMergeNode in="dk"/><feMergeNode in="gr"/></feMerge>
-    </filter>
+    <!-- CRT scanlines: two dark lines per cell row, on the row grid so gap rows stay clear; static, no filter -->
+    <pattern id="crt" width="{CW}" height="{CH}" patternUnits="userSpaceOnUse" y="{MID}">
+      <rect y="1" width="{CW}" height="1" fill="#000" opacity="0.32"/><rect y="3" width="{CW}" height="1" fill="#000" opacity="0.32"/>
+    </pattern>
+    <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ee787" stop-opacity="0"/><stop offset="0.85" stop-color="#7ee787" stop-opacity="0.08"/><stop offset="1" stop-color="#7ee787" stop-opacity="0.22"/>
+    </linearGradient>
     <filter id="tshadow" x="-20%" y="-40%" width="140%" height="180%"><feDropShadow dx="1" dy="1.3" stdDeviation="1" flood-color="#000"/></filter>
     <filter id="hglow" x="-5%" y="-60%" width="110%" height="220%"><feGaussianBlur stdDeviation="3"/></filter>
-    <filter id="tvnoise" x="0" y="0" width="1" height="1">
-      <feTurbulence type="fractalNoise" baseFrequency="0.5 1.1" numOctaves="1" seed="1" result="n">
-        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.4s" repeatCount="indefinite"/>
-      </feTurbulence>
-      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.35  0 0 0 0 0.9  0 0 0 0 0.45  1.1 0 0 0 -0.38" result="g"/>
-      <feComposite in="g" in2="SourceGraphic" operator="in"/>
-    </filter>
     <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse">
       <rect width="4" height="1" y="2" fill="#000" opacity="0.35"/>
     </pattern>
     <linearGradient id="meter" gradientUnits="userSpaceOnUse" x1="{MX}" y1="0" x2="{MX + MW}" y2="0">
       <stop offset="0" stop-color="#3fb950"/><stop offset="0.6" stop-color="#d29922"/><stop offset="1" stop-color="#f85149"/>
     </linearGradient>
-    <pattern id="vgap" width="{CELL}" height="10" patternUnits="userSpaceOnUse" x="{MX}">
-      <rect width="{CELL}" height="10" fill="#fff"/><rect x="{CELL - 1}" width="1" height="10" fill="#000"/>
+    <!-- meter cells: the empty track is a pattern and the fill a dashed line, so neither needs the old cell mask
+         (MX and RMX are both on the {CELL}px grid, so one pattern at x=0 lines up with both) -->
+    <pattern id="track" width="{CELL}" height="{CELL}" patternUnits="userSpaceOnUse">
+      <rect width="{CELL - 1}" height="{CELL}" fill="#21262d"/>
     </pattern>
-    <mask id="cellmask" maskUnits="userSpaceOnUse" x="{MX}" y="0" width="{MW}" height="262">
-      <rect x="{MX}" y="0" width="{MW}" height="262" fill="url(#vgap)"/>
-    </mask>
+    <pattern id="mcrt" width="{CELL}" height="3" patternUnits="userSpaceOnUse">
+      <rect y="1" width="{CELL - 1}" height="1" fill="#000" opacity="0.32"/>
+    </pattern>
     <linearGradient id="rmeter" gradientUnits="userSpaceOnUse" x1="{RMX}" y1="0" x2="{RMX + RMW}" y2="0">
       <stop offset="0" stop-color="#3fb950"/><stop offset="0.6" stop-color="#d29922"/><stop offset="1" stop-color="#f85149"/>
     </linearGradient>
-    <pattern id="rvgap" width="{CELL}" height="10" patternUnits="userSpaceOnUse" x="{RMX}">
-      <rect width="{CELL}" height="10" fill="#fff"/><rect x="{CELL - 1}" width="1" height="10" fill="#000"/>
-    </pattern>
-    <mask id="rcellmask" maskUnits="userSpaceOnUse" x="{RMX}" y="0" width="{RMW}" height="262">
-      <rect x="{RMX}" y="0" width="{RMW}" height="262" fill="url(#rvgap)"/>
-    </mask>
     <linearGradient id="gup" gradientUnits="userSpaceOnUse" x1="0" y1="{MID}" x2="0" y2="{MID - UP * CH}">
       <stop offset="0" stop-color="#3fb950"/><stop offset="0.6" stop-color="#d29922"/><stop offset="1" stop-color="#f85149"/>
     </linearGradient>
     <linearGradient id="gdn" gradientUnits="userSpaceOnUse" x1="0" y1="{MID}" x2="0" y2="{MID + DN * CH}">
       <stop offset="0" stop-color="#58a6ff"/><stop offset="1" stop-color="#bc8cff"/>
     </linearGradient>
-    <pattern id="hgap" width="{CW}" height="{CH}" patternUnits="userSpaceOnUse" y="{MID}">
-      <rect width="{CW}" height="{CH}" fill="#fff"/><rect y="{CH - 1}" width="{CW}" height="1" fill="#000"/>
-    </pattern>
-    <mask id="gcells" maskUnits="userSpaceOnUse" x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}">
-      <rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}" fill="url(#hgap)"/>
-    </mask>
     <pattern id="empty" width="{CW}" height="{CH}" patternUnits="userSpaceOnUse" x="{GX}" y="{MID}">
       <rect width="{CW - 1}" height="{CH - 1}" fill="#161b22"/>
     </pattern>
     <clipPath id="gclip"><rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}"/></clipPath>
+    <!-- glow clip: taller than gclip so glow spills above/below, same width so off-screen columns stay dark -->
+    <clipPath id="gglow"><rect x="{GX}" y="{MID - UP * CH - 8}" width="{VIS * CW}" height="{(UP + DN) * CH + 16}"/></clipPath>
   </defs>
 
   <rect width="900" height="262" rx="10" fill="#0d1117"/>
@@ -319,7 +302,6 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="9
     <text x="{MX}" y="{LY + 34}">LOAD</text><text x="{LX + LW - 14}" y="{LY + 34}" text-anchor="end">CPU%</text>
   </g>
   {rows_svg}
-  <rect x="{MX}" y="{112 - 11}" width="{MW}" height="{3 * 26 + 12}" fill="#fff" filter="url(#mnoise)" mask="url(#cellmask)"/>
   {spinner}
   <text x="{LX + 42}" y="{LY + LH - 14}" font-size="12" fill="{DIM}">looping until done</text>
 
@@ -328,19 +310,26 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="9
   <rect x="{RX + 14}" y="{RY - 8}" width="100" height="16" fill="#0d1117"/>
   <text x="{RX + 20}" y="{RY + 4}" font-size="12" fill="{GREEN}" xml:space="preserve">tokens <tspan fill="{DIM}">/ s</tspan></text>
   <rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}" fill="url(#empty)"/>
-  <g filter="url(#phosphor)">
-  <g mask="url(#gcells)">
-    <g clip-path="url(#gclip)">
-      <g transform="translate({GX} 0)">
-        <animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>
-        <g fill="url(#gup)">{up_svg}</g>
-        <g fill="url(#gdn)">{dn_svg}</g>
-      </g>
+  <g clip-path="url(#gglow)">
+    <g transform="translate({GX} 0)">
+      <animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>
+      {updn_glow}
     </g>
   </g>
+  <g clip-path="url(#gclip)">
+    <g transform="translate({GX} 0)">
+      <animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>
+      {up_svg}
+      {dn_svg}
+    </g>
   </g>
-  <rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}" fill="#fff" filter="url(#gnoiseflicker)" mask="url(#gcells)"/>
+  <rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}" fill="url(#crt)"/>
+  <clipPath id="sweepclip"><rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}"/><rect x="{GX}" y="{MID + 60}" width="{VIS * CW}" height="{max(lag_h) * CH}"/></clipPath>
   {strips_svg}
+  <!-- CRT sweep: faint band rolling down the panes; unfiltered, so moving it never re-runs a blur -->
+  <g clip-path="url(#sweepclip)"><rect x="{GX}" y="0" width="{VIS * CW}" height="40" fill="url(#sweep)">
+    <animateTransform attributeName="transform" type="translate" from="0 {MID - UP * CH - 40}" to="0 {MID + 60 + max(lag_h) * CH}" dur="5s" repeatCount="indefinite"/>
+  </rect></g>
   <text x="{RX + RW - 10}" y="{MID - UP * CH + 8}" font-size="10" fill="{GREEN}" text-anchor="end">in</text>
   <text x="{RX + RW - 10}" y="{MID + DN * CH}" font-size="10" fill="{BLUE}" text-anchor="end">out</text>
 
@@ -350,10 +339,10 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="9
   <text x="{SX + 20}" y="{SY + 4}" font-size="12" fill="{GREEN}">sys</text>
   <text x="{SX + 12}" y="{SY + 28}" font-size="10" fill="{DIM}">NVIDIA GeForce RTX 4090 x2</text>
   {gauges_svg}
-  <rect x="{RMX}" y="{SY + 48 - 9}" width="{RMW}" height="{7 * 17 + 10}" fill="#fff" filter="url(#mnoise)" mask="url(#rcellmask)"/>
 </svg>
 """
 
 out = Path(__file__).resolve().parent.parent / "assets" / "agent-loop.svg"
+svg = quantize(svg)   # all animations on one 24 fps clock, so the image repaints at most 24x a second
 out.write_text(svg)
 print(f"wrote {out} ({len(svg)} bytes)")

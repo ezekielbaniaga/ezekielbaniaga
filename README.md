@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic gave METR researchers employee-level access to its models and gave up the right to block their published assessments ([TechCrunch](https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/)).
-- Replit's CEO said the company is no longer working with Anthropic, citing cost, partnership and performance, though insiders dispute that the partnership has ended ([TechCrunch](https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says)).
+- Replit's CEO said the company is no longer working with Anthropic, citing cost and performance, though a source familiar says the partnership is still in place ([TechCrunch](https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says)).
+- Amazon's Bee launched two new personal AI devices, starting at $75 ([TechCrunch](https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/)).
 - Google made Gemini 4 Argon broadly available with limited-time API pricing of $2/$10 per million tokens ([VentureBeat](https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token)).

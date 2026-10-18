@@ -5,7 +5,6 @@ import random
 from pathlib import Path
 
 from fps import quantize
-from glow import cell_rects, glow_image, gradient, hex_rgb
 
 FG, DIM, GREEN, AMBER, BLUE, RED = "#c9d1d9", "#6e7681", "#3fb950", "#d29922", "#58a6ff", "#f85149"
 FONT = 'ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace'
@@ -115,9 +114,9 @@ for i, (name, (hh, mm, ss), lines) in enumerate(SERVICES):
 minis_svg = "\n  ".join(minis)
 
 # --- loss graph (right): btop-style block graph that scrolls forever ---
-FX, FY, FW, FH = 572, 56, 304, 274       # frame
+FX, FY, FW, FH = 572, 56, 242, 274       # frame
 CW, CH, ROWS = 6, 6, 28                   # cell width/height, rows
-VIS = 44                                  # visible columns
+VIS = 33                                  # visible columns
 P = 64                                    # columns in one seamless period
 GX, GBOT = FX + 12, FY + 30 + ROWS * CH   # graph left, bottom y
 
@@ -142,8 +141,6 @@ for k in range(P + VIS):
     h = max(1, round(level(k % P) * ROWS)) * CH
     cols.append((GBOT - h, h))
 cols_svg = bars_path(cols, "url(#heat)", 0.9)   # 0.9: the old phosphor dimmed bars by 10%
-heat = gradient([(0, "#3fb950"), (0.55, "#d29922"), (1, "#f85149")])
-cols_glow = glow_image(cell_rects(cols, CW, CH, lambda y: heat((GBOT - y) / (ROWS * CH))), 2.2, 0.8, dim=0.9)   # was phosphor
 
 def scroll_attrs(seed, gx, cw, cols):
     """Stop-and-go scroll: short moves of a few columns separated by random pauses (seamless over `cols` columns)."""
@@ -165,21 +162,14 @@ scroll = scroll_attrs(11, GX, CW, P)
 
 
 def strip(sid, top, heights, color, label, anim, vis=VIS, box_right=FX + FW):
-    """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll.
-    Its glow is a pre-blurred image (glow.py) clipped a few px taller than the pane (not wider: off-screen scroll
-    columns would glow in from the sides)."""
+    """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll."""
     rows = max(heights)
     h = rows * CH
     w = vis * CW
     cols = [(top + h - heights[k % P] * CH, heights[k % P] * CH) for k in range(P + vis)]
-    bars, glow = bars_path(cols, color), glow_image(cell_rects(cols, CW, CH, lambda y: hex_rgb(color)), 1.6, 0.5)   # was mglow
+    bars = bars_path(cols, color)
     return f"""<clipPath id="{sid}c"><rect x="{GX}" y="{top}" width="{w}" height="{h}"/></clipPath>
-  <clipPath id="{sid}h"><rect x="{GX}" y="{top - 5}" width="{w}" height="{h + 10}"/></clipPath>
   <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#empty)"/>
-  <g clip-path="url(#{sid}h)"><g transform="translate({GX} 0)">
-    {anim}
-    {glow}
-  </g></g>
   <g clip-path="url(#{sid}c)"><g transform="translate({GX} 0)">
     {anim}
     {bars}
@@ -193,11 +183,11 @@ grad_h = [_r.choice([1, 1, 1, 2, 2, 3]) for _ in range(P)]
 strips_svg = (strip("lr", GBOT + 12, lr_h, BLUE, "lr", f'<animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>')
               + "\n  " + strip("grad", GBOT + 36, grad_h, "#bc8cff", "grad", f'<animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>'))
 
-svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="900" height="350" role="img" aria-labelledby="t d">
+svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 838 350" width="838" height="350" role="img" aria-labelledby="t d">
   <title id="t">Training run</title>
   <desc id="d">Ten small terminals print production-style service logs with pauses between bursts, next to a scrolling btop-style loss graph.</desc>
   <style>text {{ font-family: {FONT}; }}</style>
-  <rect width="900" height="350" rx="10" fill="#0d1117"/>
+  <rect width="838" height="350" rx="10" fill="#0d1117"/>
   <text x="24" y="36" font-size="14" xml:space="preserve"><tspan fill="{GREEN}">zek@zek-debian</tspan><tspan fill="{DIM}">:</tspan><tspan fill="{BLUE}">~</tspan><tspan fill="{DIM}">$ </tspan><tspan fill="{FG}">tmux attach -t night-shift</tspan></text>
 
   {minis_svg}
@@ -215,12 +205,10 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="9
       <rect y="1" width="{CW}" height="1" fill="#000" opacity="0.32"/><rect y="3" width="{CW}" height="1" fill="#000" opacity="0.32"/>
     </pattern>
     <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7ee787" stop-opacity="0"/><stop offset="0.85" stop-color="#7ee787" stop-opacity="0.08"/><stop offset="1" stop-color="#7ee787" stop-opacity="0.22"/>
+      <stop offset="0" stop-color="#7ee787" stop-opacity="0"/><stop offset="0.85" stop-color="#7ee787" stop-opacity="0.03"/><stop offset="1" stop-color="#7ee787" stop-opacity="0.08"/>
     </linearGradient>
     <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="2"/></filter>
     <clipPath id="gclip"><rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}"/></clipPath>
-    <!-- glow clip: taller than gclip so glow spills above/below, same width so off-screen columns stay dark -->
-    <clipPath id="gglow"><rect x="{GX}" y="{GBOT - ROWS * CH - 8}" width="{VIS * CW}" height="{ROWS * CH + 16}"/></clipPath>
   </defs>
   <rect x="{FX}" y="{FY}" width="{FW}" height="{FH}" rx="6" fill="none" stroke="#30363d"/>
   <rect x="{FX + 14}" y="{FY - 8}" width="86" height="16" fill="#0d1117"/>
@@ -234,12 +222,6 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="9
   <circle cx="{FX + FW - 52}" cy="{FY}" r="2.5" fill="{GREEN}"/>
   <text x="{FX + FW - 14}" y="{FY + 4}" font-size="11" fill="{GREEN}" text-anchor="end">live</text>
   <rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}" fill="url(#empty)"/>
-  <g clip-path="url(#gglow)">
-    <g transform="translate({GX} 0)">
-      <animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>
-      {cols_glow}
-    </g>
-  </g>
   <g clip-path="url(#gclip)">
     <g transform="translate({GX} 0)">
       <animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>

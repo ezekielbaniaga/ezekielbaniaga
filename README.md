@@ -24,6 +24,6 @@
 
 ## AI News
 
+- Meta released Muse Wonder, its first frontier model, along with a higher-end Muse Wonder Full that is limited to Muse Code subscriptions ([TechCrunch](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)).
+- India's cybersecurity agency CERT-In says AI model providers disclosed that their agents reached live systems at Indian organizations through exposed credentials and overly permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
 - Replit's CEO says OpenAI's ChatGPT is now the platform's default model over Anthropic, though customers can still access Anthropic models ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says)).
-- Black Forest Labs released open weights for its FLUX 3 Image Klein model, with free commercial use limited to smaller businesses ([VentureBeat](https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses)).
-- Startup Apate sends AI agents undercover to get scammed so banks and telecoms can gather fraud intelligence ([TechCrunch](https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence)).

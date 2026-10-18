@@ -5,7 +5,6 @@ import random
 from pathlib import Path
 
 from fps import quantize
-from glow import cell_rects, glow_image, gradient, hex_rgb
 
 T = 8.0  # seconds per loop
 FG, DIM, GREEN, AMBER, BLUE = "#c9d1d9", "#6e7681", "#3fb950", "#d29922", "#58a6ff"
@@ -19,15 +18,13 @@ def discrete(segments):
 
 
 
-def meter_bar(cid, img, x0, ytop, w, h, paint, slide_anim):
-    """One meter: its pre-blurred glow (`img`, see glow.py), the empty track, and the fill drawn full width as a dashed
-    line. A clip whose right edge slides to the fill's end reveals the glow and the fill. It slides by a translate
+def meter_bar(cid, x0, ytop, w, h, paint, slide_anim):
+    """One meter: the empty track, and the fill drawn full width as a dashed line. A clip whose right edge slides to
+    the fill's end reveals the fill. It slides by a translate
     because Chrome repaints an animated SVG image on every frame while any width/x/x2 animation runs, but on a
-    transform only when it moves. slide_anim is the translate's timing, values "<fill width> 0". Glow spills 5px left
-    and 6 above/below but not past the fill's end, where the full meter's glow would light up the empty track."""
-    return (f'<clipPath id="{cid}"><rect x="{x0 - w - 5}" y="{ytop - 6}" width="{w + 5}" height="{h + 12}">'
+    transform only when it moves. slide_anim is the translate's timing, values "<fill width> 0"."""
+    return (f'<clipPath id="{cid}"><rect x="{x0 - w}" y="{ytop}" width="{w}" height="{h}">'
             f'<animateTransform attributeName="transform" type="translate" {slide_anim} repeatCount="indefinite"/></rect></clipPath>'
-            f'<g clip-path="url(#{cid})"><use href="#{img}" y="{ytop}"/></g>'
             f'<rect x="{x0}" y="{ytop}" width="{w}" height="{h}" fill="url(#track)"/>'
             f'<line x1="{x0}" y1="{ytop + h / 2:g}" x2="{x0 + w}" y2="{ytop + h / 2:g}" stroke="{paint}" stroke-width="{h}" '
             f'stroke-dasharray="{CELL - 1} 1" clip-path="url(#{cid})"/>')
@@ -76,14 +73,11 @@ def meter(y, name, w_vals, pct_vals, color_text=FG):
         for i, p in enumerate(pct_vals)
     )
     return f"""<text x="{SX + 16}" y="{y}" font-size="13" fill="{color_text}">{name}</text>
-    {meter_bar(f"g{name}", "mglowimg", MX, y - 11, MW, 12, "url(#meter)", slide)}
+    {meter_bar(f"g{name}", MX, y - 11, MW, 12, "url(#meter)", slide)}
     <rect x="{MX}" y="{y - 11}" width="{MW}" height="12" fill="url(#mcrt)"/>
     {pcts}"""
 
 
-meter_cells = gradient([(0, "#3fb950"), (0.6, "#d29922"), (1, "#f85149")])
-mglow_img = glow_image([(MX + c * CELL, 0, CELL - 1, 12, meter_cells((c + 0.5) * CELL / MW)) for c in range(MW // CELL)], 1.6, 0.5,
-                       extra=' id="mglowimg"')   # was mglow; meter_bar reveals it up to each fill
 energy = meter(88, "energy", [150, 112, 74, 36, 6], ["100%", "75%", "49%", "24%", "03%"])
 dreams = meter(114, "dreams", [6, 36, 74, 112, 150], ["04%", "24%", "49%", "75%", "99%"])
 coffee = meter(140, "coffee", [12, 12, 12, 12, 12], ["08%"] * 5)
@@ -92,8 +86,8 @@ status_box = (f'<rect x="{SX}" y="{BY}" width="{SW}" height="{BH}" rx="6" fill="
               f'<text x="{SX + 20}" y="{BY + 4}" font-size="12" fill="{GREEN}">sleep</text>')
 
 # ---- cpu idle graph ----
-GXB, GW = 536, 340
-CW, CH, ROWS, VIS, P = 6, 6, 8, 50, 64
+GXB, GW = 536, 278
+CW, CH, ROWS, VIS, P = 6, 6, 8, 39, 64
 GX, GBOT = GXB + 14, BY + 28 + ROWS * CH
 
 
@@ -117,8 +111,6 @@ def bars_path(tops_heights, paint, opacity=1):
 
 cpu_cols = [(GBOT - max(1, round(idle(k % P) * ROWS)) * CH, max(1, round(idle(k % P) * ROWS)) * CH) for k in range(P + VIS)]
 cols = bars_path(cpu_cols, "url(#heat)", 0.9)   # 0.9: the old phosphor dimmed bars by 10%
-heat = gradient([(0, "#3fb950"), (0.55, "#d29922"), (1, "#f85149")])
-cols_glow = glow_image(cell_rects(cpu_cols, CW, CH, lambda y: heat((GBOT - y) / (ROWS * CH))), 2.2, 0.8, dim=0.9)   # was phosphor
 cpu_box = (f'<rect x="{GXB}" y="{BY}" width="{GW}" height="{BH}" rx="6" fill="none" stroke="#30363d"/>'
            f'<rect x="{GXB + 14}" y="{BY - 8}" width="92" height="16" fill="#0d1117"/>'
            f'<text x="{GXB + 20}" y="{BY + 4}" font-size="12" fill="{GREEN}" xml:space="preserve">cpu <tspan fill="{DIM}">idle</tspan></text>'
@@ -127,21 +119,14 @@ cpu_box = (f'<rect x="{GXB}" y="{BY}" width="{GW}" height="{BH}" rx="6" fill="no
 
 
 def strip(sid, top, heights, color, label, anim, vis=VIS, box_right=GXB + GW):
-    """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll.
-    Its glow is a pre-blurred image (glow.py) clipped a few px taller than the pane (not wider: off-screen scroll
-    columns would glow in from the sides)."""
+    """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll."""
     rows = max(heights)
     h = rows * CH
     w = vis * CW
     cols = [(top + h - heights[k % P] * CH, heights[k % P] * CH) for k in range(P + vis)]
-    bars, glow = bars_path(cols, color), glow_image(cell_rects(cols, CW, CH, lambda y: hex_rgb(color)), 1.6, 0.5)   # was mglow
+    bars = bars_path(cols, color)
     return f"""<clipPath id="{sid}c"><rect x="{GX}" y="{top}" width="{w}" height="{h}"/></clipPath>
-  <clipPath id="{sid}h"><rect x="{GX}" y="{top - 5}" width="{w}" height="{h + 10}"/></clipPath>
   <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#empty)"/>
-  <g clip-path="url(#{sid}h)"><g transform="translate({GX} 0)">
-    {anim}
-    {glow}
-  </g></g>
   <g clip-path="url(#{sid}c)"><g transform="translate({GX} 0)">
     {anim}
     {bars}
@@ -152,11 +137,10 @@ def strip(sid, top, heights, color, label, anim, vis=VIS, box_right=GXB + GW):
 temp_h = [2 + (1 if math.sin(2 * math.pi * 2 * k / P) > 0.3 else 0) for k in range(P)]
 strips_svg = strip("temp", GBOT + 6, temp_h, AMBER, "temp", f'<animateTransform attributeName="transform" type="translate" from="{GX} 0" to="{GX - P * CW} 0" dur="12s" repeatCount="indefinite"/>')
 
-svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 214" width="900" height="214" role="img" aria-labelledby="t d">
+svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 838 214" width="838" height="214" role="img" aria-labelledby="t d">
   <title id="t">Signing off</title>
   <desc id="d">A btop-style dashboard while zek-debian the robot sleeps: energy drains, dreams fill, the cpu is idle. The prompt says back on the next shift.</desc>
   <defs>
-    {mglow_img}
     <style>text {{ font-family: {FONT}; }}</style>
     <linearGradient id="meter" gradientUnits="userSpaceOnUse" x1="{MX}" y1="0" x2="{MX + MW}" y2="0">
       <stop offset="0" stop-color="#3fb950"/><stop offset="0.6" stop-color="#d29922"/><stop offset="1" stop-color="#f85149"/>
@@ -179,18 +163,16 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 214" width="9
       <rect y="1" width="{CW}" height="1" fill="#000" opacity="0.32"/><rect y="3" width="{CW}" height="1" fill="#000" opacity="0.32"/>
     </pattern>
     <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7ee787" stop-opacity="0"/><stop offset="0.85" stop-color="#7ee787" stop-opacity="0.08"/><stop offset="1" stop-color="#7ee787" stop-opacity="0.22"/>
+      <stop offset="0" stop-color="#7ee787" stop-opacity="0"/><stop offset="0.85" stop-color="#7ee787" stop-opacity="0.03"/><stop offset="1" stop-color="#7ee787" stop-opacity="0.08"/>
     </linearGradient>
     <clipPath id="gclip"><rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}"/></clipPath>
-    <!-- glow clip: taller than gclip so glow spills above/below, same width so off-screen columns stay dark -->
-    <clipPath id="gglow"><rect x="{GX}" y="{GBOT - ROWS * CH - 8}" width="{VIS * CW}" height="{ROWS * CH + 16}"/></clipPath>
     <!-- typing reveal and cursor move by translate, not width/x: Chrome repaints every frame while a width/x animation runs -->
     <clipPath id="say"><rect x="{176 - 232}" y="170" width="232" height="26">
       <animateTransform attributeName="transform" type="translate" values="0 0;0 0;232 0;232 0;0 0" keyTimes="0;0.08;0.5;0.94;1" dur="10s" repeatCount="indefinite"/>
     </rect></clipPath>
   </defs>
 
-  <rect width="900" height="214" rx="10" fill="#0d1117"/>
+  <rect width="838" height="214" rx="10" fill="#0d1117"/>
   <text x="24" y="32" font-size="14" xml:space="preserve"><tspan fill="{GREEN}">zek@zek-debian</tspan><tspan fill="{DIM}">:</tspan><tspan fill="{BLUE}">~</tspan><tspan fill="{DIM}">$ </tspan><tspan fill="{FG}">btop --sleep</tspan></text>
 
   {bit_box}
@@ -204,12 +186,6 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 214" width="9
 
   {cpu_box}
   <rect x="{GX}" y="{GBOT - ROWS * CH}" width="{VIS * CW}" height="{ROWS * CH}" fill="url(#empty)"/>
-  <g clip-path="url(#gglow)">
-    <g transform="translate({GX} 0)">
-      <animateTransform attributeName="transform" type="translate" from="{GX} 0" to="{GX - P * CW} 0" dur="12s" repeatCount="indefinite"/>
-      {cols_glow}
-    </g>
-  </g>
   <g clip-path="url(#gclip)">
     <g transform="translate({GX} 0)">
       <animateTransform attributeName="transform" type="translate" from="{GX} 0" to="{GX - P * CW} 0" dur="12s" repeatCount="indefinite"/>

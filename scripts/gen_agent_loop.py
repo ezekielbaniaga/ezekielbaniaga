@@ -5,7 +5,6 @@ import random
 from pathlib import Path
 
 from fps import quantize
-from glow import cell_rects, glow_image, gradient, hex_rgb
 
 T = 8.0  # seconds per full loop, 2s per step
 FG, DIM, GREEN, AMBER, BLUE = "#c9d1d9", "#6e7681", "#3fb950", "#d29922", "#58a6ff"
@@ -22,15 +21,13 @@ def discrete(segments):
 
 
 
-def meter_bar(cid, img, x0, ytop, w, h, paint, slide_anim):
-    """One meter: its pre-blurred glow (`img`, see glow.py), the empty track, and the fill drawn full width as a dashed
-    line. A clip whose right edge slides to the fill's end reveals the glow and the fill. It slides by a translate
+def meter_bar(cid, x0, ytop, w, h, paint, slide_anim):
+    """One meter: the empty track, and the fill drawn full width as a dashed line. A clip whose right edge slides to
+    the fill's end reveals the fill. It slides by a translate
     because Chrome repaints an animated SVG image on every frame while any width/x/x2 animation runs, but on a
-    transform only when it moves. slide_anim is the translate's timing, values "<fill width> 0". Glow spills 5px left
-    and 6 above/below but not past the fill's end, where the full meter's glow would light up the empty track."""
-    return (f'<clipPath id="{cid}"><rect x="{x0 - w - 5}" y="{ytop - 6}" width="{w + 5}" height="{h + 12}">'
+    transform only when it moves. slide_anim is the translate's timing, values "<fill width> 0"."""
+    return (f'<clipPath id="{cid}"><rect x="{x0 - w}" y="{ytop}" width="{w}" height="{h}">'
             f'<animateTransform attributeName="transform" type="translate" {slide_anim} repeatCount="indefinite"/></rect></clipPath>'
-            f'<g clip-path="url(#{cid})"><use href="#{img}" y="{ytop}"/></g>'
             f'<rect x="{x0}" y="{ytop}" width="{w}" height="{h}" fill="url(#track)"/>'
             f'<line x1="{x0}" y1="{ytop + h / 2:g}" x2="{x0 + w}" y2="{ytop + h / 2:g}" stroke="{paint}" stroke-width="{h}" '
             f'stroke-dasharray="{CELL - 1} 1" clip-path="url(#{cid})"/>')
@@ -55,7 +52,7 @@ def flicker(seed, n=16, lo=0.3, hi=1.0):
     return f'values="{";".join(f"{v:.2f}" for v in vals)}" keyTimes="{";".join(f"{k:.3f}" for k in kt)}"'
 
 
-def meter_slide(i, lo=12, hi=(84, 90, 80, 88)):
+def meter_slide(i, lo=12, hi=(72, 78, 66, 78)):
     """Fill width over the loop, as meter_bar's translate values."""
     lo, hi = f"{lo} 0", tuple(f"{h} 0" for h in hi)
     s = i / 4
@@ -70,11 +67,8 @@ def meter_slide(i, lo=12, hi=(84, 90, 80, 88)):
 
 # ---- left: proc box ----
 HI_DIM = "#b1bac4"   # PID colour while its row is highlighted (needs contrast on the green tint)
-LX, LY, LW, LH = 24, 56, 330, 190
-MX, MW, CELL = 174, 96, 6           # meter x, width (16 cells), cell width
-meter_cells = gradient([(0, "#3fb950"), (0.6, "#d29922"), (1, "#f85149")])
-mglow_img = glow_image([(MX + c * CELL, 0, CELL - 1, 12, meter_cells((c + 0.5) * CELL / MW)) for c in range(MW // CELL)], 1.6, 0.5,
-                       extra=' id="mglowimg"')   # was mglow; meter_bar reveals it up to each fill
+LX, LY, LW, LH = 24, 56, 310, 190
+MX, MW, CELL = 174, 84, 6           # meter x, width (14 cells), cell width
 rows = []
 for i, (name, desc, pid) in enumerate(STEPS):
     y = 112 + i * 26
@@ -94,7 +88,7 @@ for i, (name, desc, pid) in enumerate(STEPS):
     <text x="{LX + 60}" y="{y}" font-size="13" fill="{FG}" xml:space="preserve">{name}<animate attributeName="filter" {active_flag(i, "url(#tshadow)", "none")} dur="{T:g}s" repeatCount="indefinite"/><animate attributeName="fill" {active_flag(i, "#ffffff", FG)} dur="{T:g}s" repeatCount="indefinite"/></text>
     <text x="{MX - 20}" y="{y}" font-size="13" fill="{DIM}">S<animate attributeName="visibility" {active_flag(i, "hidden", "visible")} dur="{T:g}s" repeatCount="indefinite"/></text>
     <text x="{MX - 20}" y="{y}" font-size="13" fill="#7ee787" visibility="hidden" filter="url(#tshadow)">R<animate attributeName="visibility" {active_flag(i, "visible", "hidden")} dur="{T:g}s" repeatCount="indefinite"/></text>
-    {meter_bar(f"pg{i}", "mglowimg", MX, y - 11, MW, 12, "url(#meter)", f'{meter_slide(i)} dur="{T:g}s"')}
+    {meter_bar(f"pg{i}", MX, y - 11, MW, 12, "url(#meter)", f'{meter_slide(i)} dur="{T:g}s"')}
     <rect x="{MX}" y="{y - 11}" width="{MW}" height="12" fill="url(#mcrt)"/>
     <text x="{LX + LW - 14}" y="{y}" font-size="13" fill="{DIM}" text-anchor="end">03%<animate attributeName="visibility" {active_flag(i, "hidden", "visible")} dur="{T:g}s" repeatCount="indefinite"/></text>
     <text x="{LX + LW - 14}" y="{y}" font-size="13" fill="#f2cc60" text-anchor="end" visibility="hidden" filter="url(#tshadow)">95%<animate attributeName="visibility" {active_flag(i, "visible", "hidden")} dur="{T:g}s" repeatCount="indefinite"/></text>
@@ -122,8 +116,8 @@ def comet(x0, y0, pitch=2.8, r=0.8, dur=1.6, tail=(1, .8, .62, .46, .32, .2, .12
 spinner = comet(LX + 18, LY + LH - 21)
 
 # ---- right: mirrored token graph ----
-RX, RY, RW, RH = 362, 56, 230, 190
-CW, CH, UP, DN, VIS, P = 6, 6, 9, 9, 30, 64
+RX, RY, RW, RH = 342, 56, 210, 190
+CW, CH, UP, DN, VIS, P = 6, 6, 9, 9, 27, 64
 GX, MID = RX + 14, RY + 30 + UP * CH
 
 
@@ -169,13 +163,10 @@ def scroll_attrs(seed, gx, cw, cols):
 
 scroll = scroll_attrs(23, GX, CW, P)
 up_svg, dn_svg = bars_path(up, "url(#gup)", 0.9), bars_path(dn, "url(#gdn)", 0.9)   # 0.9: the old phosphor dimmed bars by 10%
-gup, gdn = gradient([(0, "#3fb950"), (0.6, "#d29922"), (1, "#f85149")]), gradient([(0, "#58a6ff"), (1, "#bc8cff")])
-updn_glow = glow_image(cell_rects(up, CW, CH, lambda y: gup((MID - y) / (UP * CH)))
-                       + cell_rects(dn, CW, CH, lambda y: gdn((y - MID) / (DN * CH))), 2.2, 0.8, dim=0.9)   # was phosphor
 
 # ---- third box: system + GPU meters ----
-SX, SY, SW, SH = 600, 56, 276, 190
-RMX, RMW = SX + 66, 84                 # meter x, width (14 cells)
+SX, SY, SW, SH = 560, 56, 254, 190
+RMX, RMW = SX + 64, 84                 # meter x (on the 6px grid), width (14 cells)
 assert MX % CELL == RMX % CELL == 0     # both meters share the x=0 track pattern
 GAUGES = [  # label, base, jitter, formatter
     ("gpu0", 0.97, 0.05, lambda f: f"{f * 100:.0f}%"),
@@ -188,8 +179,6 @@ GAUGES = [  # label, base, jitter, formatter
     ("pwr", 0.78, 0.14, lambda f: f"{f * 450:.0f}W/450W"),
 ]
 grng = random.Random(5)
-rglow_img = glow_image([(RMX + c * CELL, 0, CELL - 1, 10, meter_cells((c + 0.5) * CELL / RMW)) for c in range(RMW // CELL)], 1.6, 0.5,
-                       extra=' id="rglowimg"')
 gauge_rows = []
 for gi, (label, base, jit, fmt) in enumerate(GAUGES):
     y = SY + 48 + gi * 17
@@ -209,28 +198,21 @@ for gi, (label, base, jit, fmt) in enumerate(GAUGES):
         f'<animate attributeName="visibility" calcMode="discrete" values="{";".join("visible" if j == k else "hidden" for j in range(n))}" keyTimes="{kt}" dur="{total:.2f}s" repeatCount="indefinite"/></text>'
         for k, f in enumerate(fs))
     gauge_rows.append(f"""<text x="{SX + 12}" y="{y}" font-size="11" fill="{DIM}">{label}</text>
-  {meter_bar(f"sg{gi}", "rglowimg", RMX, y - 9, RMW, 10, "url(#rmeter)", slide)}
+  {meter_bar(f"sg{gi}", RMX, y - 9, RMW, 10, "url(#rmeter)", slide)}
   <rect x="{RMX}" y="{y - 9}" width="{RMW}" height="10" fill="url(#mcrt)"/>
   {texts}""")
 gauges_svg = "\n  ".join(gauge_rows)
 
 
 def strip(sid, top, heights, color, label, anim, vis=VIS, box_right=RX + RW):
-    """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll.
-    Its glow is a pre-blurred image (glow.py) clipped a few px taller than the pane (not wider: off-screen scroll
-    columns would glow in from the sides)."""
+    """Small second panel under a graph (like an extra indicator pane): short block graph, same x-axis and scroll."""
     rows = max(heights)
     h = rows * CH
     w = vis * CW
     cols = [(top + h - heights[k % P] * CH, heights[k % P] * CH) for k in range(P + vis)]
-    bars, glow = bars_path(cols, color), glow_image(cell_rects(cols, CW, CH, lambda y: hex_rgb(color)), 1.6, 0.5)   # was mglow
+    bars = bars_path(cols, color)
     return f"""<clipPath id="{sid}c"><rect x="{GX}" y="{top}" width="{w}" height="{h}"/></clipPath>
-  <clipPath id="{sid}h"><rect x="{GX}" y="{top - 5}" width="{w}" height="{h + 10}"/></clipPath>
   <rect x="{GX}" y="{top}" width="{w}" height="{h}" fill="url(#empty)"/>
-  <g clip-path="url(#{sid}h)"><g transform="translate({GX} 0)">
-    {anim}
-    {glow}
-  </g></g>
   <g clip-path="url(#{sid}c)"><g transform="translate({GX} 0)">
     {anim}
     {bars}
@@ -242,19 +224,17 @@ _r2 = random.Random(31)
 lag_h = [min(4, 1 + int(2 * (0.5 + 0.5 * math.sin(2 * math.pi * 3 * k / P + 1))) + (1 if _r2.random() < 0.15 else 0)) for k in range(P)]
 strips_svg = strip("lag", MID + 60, lag_h, BLUE, "lag", f'<animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>')
 
-svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="900" height="262" role="img" aria-labelledby="t d">
+svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 838 262" width="838" height="262" role="img" aria-labelledby="t d">
   <title id="t">Agent loop</title>
   <desc id="d">A btop-style process list where plan, tool, observe and reflect take turns running, next to a scrolling tokens in and out graph and a sys box with GPU, VRAM, context, memory and disk meters.</desc>
   <defs>
-    {mglow_img}
-    {rglow_img}
     <style>text {{ font-family: {FONT}; }}</style>
     <!-- CRT scanlines: two dark lines per cell row, on the row grid so gap rows stay clear; static, no filter -->
     <pattern id="crt" width="{CW}" height="{CH}" patternUnits="userSpaceOnUse" y="{MID}">
       <rect y="1" width="{CW}" height="1" fill="#000" opacity="0.32"/><rect y="3" width="{CW}" height="1" fill="#000" opacity="0.32"/>
     </pattern>
     <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7ee787" stop-opacity="0"/><stop offset="0.85" stop-color="#7ee787" stop-opacity="0.08"/><stop offset="1" stop-color="#7ee787" stop-opacity="0.22"/>
+      <stop offset="0" stop-color="#7ee787" stop-opacity="0"/><stop offset="0.85" stop-color="#7ee787" stop-opacity="0.03"/><stop offset="1" stop-color="#7ee787" stop-opacity="0.08"/>
     </linearGradient>
     <filter id="tshadow" x="-20%" y="-40%" width="140%" height="180%"><feDropShadow dx="1" dy="1.3" stdDeviation="1" flood-color="#000"/></filter>
     <filter id="hglow" x="-5%" y="-60%" width="110%" height="220%"><feGaussianBlur stdDeviation="3"/></filter>
@@ -285,11 +265,9 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="9
       <rect width="{CW - 1}" height="{CH - 1}" fill="#161b22"/>
     </pattern>
     <clipPath id="gclip"><rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}"/></clipPath>
-    <!-- glow clip: taller than gclip so glow spills above/below, same width so off-screen columns stay dark -->
-    <clipPath id="gglow"><rect x="{GX}" y="{MID - UP * CH - 8}" width="{VIS * CW}" height="{(UP + DN) * CH + 16}"/></clipPath>
   </defs>
 
-  <rect width="900" height="262" rx="10" fill="#0d1117"/>
+  <rect width="838" height="262" rx="10" fill="#0d1117"/>
   <text x="24" y="36" font-size="14" xml:space="preserve"><tspan fill="{GREEN}">zek@zek-debian</tspan><tspan fill="{DIM}">:</tspan><tspan fill="{BLUE}">~</tspan><tspan fill="{DIM}">$ </tspan><tspan fill="{FG}">btop --agent</tspan></text>
 
   <!-- proc box -->
@@ -310,12 +288,6 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 262" width="9
   <rect x="{RX + 14}" y="{RY - 8}" width="100" height="16" fill="#0d1117"/>
   <text x="{RX + 20}" y="{RY + 4}" font-size="12" fill="{GREEN}" xml:space="preserve">tokens <tspan fill="{DIM}">/ s</tspan></text>
   <rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}" fill="url(#empty)"/>
-  <g clip-path="url(#gglow)">
-    <g transform="translate({GX} 0)">
-      <animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>
-      {updn_glow}
-    </g>
-  </g>
   <g clip-path="url(#gclip)">
     <g transform="translate({GX} 0)">
       <animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>

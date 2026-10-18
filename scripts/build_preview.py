@@ -36,7 +36,7 @@ page = f"""<!doctype html>
   :root {{ --bg: #0d1117; --fg: #e6edf3; --code: #6e768166; }}
   :root[data-theme="light"] {{ --bg: #ffffff; --fg: #1f2328; --code: #818b981f; }}
   body {{ margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }}
-  main {{ width: 838px; margin: 0 auto; padding: 32px; }}   /* the README column on github.com profiles (measured) */
+  main {{ width: 846px; margin: 0 auto; padding: 32px; }}   /* the README column on github.com profiles: grows with the window up to 846px (from ~1295px wide) */
   code {{ background: var(--code); padding: .2em .4em; border-radius: 6px; font-size: 85%; }}
   img {{ max-width: 100%; }}
   #theme {{ position: fixed; top: 12px; right: 12px; font: 12px ui-monospace, monospace; padding: 4px 10px;

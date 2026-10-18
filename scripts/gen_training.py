@@ -114,9 +114,9 @@ for i, (name, (hh, mm, ss), lines) in enumerate(SERVICES):
 minis_svg = "\n  ".join(minis)
 
 # --- loss graph (right): btop-style block graph that scrolls forever ---
-FX, FY, FW, FH = 572, 56, 242, 274       # frame
+FX, FY, FW, FH = 572, 56, 250, 274       # frame
 CW, CH, ROWS = 6, 6, 28                   # cell width/height, rows
-VIS = 33                                  # visible columns
+VIS = 34                                  # visible columns
 P = 64                                    # columns in one seamless period
 GX, GBOT = FX + 12, FY + 30 + ROWS * CH   # graph left, bottom y
 
@@ -183,11 +183,11 @@ grad_h = [_r.choice([1, 1, 1, 2, 2, 3]) for _ in range(P)]
 strips_svg = (strip("lr", GBOT + 12, lr_h, BLUE, "lr", f'<animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>')
               + "\n  " + strip("grad", GBOT + 36, grad_h, "#bc8cff", "grad", f'<animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>'))
 
-svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 838 350" width="838" height="350" role="img" aria-labelledby="t d">
+svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846 350" width="846" height="350" role="img" aria-labelledby="t d">
   <title id="t">Training run</title>
   <desc id="d">Ten small terminals print production-style service logs with pauses between bursts, next to a scrolling btop-style loss graph.</desc>
   <style>text {{ font-family: {FONT}; }}</style>
-  <rect width="838" height="350" rx="10" fill="#0d1117"/>
+  <rect width="846" height="350" rx="10" fill="#0d1117"/>
   <text x="24" y="36" font-size="14" xml:space="preserve"><tspan fill="{GREEN}">zek@zek-debian</tspan><tspan fill="{DIM}">:</tspan><tspan fill="{BLUE}">~</tspan><tspan fill="{DIM}">$ </tspan><tspan fill="{FG}">tmux attach -t night-shift</tspan></text>
 
   {minis_svg}

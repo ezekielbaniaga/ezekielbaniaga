@@ -165,7 +165,7 @@ scroll = scroll_attrs(23, GX, CW, P)
 up_svg, dn_svg = bars_path(up, "url(#gup)", 0.9), bars_path(dn, "url(#gdn)", 0.9)   # 0.9: the old phosphor dimmed bars by 10%
 
 # ---- third box: system + GPU meters ----
-SX, SY, SW, SH = 560, 56, 254, 190
+SX, SY, SW, SH = 560, 56, 262, 190
 RMX, RMW = SX + 64, 84                 # meter x (on the 6px grid), width (14 cells)
 assert MX % CELL == RMX % CELL == 0     # both meters share the x=0 track pattern
 GAUGES = [  # label, base, jitter, formatter
@@ -224,7 +224,7 @@ _r2 = random.Random(31)
 lag_h = [min(4, 1 + int(2 * (0.5 + 0.5 * math.sin(2 * math.pi * 3 * k / P + 1))) + (1 if _r2.random() < 0.15 else 0)) for k in range(P)]
 strips_svg = strip("lag", MID + 60, lag_h, BLUE, "lag", f'<animateTransform attributeName="transform" type="translate" {scroll} repeatCount="indefinite"/>')
 
-svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 838 262" width="838" height="262" role="img" aria-labelledby="t d">
+svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846 262" width="846" height="262" role="img" aria-labelledby="t d">
   <title id="t">Agent loop</title>
   <desc id="d">A btop-style process list where plan, tool, observe and reflect take turns running, next to a scrolling tokens in and out graph and a sys box with GPU, VRAM, context, memory and disk meters.</desc>
   <defs>
@@ -267,7 +267,7 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 838 262" width="8
     <clipPath id="gclip"><rect x="{GX}" y="{MID - UP * CH}" width="{VIS * CW}" height="{(UP + DN) * CH}"/></clipPath>
   </defs>
 
-  <rect width="838" height="262" rx="10" fill="#0d1117"/>
+  <rect width="846" height="262" rx="10" fill="#0d1117"/>
   <text x="24" y="36" font-size="14" xml:space="preserve"><tspan fill="{GREEN}">zek@zek-debian</tspan><tspan fill="{DIM}">:</tspan><tspan fill="{BLUE}">~</tspan><tspan fill="{DIM}">$ </tspan><tspan fill="{FG}">btop --agent</tspan></text>
 
   <!-- proc box -->

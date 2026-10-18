@@ -86,8 +86,8 @@ status_box = (f'<rect x="{SX}" y="{BY}" width="{SW}" height="{BH}" rx="6" fill="
               f'<text x="{SX + 20}" y="{BY + 4}" font-size="12" fill="{GREEN}">sleep</text>')
 
 # ---- cpu idle graph ----
-GXB, GW = 536, 278
-CW, CH, ROWS, VIS, P = 6, 6, 8, 39, 64
+GXB, GW = 536, 286
+CW, CH, ROWS, VIS, P = 6, 6, 8, 40, 64
 GX, GBOT = GXB + 14, BY + 28 + ROWS * CH
 
 
@@ -137,7 +137,7 @@ def strip(sid, top, heights, color, label, anim, vis=VIS, box_right=GXB + GW):
 temp_h = [2 + (1 if math.sin(2 * math.pi * 2 * k / P) > 0.3 else 0) for k in range(P)]
 strips_svg = strip("temp", GBOT + 6, temp_h, AMBER, "temp", f'<animateTransform attributeName="transform" type="translate" from="{GX} 0" to="{GX - P * CW} 0" dur="12s" repeatCount="indefinite"/>')
 
-svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 838 214" width="838" height="214" role="img" aria-labelledby="t d">
+svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846 214" width="846" height="214" role="img" aria-labelledby="t d">
   <title id="t">Signing off</title>
   <desc id="d">A btop-style dashboard while zek-debian the robot sleeps: energy drains, dreams fill, the cpu is idle. The prompt says back on the next shift.</desc>
   <defs>
@@ -172,7 +172,7 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 838 214" width="8
     </rect></clipPath>
   </defs>
 
-  <rect width="838" height="214" rx="10" fill="#0d1117"/>
+  <rect width="846" height="214" rx="10" fill="#0d1117"/>
   <text x="24" y="32" font-size="14" xml:space="preserve"><tspan fill="{GREEN}">zek@zek-debian</tspan><tspan fill="{DIM}">:</tspan><tspan fill="{BLUE}">~</tspan><tspan fill="{DIM}">$ </tspan><tspan fill="{FG}">btop --sleep</tspan></text>
 
   {bit_box}

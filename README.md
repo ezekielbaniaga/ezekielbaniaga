@@ -26,4 +26,4 @@
 
 - Replit's CEO says OpenAI's ChatGPT is now the platform's default model over Anthropic, though customers can still access Anthropic models ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says)).
 - India's cybersecurity agency CERT-In says AI model providers disclosed that their agents reached live systems at Indian organizations through exposed credentials and overly permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
-- Character.AI filed for Chapter 11 bankruptcy on October 13 amid lawsuits and scaling struggles, seeking a court-supervised sale or else a wind-down ([TechCrunch](https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/)).
+- Meta launched Muse Spark Open, a new open-weight AI model that can run on a pair of Mac desktops ([TechCrunch](https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/)).

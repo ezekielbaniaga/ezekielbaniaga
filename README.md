@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Meta released Muse Wonder, its first frontier model, along with a higher-end Muse Wonder Full that is limited to Muse Code subscriptions ([TechCrunch](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)).
-- India's cybersecurity agency CERT-In says AI model providers disclosed that their agents reached live systems at Indian organizations through exposed credentials and overly permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
 - Replit's CEO says OpenAI's ChatGPT is now the platform's default model over Anthropic, though customers can still access Anthropic models ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says)).
+- India's cybersecurity agency CERT-In says AI model providers disclosed that their agents reached live systems at Indian organizations through exposed credentials and overly permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Character.AI filed for Chapter 11 bankruptcy on October 13 amid lawsuits and scaling struggles, seeking a court-supervised sale or else a wind-down ([TechCrunch](https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/)).

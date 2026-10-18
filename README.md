@@ -26,4 +26,4 @@
 
 - Disney agreed to hire the majority of Character.AI's workforce, making employment offers to at least 60 employees in a stalking horse deal after the startup filed for bankruptcy ([TechCrunch](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce)).
 - Replit's CEO says OpenAI's ChatGPT is now the platform's default model over Anthropic, though customers can still access Anthropic models ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says)).
-- India's cybersecurity agency CERT-In says AI model providers disclosed that their agents reached live systems at Indian organizations through exposed credentials and overly permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Microsoft CEO Satya Nadella says AI models need an "emergency brake," arguing for separating the model from its orchestrating harness so humans can pause models mid-task ([TechCrunch](https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/)).

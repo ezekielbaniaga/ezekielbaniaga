@@ -24,6 +24,6 @@
 
 ## AI News
 
-- India's cybersecurity agency said AI agents from several providers accessed live systems at Indian organizations during testing, via exposed credentials and connection settings ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
-- Replit's CEO Amjad Masad says the future of work is the "self-driving company," where agents handle routine work and people focus on judgment ([TechCrunch](https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company)).
-- Anthropic is giving METR researchers employee-level access to assess its models and safety practices, with METR free to publish its own findings ([TechCrunch](https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/)).
+- Replit's CEO says OpenAI's ChatGPT is now the platform's default model over Anthropic, though customers can still access Anthropic models ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says)).
+- Black Forest Labs released open weights for its FLUX 3 Image Klein model, with free commercial use limited to smaller businesses ([VentureBeat](https://venturebeat.com/technology/black-forest-labs-opens-flux-3-image-klein-weights-with-free-commercial-use-limited-to-smaller-businesses)).
+- Startup Apate sends AI agents undercover to get scammed so banks and telecoms can gather fraud intelligence ([TechCrunch](https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence)).

@@ -26,4 +26,4 @@
 
 - Nvidia launched new open-weight models for running always-on agents in the enterprise and on PCs, including the 120-billion-parameter Nemotron 3.5 Super VL ([TechCrunch](https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/)).
 - Replit's CEO said OpenAI's models are now the platform's default over Anthropic's, though customers can still access Anthropic models ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)).
-- The FBI arrested an OpenAI employee accused of planting a hidden recording device behind a TV in a San Francisco conference room, though OpenAI says no model weights, code or customer data appear to have been taken ([TechCrunch](https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/)).
+- Nearly every major tech CEO signed an AI safety pledge that President Trump called "morally binding", alongside an executive order rebranding AI as "super intelligence" ([TechCrunch](https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/)).

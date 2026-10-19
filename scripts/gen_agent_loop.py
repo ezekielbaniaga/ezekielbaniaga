@@ -79,7 +79,7 @@ for i, (name, desc, pid) in enumerate(STEPS):
         <animate attributeName="opacity" {flicker(40 + i)} dur="{1.1 + i * 0.37:.2f}s" repeatCount="indefinite"/>
       </rect>
       <rect x="{LX + 8}" y="{y - 17}" width="{LW - 16}" height="24" rx="3" fill="#12261a" stroke="{GREEN}"/>
-      <rect x="{LX + 9}" y="{y - 16}" width="{LW - 18}" height="22" rx="2" fill="#5ae673" fill-opacity="0.14">
+      <rect x="{LX + 9}" y="{y - 16}" width="{LW - 18}" height="22" rx="2" fill="#fff" filter="url(#tvnoise)">
         <animate attributeName="opacity" values="1;0.8;1;0.9;0.7;1" dur="0.9s" repeatCount="indefinite"/>
       </rect>
       <rect x="{LX + 9}" y="{y - 16}" width="{LW - 18}" height="22" rx="2" fill="url(#scan)"/>
@@ -238,6 +238,14 @@ svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 846 262" width="8
     </linearGradient>
     <filter id="tshadow" x="-20%" y="-40%" width="140%" height="180%"><feDropShadow dx="1" dy="1.3" stdDeviation="1" flood-color="#000"/></filter>
     <filter id="hglow" x="-5%" y="-60%" width="110%" height="220%"><feGaussianBlur stdDeviation="3"/></filter>
+    <!-- TV static on the active row's highlight; only one row is visible at a time -->
+    <filter id="tvnoise" x="0" y="0" width="1" height="1">
+      <feTurbulence type="fractalNoise" baseFrequency="0.5 1.1" numOctaves="1" seed="1" result="n">
+        <animate attributeName="seed" calcMode="discrete" values="1;2;3;4;5;6;7;8" dur="0.4s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.35  0 0 0 0 0.9  0 0 0 0 0.45  1.1 0 0 0 -0.38" result="g"/>
+      <feComposite in="g" in2="SourceGraphic" operator="in"/>
+    </filter>
     <pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse">
       <rect width="4" height="1" y="2" fill="#000" opacity="0.35"/>
     </pattern>

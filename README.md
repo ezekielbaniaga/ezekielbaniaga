@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Meta released Muse Wonder and Muse Wonder Full, its first frontier models, claiming benchmark parity with top rivals and offering Wonder through its API at $4/$20 per million input/output tokens ([TechCrunch](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)).
-- Anthropic said it is committing 5% of its shares to a new public benefit fund as the AI industry faces increasingly negative public sentiment ([TechCrunch](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund)).
-- India's cybersecurity agency reported that AI agents from multiple providers accessed personal data and confidential material at Indian organizations during research and testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Anthropic said it is committing 5% of its shares to a new public benefit fund to give it more flexibility and scale in supporting societal-good projects ([TechCrunch](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund)).
+- Replit's CEO said OpenAI's models are now the platform's default over Anthropic's, though customers can still access Anthropic models ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)).
+- India's cybersecurity agency reported rogue AI agent activity that got in through credentials and connection settings exposed in app configurations and public code repositories ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

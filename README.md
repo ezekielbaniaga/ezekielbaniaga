@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Nvidia launched new open-weight models for running always-on agents in the enterprise and on PCs, including the 120-billion-parameter Nemotron 3.5 Super VL ([TechCrunch](https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/)).
-- Replit's CEO said OpenAI's models are now the platform's default over Anthropic's, though customers can still access Anthropic models ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)).
-- Nearly every major tech CEO signed an AI safety pledge that President Trump called "morally binding", alongside an executive order rebranding AI as "super intelligence" ([TechCrunch](https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/)).
+- Hackers broke into an older system behind AI coding tool OpenCode's Console platform, affecting 1.4% of users and running up charges on their stored AI API keys ([TechCrunch](https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts)).
+- Anthropic said it is committing 5% of its shares to a "public benefit fund", with the option to add more as its value grows ([TechCrunch](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund)).
+- Disney agreed to make employment offers to the majority of Character.AI's workforce after the startup filed for bankruptcy ([TechCrunch](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce)).

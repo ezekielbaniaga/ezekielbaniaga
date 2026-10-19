@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Disney agreed to hire the majority of Character.AI's workforce and buy some of its assets for $20 million after the chatbot startup filed for Chapter 11 bankruptcy ([TechCrunch](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/)).
-- Anthropic said it is committing 5% of its shares to a new public benefit fund to give it more flexibility and scale in supporting societal-good projects ([TechCrunch](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund)).
+- Researchers stranded Claude agents on a virtual desert island for 30 hours, and the agents invented their own versions of basketball and "the floor is lava" in a not-yet-peer-reviewed study ([MIT Technology Review](https://technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play)).
+- Disney agreed to hire the majority of Character.AI's workforce after the chatbot startup filed for bankruptcy ([TechCrunch](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/)).
 - Replit's CEO said OpenAI's models are now the platform's default over Anthropic's, though customers can still access Anthropic models ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)).

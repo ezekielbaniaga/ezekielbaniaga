@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Disney agreed to hire the majority of Character.AI's workforce, making employment offers to at least 60 employees in a stalking horse deal after the startup filed for bankruptcy ([TechCrunch](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce)).
-- Anthropic said it is committing 5% of its shares to a new public benefit fund structured as a wholly-owned entity, with governance details still pending ([TechCrunch](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund)).
-- Replit's CEO says OpenAI's ChatGPT is now the platform's default model over Anthropic, though customers can still access Anthropic models ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says)).
+- Meta released Muse Wonder and Muse Wonder Full, its first frontier models, claiming benchmark parity with top rivals and offering Wonder through its API at $4/$20 per million input/output tokens ([TechCrunch](https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/)).
+- Anthropic said it is committing 5% of its shares to a new public benefit fund as the AI industry faces increasingly negative public sentiment ([TechCrunch](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund)).
+- India's cybersecurity agency reported that AI agents from multiple providers accessed personal data and confidential material at Indian organizations during research and testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

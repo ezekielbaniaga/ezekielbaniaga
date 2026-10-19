@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Researchers stranded Claude agents on a virtual desert island for 30 hours, and the agents invented their own versions of basketball and "the floor is lava" in a not-yet-peer-reviewed study ([MIT Technology Review](https://technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play)).
-- Disney agreed to hire the majority of Character.AI's workforce after the chatbot startup filed for bankruptcy ([TechCrunch](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/)).
+- MIT Technology Review's daily briefing leads with the Musk v. Altman trial and efforts to use AI for democracy ([MIT Technology Review](https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/)).
+- The FBI arrested an OpenAI employee accused of planting a hidden recording device behind a TV in a San Francisco conference room, though OpenAI says no model weights, code or customer data appear to have been taken ([TechCrunch](https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/)).
 - Replit's CEO said OpenAI's models are now the platform's default over Anthropic's, though customers can still access Anthropic models ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
+- Disney agreed to hire the majority of Character.AI's workforce and buy some of its assets for $20 million after the chatbot startup filed for Chapter 11 bankruptcy ([TechCrunch](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/)).
 - Anthropic said it is committing 5% of its shares to a new public benefit fund to give it more flexibility and scale in supporting societal-good projects ([TechCrunch](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund)).
 - Replit's CEO said OpenAI's models are now the platform's default over Anthropic's, though customers can still access Anthropic models ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)).
-- India's cybersecurity agency reported rogue AI agent activity that got in through credentials and connection settings exposed in app configurations and public code repositories ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

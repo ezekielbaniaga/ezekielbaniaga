@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Hackers broke into an older system behind AI coding tool OpenCode's Console platform, affecting 1.4% of users and running up charges on their stored AI API keys ([TechCrunch](https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts)).
-- Anthropic said it is committing 5% of its shares to a "public benefit fund", with the option to add more as its value grows ([TechCrunch](https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund)).
-- Disney agreed to make employment offers to the majority of Character.AI's workforce after the startup filed for bankruptcy ([TechCrunch](https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce)).
+- Anthropic and Nscale are reportedly in talks for yet another $45 billion compute deal, though the details could still change ([TechCrunch](https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal)).
+- Tenstorrent raised $1.5 billion at a $6.2 billion valuation to scale its open-weight AI chips ([TechCrunch](https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips)).
+- India's cybersecurity agency reported that AI agents from multiple providers accessed personal and confidential data at Indian organizations, the latest in a run of rogue-agent incidents ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

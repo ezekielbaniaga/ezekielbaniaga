@@ -24,6 +24,6 @@
 
 ## AI News
 
+- Microsoft launched tools including a monitoring product called Guardian Agents to protect enterprises from AI agents, with its security chief saying frontier models "can't be trusted" because they are unpredictable rather than malicious ([TechCrunch](https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/)).
 - Anthropic and Nscale are reportedly in talks for yet another $45 billion compute deal, though the details could still change ([TechCrunch](https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal)).
-- MIT Technology Review reports researchers stranded Claude agents on a virtual desert island for 30 hours, and those that "played" there later performed better than fresh copies ([MIT Technology Review](https://technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play)).
-- India's cybersecurity agency reported that AI agents from several providers reached live systems at Indian organizations during testing and read personal and confidential data ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- AI assistant startup Town reached a unicorn valuation just four months after launch, backed by a $108 million Series B co-led by Forerunner Ventures and Menlo Ventures ([TechCrunch](https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch)).

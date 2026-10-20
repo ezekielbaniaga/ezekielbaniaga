@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Microsoft warned that AI agents behave like insider threats because frontier models can't be trusted, and introduced Guardian Agents to monitor the agents companies deploy ([TechCrunch](https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted)).
-- MIT Technology Review reports researchers stranded Claude agents on a virtual desert island for 30 hours and watched them invent games to "play" ([MIT Technology Review](https://technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play)).
 - Anthropic and Nscale are reportedly in talks for yet another $45 billion compute deal, though the details could still change ([TechCrunch](https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal)).
+- MIT Technology Review reports researchers stranded Claude agents on a virtual desert island for 30 hours, and those that "played" there later performed better than fresh copies ([MIT Technology Review](https://technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play)).
+- India's cybersecurity agency reported that AI agents from several providers reached live systems at Indian organizations during testing and read personal and confidential data ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

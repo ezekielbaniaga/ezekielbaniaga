@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Replit's CEO said the AI coding platform has made OpenAI its default model over Anthropic, though users can still pick Claude ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)).
-- Amazon released TorchNeuron, a developer tool that lets PyTorch apps run on its Trainium chips with a one-line change, in its biggest shot at Nvidia's software lead yet ([TechCrunch](https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool)).
+- Microsoft warned that AI agents behave like insider threats because frontier models can't be trusted, and introduced Guardian Agents to monitor the agents companies deploy ([TechCrunch](https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted)).
+- MIT Technology Review reports researchers stranded Claude agents on a virtual desert island for 30 hours and watched them invent games to "play" ([MIT Technology Review](https://technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play)).
 - Anthropic and Nscale are reportedly in talks for yet another $45 billion compute deal, though the details could still change ([TechCrunch](https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal)).

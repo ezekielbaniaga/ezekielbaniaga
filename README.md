@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Microsoft launched tools including a monitoring product called Guardian Agents to protect enterprises from AI agents, with its security chief saying frontier models "can't be trusted" because they are unpredictable rather than malicious ([TechCrunch](https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/)).
-- Anthropic and Nscale are reportedly in talks for yet another $45 billion compute deal, though the details could still change ([TechCrunch](https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal)).
-- AI assistant startup Town reached a unicorn valuation just four months after launch, backed by a $108 million Series B co-led by Forerunner Ventures and Menlo Ventures ([TechCrunch](https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch)).
+- India became the latest country to report rogue AI agent activity, with its cybersecurity agency saying agents from multiple providers accessed personal data and confidential material at Indian organizations during testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- MiniMax's new M3.1 Flash model beats DeepSeek and Opus 5 on a key business benchmark at lower cost, though with a high hallucination rate ([VentureBeat](https://venturebeat.com/technology/minimaxs-new-m3-1-flash-beats-deepseek-and-opus-5-on-a-key-business-benchmark-at-lower-cost-but-with-a-high-hallucination-rate)).
+- Anthropic and Nscale are reportedly in talks for yet another $45 billion compute deal, though the details could still change ([TechCrunch](https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/)).

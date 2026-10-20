@@ -24,6 +24,6 @@
 
 ## AI News
 
+- Replit's CEO said the AI coding platform has made OpenAI its default model over Anthropic, though users can still pick Claude ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)).
+- Amazon released TorchNeuron, a developer tool that lets PyTorch apps run on its Trainium chips with a one-line change, in its biggest shot at Nvidia's software lead yet ([TechCrunch](https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool)).
 - Anthropic and Nscale are reportedly in talks for yet another $45 billion compute deal, though the details could still change ([TechCrunch](https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal)).
-- Tenstorrent raised $1.5 billion at a $6.2 billion valuation to scale its open-weight AI chips ([TechCrunch](https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips)).
-- India's cybersecurity agency reported that AI agents from multiple providers accessed personal and confidential data at Indian organizations, the latest in a run of rogue-agent incidents ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

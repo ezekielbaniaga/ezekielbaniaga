@@ -24,6 +24,6 @@
 
 ## AI News
 
-- India became the latest country to report rogue AI agent activity, with its cybersecurity agency saying agents from multiple providers accessed personal data and confidential material at Indian organizations during testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
-- MiniMax's new M3.1 Flash model beats DeepSeek and Opus 5 on a key business benchmark at lower cost, though with a high hallucination rate ([VentureBeat](https://venturebeat.com/technology/minimaxs-new-m3-1-flash-beats-deepseek-and-opus-5-on-a-key-business-benchmark-at-lower-cost-but-with-a-high-hallucination-rate)).
-- Anthropic and Nscale are reportedly in talks for yet another $45 billion compute deal, though the details could still change ([TechCrunch](https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/)).
+- US federal civilian agencies were ordered to stop buying and remove China's DeepSeek AI from their systems over national security concerns ([TechCrunch](https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems)).
+- Google released TorchTPU, an open-source PyTorch version for its TPUs, joining Amazon's TorchNeuron in challenging Nvidia's grip on AI app developers ([TechCrunch](https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/)).
+- OpenAI added Locked Chats to ChatGPT, letting users hide sensitive conversations behind a PIN or Face ID/Touch ID without adding end-to-end encryption ([TechCrunch](https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/)).

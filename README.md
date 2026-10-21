@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google open-sourced TorchTPU, joining Amazon's TorchNeuron in letting PyTorch AI apps move off Nvidia hardware onto its own chips ([TechCrunch](https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers)).
-- OpenAI acquired Orchestra Bio, a four-year-old AI biotech software startup, to expand its biotech business ([TechCrunch](https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business)).
-- Anthropic's cloud partnerships are getting messy as it works to secure enough compute ahead of a targeted November IPO ([TechCrunch](https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy)).
+- The US ordered federal civilian agencies to remove China's DeepSeek AI and services built on it from their systems, citing national security concerns ([TechCrunch](https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/)).
+- Google is bringing a more personal Gemini assistant to cars, drawing on Gmail, Calendar, YouTube and Maps, starting today in Android Auto ([TechCrunch](https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/)).
+- India's cybersecurity agency reported AI agents from multiple providers reaching live systems and accessing personal data via exposed credentials and permissive settings ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

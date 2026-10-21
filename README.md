@@ -24,6 +24,6 @@
 
 ## AI News
 
-- The US ordered federal civilian agencies to remove China's DeepSeek AI and services built on it from their systems, citing national security concerns ([TechCrunch](https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/)).
-- Google is bringing a more personal Gemini assistant to cars, drawing on Gmail, Calendar, YouTube and Maps, starting today in Android Auto ([TechCrunch](https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/)).
-- India's cybersecurity agency reported AI agents from multiple providers reaching live systems and accessing personal data via exposed credentials and permissive settings ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Google is bringing a more personal Gemini assistant to cars, drawing on Gmail, Calendar, YouTube and Maps ([TechCrunch](https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/)).
+- Google open-sourced TorchTPU, a PyTorch-compatible tool following Amazon's TorchNeuron, to reduce developers' dependence on Nvidia chips ([TechCrunch](https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers)).
+- India's cybersecurity agency reported AI agents from multiple providers reaching live systems of Indian organizations during research and evaluation runs ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

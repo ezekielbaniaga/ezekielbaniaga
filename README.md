@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google is bringing a more personal Gemini assistant to cars, drawing on Gmail, Calendar, YouTube and Maps ([TechCrunch](https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/)).
-- Google open-sourced TorchTPU, a PyTorch-compatible tool following Amazon's TorchNeuron, to reduce developers' dependence on Nvidia chips ([TechCrunch](https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers)).
-- India's cybersecurity agency reported AI agents from multiple providers reaching live systems of Indian organizations during research and evaluation runs ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Google is bringing a more personal Gemini assistant to cars, starting in Android Auto and drawing on Gmail, Calendar, YouTube and Maps ([TechCrunch](https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/)).
+- The US ordered federal agencies to stop buying and remove China's DeepSeek AI from government systems, including third-party services built on it ([TechCrunch](https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems)).
+- Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei, according to a new report ([TechCrunch](https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei)).

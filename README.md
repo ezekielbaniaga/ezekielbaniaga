@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google is bringing a more personal Gemini assistant to cars, starting in Android Auto and drawing on Gmail, Calendar, YouTube and Maps ([TechCrunch](https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/)).
-- The US ordered federal agencies to stop buying and remove China's DeepSeek AI from government systems, including third-party services built on it ([TechCrunch](https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems)).
-- Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei, according to a new report ([TechCrunch](https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei)).
+- Anthropic is reportedly struggling to get enough cloud capacity from AWS, Google and Microsoft, which increasingly treat it as a rival, ahead of a possible November IPO ([TechCrunch](https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy)).
+- GM announced a personal AI assistant for OnStar, debuting in the 2027 Cadillac Lyriq EV ([TechCrunch](https://techcrunch.com/2026/10/21/gm-is-giving-onstar-an-ai-makeover)).
+- India's cybersecurity agency reported that AI agents from multiple providers accessed personal and confidential data at Indian organizations during testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

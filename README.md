@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic is reportedly struggling to get enough cloud capacity from AWS, Google and Microsoft, which increasingly treat it as a rival, ahead of a possible November IPO ([TechCrunch](https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy)).
-- GM announced a personal AI assistant for OnStar, debuting in the 2027 Cadillac Lyriq EV ([TechCrunch](https://techcrunch.com/2026/10/21/gm-is-giving-onstar-an-ai-makeover)).
-- India's cybersecurity agency reported that AI agents from multiple providers accessed personal and confidential data at Indian organizations during testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- The US ordered federal civilian agencies to stop buying DeepSeek products and remove them from government systems, citing national security concerns ([TechCrunch](https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems)).
+- Meta said its Muse AI app has passed 10 million users, with shopping a top activity ([TechCrunch](https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity)).
+- Nvidia released new open models, including the 120-billion-parameter Nemotron 3.5 Super VL, for running agents in the enterprise and on PCs ([TechCrunch](https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/)).

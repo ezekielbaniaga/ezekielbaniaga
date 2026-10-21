@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Replit made OpenAI's ChatGPT its default model provider over Anthropic's Claude, though customers can still access Anthropic models on the platform ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)).
-- Nscale and Anthropic are reportedly in talks for a second roughly $45 billion compute deal, following an August agreement of the same size ([TechCrunch](https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/)).
-- Nvidia released new open-weight models, including the 120B-parameter Nemotron 3.5 Super VL for enterprise agents and lightweight Bolt models for local AI PCs ([TechCrunch](https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/)).
+- Google open-sourced TorchTPU, joining Amazon's TorchNeuron in letting PyTorch AI apps move off Nvidia hardware onto its own chips ([TechCrunch](https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers)).
+- OpenAI acquired Orchestra Bio, a four-year-old AI biotech software startup, to expand its biotech business ([TechCrunch](https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%E2%81%A0-to-beef-up-its-biotech-business)).
+- Anthropic's cloud partnerships are getting messy as it works to secure enough compute ahead of a targeted November IPO ([TechCrunch](https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- While Amazon blocks AI agents from its site, Walmart is welcoming them with technology that lets agents make purchases for customers, with spending controls and approvals ([TechCrunch](https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat)).
-- Recursive launched Flint, a free coding model that runs on a laptop and was built largely with the help of AI, as an early public test of recursive self-improvement ([TechCrunch](https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai)).
+- Meta plans to fund its broad AI buildout by creating a new class of non-voting stock distributed to existing shareholders as a stock dividend ([TechCrunch](https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock)).
+- Replit's CEO said OpenAI is now the platform's default model over Anthropic, though insiders dispute how fully Anthropic was cut out ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)).
 - Meta said its Muse AI app has passed 10 million users, with shopping among the top activities ([TechCrunch](https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity)).

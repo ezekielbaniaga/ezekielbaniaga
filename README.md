@@ -25,5 +25,5 @@
 ## AI News
 
 - Anthropic launched Claude Duet, a personal and productivity agent app for iOS, Android and the web, in research preview for Pro and Max customers ([TechCrunch](https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents)).
+- Microsoft AI chief Mustafa Suleyman said its diagnostic system, described in a Science study, correctly solved complex medical cases in simulation more than twice as often as generalist physicians as he pursues "medical superintelligence" ([TechCrunch](https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/)).
 - The US ordered federal civilian agencies to remove DeepSeek products and services built on its technology, citing national security, while Beijing pushed back ([TechCrunch](https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/)).
-- Recursive launched Flint, a free laptop-capable coding model it says was largely built by its own AI research system in under four months ([TechCrunch](https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/)).

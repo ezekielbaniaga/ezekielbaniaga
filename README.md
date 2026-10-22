@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google is bringing a more personal version of Gemini to cars, pulling from services like Gmail and Calendar, starting in Android Auto ([TechCrunch](https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/)).
 - While Amazon blocks AI agents from its site, Walmart is welcoming them with technology that lets agents make purchases for customers, with spending controls and approvals ([TechCrunch](https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat)).
+- Recursive launched Flint, a free coding model that runs on a laptop and was built largely with the help of AI, as an early public test of recursive self-improvement ([TechCrunch](https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai)).
 - Meta said its Muse AI app has passed 10 million users, with shopping among the top activities ([TechCrunch](https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity)).

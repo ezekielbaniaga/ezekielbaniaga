@@ -25,5 +25,5 @@
 ## AI News
 
 - Anthropic launched Claude Duet, a personal and productivity agent app for iOS, Android and the web, in research preview for Pro and Max customers ([TechCrunch](https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents)).
-- Microsoft AI chief Mustafa Suleyman said its diagnostic system, described in a Science study, correctly solved complex medical cases in simulation more than twice as often as generalist physicians as he pursues "medical superintelligence" ([TechCrunch](https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/)).
-- The US ordered federal civilian agencies to remove DeepSeek products and services built on its technology, citing national security, while Beijing pushed back ([TechCrunch](https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/)).
+- OpenAI made its Decisions API, a decision model announced at its September developer day, available to all customers as competition among decision models heats up ([TechCrunch](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/)).
+- DeepSeek reportedly raised about $15 billion just two days after the US ordered federal agencies to remove its technology over security concerns ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).

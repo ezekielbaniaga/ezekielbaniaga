@@ -26,4 +26,4 @@
 
 - Google is bringing a more personal version of Gemini to cars, pulling from services like Gmail and Calendar, starting in Android Auto ([TechCrunch](https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/)).
 - While Amazon blocks AI agents from its site, Walmart is welcoming them with technology that lets agents make purchases for customers, with spending controls and approvals ([TechCrunch](https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat)).
-- Anthropic introduced Claude Duet, a mobile and desktop agent that proactively takes actions across connected apps, in research preview for US Pro and Max subscribers ([VentureBeat](https://venturebeat.com/technology/anthropics-answer-to-muse-is-here-claude-duet-a-mobile-and-desktop-ai-agent-that-takes-actions-proactively)).
+- Meta said its Muse AI app has passed 10 million users, with shopping among the top activities ([TechCrunch](https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity)).

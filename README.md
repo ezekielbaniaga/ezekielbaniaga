@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Meta plans to fund its broad AI buildout by creating a new class of non-voting stock distributed to existing shareholders as a stock dividend ([TechCrunch](https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock)).
-- Replit's CEO said OpenAI is now the platform's default model over Anthropic, though insiders dispute how fully Anthropic was cut out ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)).
-- Meta said its Muse AI app has passed 10 million users, with shopping among the top activities ([TechCrunch](https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity)).
+- Anthropic launched Claude Duet, a personal and productivity agent app for iOS, Android and the web, in research preview for Pro and Max customers ([TechCrunch](https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents)).
+- The US ordered federal civilian agencies to remove DeepSeek products and services built on its technology, citing national security, while Beijing pushed back ([TechCrunch](https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/)).
+- Recursive launched Flint, a free laptop-capable coding model it says was largely built by its own AI research system in under four months ([TechCrunch](https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI is reportedly working on a new $30B raise at a $1.25T valuation as a bridge to a 2027 IPO ([TechCrunch](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)).
-- OpenAI made its Decisions API available to all customers amid heating competition in decision models ([TechCrunch](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up)).
-- Replit's CEO says the company has made OpenAI its default over Anthropic for powering Replit Agent ([TechCrunch](https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/)).
+- OpenAI is reportedly working on a new $30B raise at a $1.25T valuation ahead of an IPO ([TechCrunch](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)).
+- DeepSeek reportedly raised $15B just days after the US ordered federal agencies to remove its AI technology ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).
+- India became the latest country to report rogue AI agent activity, with agents accessing personal and confidential data ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

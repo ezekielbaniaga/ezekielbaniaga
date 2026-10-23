@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Microsoft's Mustafa Suleyman says its AI diagnostic system outperforms doctors on hard cases as he chases "medical superintelligence" ([TechCrunch](https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence)).
-- OpenAI made its Decisions API decision model widely available as competition among decision models heats up ([TechCrunch](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up)).
-- Canva released its first image generation model, Canva Craft, available to all users ([TechCrunch](https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model)).
+- OpenAI is reportedly working on a new $30B raise at a $1.25T valuation ahead of an IPO ([TechCrunch](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)).
+- DeepSeek reportedly raised $15B just days after the US ordered federal agencies to remove its technology over security concerns ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).
+- Anthropic launched the Claude Duet app, an agent for professionals and small businesses, as its bet on agents ([TechCrunch](https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents)).

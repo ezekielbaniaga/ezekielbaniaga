@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic launched Claude Duet, a personal and productivity agent app for iOS, Android and the web, in research preview for Pro and Max customers ([TechCrunch](https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents)).
-- OpenAI made its Decisions API, a decision model announced at its September developer day, available to all customers as competition among decision models heats up ([TechCrunch](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/)).
-- DeepSeek reportedly raised about $15 billion just two days after the US ordered federal agencies to remove its technology over security concerns ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).
+- Microsoft's Mustafa Suleyman says its AI diagnostic system outperforms doctors on hard cases as he chases "medical superintelligence" ([TechCrunch](https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence)).
+- OpenAI made its Decisions API decision model widely available as competition among decision models heats up ([TechCrunch](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up)).
+- Canva released its first image generation model, Canva Craft, available to all users ([TechCrunch](https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model)).

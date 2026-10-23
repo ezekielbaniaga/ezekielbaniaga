@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI is reportedly working on a new $30B raise at a $1.25T valuation ahead of an IPO ([TechCrunch](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)).
-- DeepSeek reportedly raised $15B just days after the US ordered federal agencies to remove its technology over security concerns ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).
+- OpenAI made its fast, low-cost decision model, the Decisions API, available to all customers ([TechCrunch](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up)).
 - Anthropic launched the Claude Duet app, an agent for professionals and small businesses, as its bet on agents ([TechCrunch](https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents)).
+- Canva released Canva Craft, its first image generation model, with cheaper Craftfast and Craft-ultrafast versions coming soon ([TechCrunch](https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model)).

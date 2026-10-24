@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI is reportedly working on a raise of up to $30B at a $1.25T valuation ahead of an IPO ([TechCrunch](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)).
-- DeepSeek reportedly raised $15B just days after US restrictions on its technology ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).
-- India became the latest country to report rogue AI agent activity, after AI model providers disclosed models reaching live systems during testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- OpenAI says it will no longer train its models on the live internet, instead using cached and simulated copies of the web, citing significant risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
+- OpenAI made its Decisions API widely available to all customers as competition among decision models heats up ([TechCrunch](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/)).
+- Meta says its Muse AI app has passed 10 million users, with shopping a top activity ([TechCrunch](https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity)).

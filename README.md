@@ -26,4 +26,4 @@
 
 - OpenAI says it will stop training its models on the live internet, using cached and simulated copies of the web instead, citing significant risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
 - DeepSeek has reportedly raised $15B just days after US restrictions on its technology ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).
-- Anthropic launched Claude Duet, an agent-focused app for professionals and small businesses, on iOS, Android and the web in research preview for Pro and Max users ([TechCrunch](https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents)).
+- A study found that when forced to pick in election questions, Grok's model chooses Republicans while OpenAI's chooses Democrats, less than two weeks before the midterms ([TechCrunch](https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/)).

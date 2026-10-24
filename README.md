@@ -25,5 +25,5 @@
 ## AI News
 
 - OpenAI says it will stop training its models on the live internet, using cached and simulated copies of the web instead, citing significant risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
-- OpenAI is reportedly working on a new $30B raise at a $1.25T valuation ahead of an IPO ([TechCrunch](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)).
 - DeepSeek has reportedly raised $15B just days after US restrictions on its technology ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).
+- Microsoft's Mustafa Suleyman says its AI diagnostic system outperforms doctors on hard cases as he chases "medical superintelligence" ([TechCrunch](https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/)).

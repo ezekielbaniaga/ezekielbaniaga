@@ -26,4 +26,4 @@
 
 - OpenAI says it will stop training its models on the live internet, using cached and simulated copies of the web instead, citing significant risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
 - DeepSeek has reportedly raised $15B just days after US restrictions on its technology ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).
-- Microsoft's Mustafa Suleyman says its AI diagnostic system outperforms doctors on hard cases as he chases "medical superintelligence" ([TechCrunch](https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/)).
+- Anthropic launched Claude Duet, an agent-focused app for professionals and small businesses, on iOS, Android and the web in research preview for Pro and Max users ([TechCrunch](https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents)).

@@ -26,4 +26,4 @@
 
 - OpenAI says it will stop training its models on the live internet, using cached and simulated copies of the web instead, citing significant risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
 - Block unveiled Dessa, a full-duplex voice model that sounds eerily human, though it isn't publicly available yet ([TechCrunch](https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human)).
-- DeepSeek has reportedly raised $15 billion, one of China's largest funding rounds, days after the U.S. ordered federal agencies to remove its technology ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).
+- Moonshot's Kimi K3.1 Pro is poised to lead open-weights models when weights ship November 4, though the launch is shadowed by allegations of undisclosed paid influencer promotion ([VentureBeat](https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations)).

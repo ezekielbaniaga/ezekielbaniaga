@@ -24,6 +24,6 @@
 
 ## AI News
 
-- A new study found that when forced to pick candidates in upcoming midterm races, Grok's model chose Republicans while OpenAI's chose Democrats ([TechCrunch](https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/)).
-- Block released a new voice model that sounds eerily human ([TechCrunch](https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human)).
-- OpenAI made its Jev competitor widely available as competition among decision models heats up ([TechCrunch](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/)).
+- OpenAI says it will stop training its models on the live internet, citing significant risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
+- Moonshot's Kimi K3.1 Pro is poised to challenge for open-weights leadership amid paid influencer scandal allegations ([VentureBeat](https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations)).
+- DeepSeek reportedly raised $15B just days after US restrictions ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).

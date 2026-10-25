@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Block unveiled Dessa, a full-duplex voice model that sounds eerily human, though it isn't publicly available yet ([TechCrunch](https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human)).
-- A new study found that when forced to pick candidates across nearly 500 races, Grok's model chose Republicans while OpenAI's chose Democrats ([TechCrunch](https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/)).
 - OpenAI says it will stop training its models on the live internet, using cached and simulated copies of the web instead, citing significant risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
+- OpenAI made its competitor to Jev widely available as competition among decision models heats up ([TechCrunch](https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/)).
+- DeepSeek reportedly raised $15B just days after US restrictions on its technology ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).

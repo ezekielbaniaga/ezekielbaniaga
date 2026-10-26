@@ -26,4 +26,4 @@
 
 - OpenAI says it will stop training its frontier models on the live internet, using cached and simulated copies of the web instead, citing "significant risks" ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
 - A study of nearly 500 midterm races found Grok's model picks Republicans and OpenAI's picks Democrats, agreeing less than 10% of the time ([TechCrunch](https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/)).
-- Block unveiled a locally run, full-duplex voice model that sounds eerily human and is asking safety researchers to test it before release ([TechCrunch](https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human)).
+- OpenAI is reportedly negotiating a pre-IPO bridge round of up to $30B at a $1.25T pre-money valuation, led by Coatue and UAE investors ([TechCrunch](https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/)).

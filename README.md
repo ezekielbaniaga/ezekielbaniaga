@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic has officially filed for its public debut under the ticker "ANT", reporting $16.3 billion in revenue for the first half of 2026 ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut)).
-- Grok has released the first seven minutes of its AI-generated "Odyssey", billed as "Episode 1" of a series ([TechCrunch](https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey)).
-- MIT Technology Review's daily newsletter reports that 22 nations have called for a new global body to oversee AI, alongside concerns over everyday AI harms ([MIT Technology Review](https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/)).
+- Anthropic has filed for its public debut under the ticker "ANT", reporting $16.3 billion in revenue for the first half of 2026 ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut)).
+- OpenAI says it will stop training its models on the live internet, citing significant risks, and will use cached and simulated copies of the web instead ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
+- Canva has released its first image generation model, Canva Craft, entering a field that includes Google, OpenAI, ByteDance and Meta ([TechCrunch](https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model)).

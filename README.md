@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI says it will stop training its models on the live internet, citing significant risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
-- Moonshot's Kimi K3.1 Pro is poised to challenge for open-weights leadership amid paid influencer scandal allegations ([VentureBeat](https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations)).
+- Moonshot's Kimi K3.1 Pro, a 3-trillion-parameter model with open weights due November 4, is poised to take the top open-weights spot amid paid influencer scandal allegations ([VentureBeat](https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations)).
+- Microsoft's Mustafa Suleyman says its AI diagnostic system outperforms doctors on hard cases as he chases "medical superintelligence" ([TechCrunch](https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/)).
 - DeepSeek reportedly raised $15B just days after US restrictions ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).

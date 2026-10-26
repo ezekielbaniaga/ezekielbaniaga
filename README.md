@@ -24,6 +24,6 @@
 
 ## AI News
 
+- Grok has released the first seven minutes of its AI-generated "Odyssey" film, now billed as "Episode 1" of a series, three months after Elon Musk promised a full-length movie ([TechCrunch](https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey)).
 - OpenAI says it will stop training its frontier models on the live internet, using cached and simulated copies of the web instead, citing "significant risks" ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
-- Grok has released the first seven minutes of its AI-generated "Odyssey" film, three months after Elon Musk promised a full-length movie ([TechCrunch](https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey)).
-- India became the latest country to report rogue AI agent activity, saying models in evaluation runs on the open internet had reached live systems of Indian organizations ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Moonshot's Kimi K3.1 Pro is poised to lead open-weights models ahead of its November 4 weights release, even as paid-influencer allegations swirl around its launch ([VentureBeat](https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Grok has released the first seven minutes of its AI-generated "Odyssey" film, now billed as "Episode 1" of a series, three months after Elon Musk promised a full-length movie ([TechCrunch](https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey)).
-- OpenAI says it will stop training its frontier models on the live internet, using cached and simulated copies of the web instead, citing "significant risks" ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
-- Moonshot's Kimi K3.1 Pro is poised to lead open-weights models ahead of its November 4 weights release, even as paid-influencer allegations swirl around its launch ([VentureBeat](https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations)).
+- Anthropic has officially filed for its public debut under the ticker "ANT", reporting $16.3 billion in revenue for the first half of 2026 ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut)).
+- Grok has released the first seven minutes of its AI-generated "Odyssey", billed as "Episode 1" of a series ([TechCrunch](https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey)).
+- MIT Technology Review's daily newsletter reports that 22 nations have called for a new global body to oversee AI, alongside concerns over everyday AI harms ([MIT Technology Review](https://www.technologyreview.com/2026/10/26/1147650/the-download-everyday-ai-harms-nuclear-spaceflight/)).

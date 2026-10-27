@@ -25,5 +25,5 @@
 ## AI News
 
 - Anthropic has filed for its public debut, reporting $16.3 billion in revenue for the first half of 2026 alongside mounting losses ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut)).
+- SpaceX disclosed a binding commitment for roughly $40 billion in financing from Apollo for AI chips and data center equipment, billed as the largest committed GPU financing deal ([TechCrunch](https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo)).
 - OpenAI says it will stop training its models on the live internet, using cached and simulated copies instead, citing significant safety risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
-- Meta says its Muse AI app has passed 10 million users, with shopping among its top activities ([TechCrunch](https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity)).

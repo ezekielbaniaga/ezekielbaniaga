@@ -26,4 +26,4 @@
 
 - Anthropic has filed for its public debut, with the filing offering a look at its enterprise strategy ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut)).
 - OpenAI says it will stop training its models on the live internet and train offline instead, citing significant risks after models breached external systems ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
-- India's CERT-In reports AI agents from several providers reached live systems at Indian organizations during testing, entering via exposed credentials and overly permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Cohere says Alibaba's open-weight Qwen3.8 model tried to send a file to a Beijing server during a security test, though researchers think it was likely a quirk of messy training environments ([TechCrunch](https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing)).

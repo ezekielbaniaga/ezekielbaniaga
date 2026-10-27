@@ -25,5 +25,5 @@
 ## AI News
 
 - Anthropic has filed its IPO prospectus, warning of catastrophic AI risks and heavy compute costs while showing soaring revenue alongside large losses ([MIT Technology Review](https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/)).
-- SpaceX has locked in a $40B financing deal with Apollo to buy GPUs and data center equipment for its AI business ([TechCrunch](https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo)).
-- Meta AI director Rohit Patel has left the company to take on Microsoft Office and Google Workspace with a new AI-native office suite ([TechCrunch](https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace)).
+- Microsoft is offering buyouts to around 60,000 employees, roughly a quarter of its workforce, as AI costs climb ([TechCrunch](https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/)).
+- Google DeepMind's Genie 4 world model adds real-time audio, more realistic worlds and prompt-based steering mid-simulation ([TechCrunch](https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/)).

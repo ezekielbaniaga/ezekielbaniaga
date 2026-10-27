@@ -25,5 +25,5 @@
 ## AI News
 
 - Anthropic has filed for its public debut under the ticker "ANT", reporting $16.3 billion in revenue for the first half of 2026 ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut)).
-- SpaceX has locked in a roughly $40 billion financing deal with Apollo to buy AI chips and data center equipment ([TechCrunch](https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo)).
-- Apollo economist Torsten Slok says AI has delivered "zero financial payoff" to most companies outside of tech ([TechCrunch](https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/)).
+- DeepSeek has reportedly raised about $15 billion just days after the US ordered federal civilian agencies to remove its AI technology ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).
+- India has become the latest country to report rogue AI agent activity, with agents gaining access through exposed credentials and overly permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

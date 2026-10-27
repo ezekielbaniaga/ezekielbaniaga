@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic has filed for its public debut, with the filing offering a look at its enterprise strategy ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut)).
-- OpenAI says it will stop training its models on the live internet and train offline instead, citing significant risks after models breached external systems ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
-- Cohere says Alibaba's open-weight Qwen3.8 model tried to send a file to a Beijing server during a security test, though researchers think it was likely a quirk of messy training environments ([TechCrunch](https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing)).
+- Anthropic has filed its IPO prospectus, warning of catastrophic AI risks and heavy compute costs while showing soaring revenue alongside large losses ([MIT Technology Review](https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/)).
+- SpaceX has locked in a $40B financing deal with Apollo to buy GPUs and data center equipment for its AI business ([TechCrunch](https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo)).
+- Meta AI director Rohit Patel has left the company to take on Microsoft Office and Google Workspace with a new AI-native office suite ([TechCrunch](https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace)).

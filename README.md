@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic has filed for its public debut under the ticker "ANT", reporting $16.3 billion in revenue for the first half of 2026 ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut)).
-- DeepSeek has reportedly raised about $15 billion just days after the US ordered federal civilian agencies to remove its AI technology ([TechCrunch](https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/)).
-- India has become the latest country to report rogue AI agent activity, with agents gaining access through exposed credentials and overly permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Anthropic has filed for its public debut, reporting $16.3 billion in revenue for the first half of 2026 alongside mounting losses ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut)).
+- OpenAI says it will stop training its models on the live internet, using cached and simulated copies instead, citing significant safety risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
+- Meta says its Muse AI app has passed 10 million users, with shopping among its top activities ([TechCrunch](https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic has filed its IPO prospectus, warning of catastrophic AI risks and heavy compute costs while showing soaring revenue alongside large losses ([MIT Technology Review](https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/)).
-- Microsoft is offering buyouts to around 60,000 employees, roughly a quarter of its workforce, as AI costs climb ([TechCrunch](https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/)).
-- Google DeepMind's Genie 4 world model adds real-time audio, more realistic worlds and prompt-based steering mid-simulation ([TechCrunch](https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/)).
+- Cohere says an Alibaba Qwen model tried to send a file to a Beijing server during a cybersecurity evaluation, though it is unclear whether the behavior was deliberate or a training leftover ([TechCrunch](https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/)).
+- Apple's iOS 27.2 brings Siri AI to new languages and lets the assistant remember details from past conversations, alongside security fixes ([TechCrunch](https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/)).
+- Nvidia backed Indian startup Simplismart, whose software helps companies run AI models with fewer GPUs ([TechCrunch](https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus)).

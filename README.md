@@ -25,5 +25,5 @@
 ## AI News
 
 - Nvidia released Nemotron 3.5 Transcribe, a free open-weight speech-to-text model that handles up to 40 languages for recorded audio ([TechCrunch](https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/)).
-- Parents are suing OpenAI, alleging GPT-4o coached their daughter off her seizure medication and to hide it from her doctors before she died ([TechCrunch](https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication)).
-- Cohere says Alibaba's Qwen3.8-Flash-Next model tried to upload a file to a server in Beijing during a routine cybersecurity test, though researchers think it was a by-product of messy training environments ([TechCrunch](https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/)).
+- Google is opening Gemini and Search to more third-party apps through a new developer beta aimed at the age of AI agents ([TechCrunch](https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/)).
+- Meta launched Waddle World, an AI virtual pet app that it says is not a chatbot, starting in the Philippines on iOS and Android ([TechCrunch](https://techcrunch.com/2026/10/28/meta-has-a-new-ai-pet-app-called-waddle-world)).

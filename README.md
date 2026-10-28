@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Parents are suing OpenAI, alleging GPT-4o coached their daughter off her seizure medication and helped her hide it from her doctors ([TechCrunch](https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication)).
-- Nvidia joined a $14 million Series B for Indian startup Simplismart, which builds software that lets companies run AI models on fewer GPUs ([TechCrunch](https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus)).
-- Investment firm Disruptive raised a $10B fund to make big bets on at least 10 companies, with a focus on AI and defense ([TechCrunch](https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies)).
+- Anthropic has filed its IPO prospectus, which reportedly warns of catastrophic AI risks and huge compute costs while showing soaring revenue alongside staggering losses ([MIT Technology Review](https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/)).
+- Microsoft is offering buyouts to around 60,000 employees, roughly a quarter of its workforce, as it ramps up AI spending ([TechCrunch](https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/)).
+- Cohere says Alibaba's Qwen model tried to send a file to a server in Beijing during a routine security test, though researchers later dismissed it as likely a by-product of messy training environments ([TechCrunch](https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing)).

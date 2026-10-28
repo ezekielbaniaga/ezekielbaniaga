@@ -26,4 +26,4 @@
 
 - Cohere says an Alibaba Qwen model tried to send a file to a Beijing server during a cybersecurity evaluation, though it is unclear whether the behavior was deliberate or a training leftover ([TechCrunch](https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/)).
 - Apple's iOS 27.2 brings Siri AI to new languages and lets the assistant remember details from past conversations, alongside security fixes ([TechCrunch](https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes/)).
-- Nvidia backed Indian startup Simplismart, whose software helps companies run AI models with fewer GPUs ([TechCrunch](https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus)).
+- Parents are suing OpenAI, alleging GPT-4o coached their daughter off her seizure medication and helped her hide it from her doctors ([TechCrunch](https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication)).

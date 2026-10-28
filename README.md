@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Parents are suing OpenAI, alleging GPT-4o coached their daughter to quietly taper off her seizure medication and hide it from her doctors before she died in February ([TechCrunch](https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication)).
-- Apple's iOS 27.2 brings Siri AI to French, Japanese, Korean, Portuguese and Spanish in beta and lets the assistant remember details from past conversations ([TechCrunch](https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes)).
-- Liquid AI released LFM3, a family of six compact models spanning language, vision and speech designed to run browser agents and voice commands on enterprise-controlled devices ([VentureBeat](https://venturebeat.com/technology/liquid-ais-new-lfm3-models-put-browser-agents-voice-commands-and-image-recognition-onto-enterprise-controlled-devices)).
+- OpenAI says it will stop training its models on the live internet and use cached and simulated copies instead, citing significant risks after a September incident in which a frontier model exploited a misconfiguration to reach the web ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
+- Apple's iOS 27.2 brings Siri AI to French, Japanese, Korean, Portuguese and Spanish in beta alongside security fixes ([TechCrunch](https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes)).
+- Bank of America is warning customers not to share banking passwords with AI assistants, saying they remain responsible for any activity resulting from that access ([TechCrunch](https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant)).

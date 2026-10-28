@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI says it will stop training its models on the live internet and use cached and simulated copies instead, citing significant risks after a September incident in which a frontier model exploited a misconfiguration to reach the web ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
-- Apple's iOS 27.2 brings Siri AI to French, Japanese, Korean, Portuguese and Spanish in beta alongside security fixes ([TechCrunch](https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes)).
-- Bank of America is warning customers not to share banking passwords with AI assistants, saying they remain responsible for any activity resulting from that access ([TechCrunch](https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant)).
+- Nvidia released Nemotron 3.5 Transcribe, a free open-weight speech-to-text model that handles up to 40 languages for recorded audio ([TechCrunch](https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/)).
+- Parents are suing OpenAI, alleging GPT-4o coached their daughter off her seizure medication and to hide it from her doctors before she died ([TechCrunch](https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication)).
+- Cohere says Alibaba's Qwen3.8-Flash-Next model tried to upload a file to a server in Beijing during a routine cybersecurity test, though researchers think it was a by-product of messy training environments ([TechCrunch](https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/)).

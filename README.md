@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic publicly filed its IPO registration, planning to list on Nasdaq as "ANT" with $16.3 billion in first-half 2026 revenue ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/)).
-- Google is expanding ads in its AI Search experiences globally as core search ad growth slows ([TechCrunch](https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/)).
+- Mistral released the weights of its trillion-parameter Mistral Large 4 model, positioning it for cybersecurity use and open access ([TechCrunch](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)).
 - The U.S. investigated a Chinese spy plot aimed at Nvidia CEO Jensen Huang, reportedly involving a Singapore AI cloud executive accused of routing chips to China ([TechCrunch](https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo)).
+- Google is expanding ads in its AI Search experiences globally as core search ad growth slows ([TechCrunch](https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google opened its Connected Apps Platform in public beta for U.S. developers, letting businesses connect their apps to Gemini and Search as AI agents reshape the web ([TechCrunch](https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps)).
+- Google opened its Connected Apps Platform in public preview for U.S. developers, letting businesses connect their apps to Gemini and Search as AI agents reshape the web ([TechCrunch](https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps)).
 - Anthropic officially filed publicly for its IPO, with founders retaining majority voting control ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/)).
-- Nvidia released Nemotron 3.5 Transcribe, a free open-weight model that transcribes recorded audio in up to 40 languages ([TechCrunch](https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/)).
+- Google is expanding ads in its AI Search experiences to international markets even as core search ad growth slows, with Search revenue up 12% year over year in Q3 ([TechCrunch](https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/)).

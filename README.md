@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google opened its Connected Apps Platform in public preview for U.S. developers, letting businesses connect their apps to Gemini and Search as AI agents reshape the web ([TechCrunch](https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps)).
-- Anthropic officially filed publicly for its IPO, with founders retaining majority voting control ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/)).
-- Google is expanding ads in its AI Search experiences to international markets even as core search ad growth slows, with Search revenue up 12% year over year in Q3 ([TechCrunch](https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/)).
+- Anthropic launched reporting tools that show companies what their AI spending is buying, letting managers see what teams produced with AI and what it cost ([TechCrunch](https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/)).
+- Wabi, an AI agent that builds mini apps, raised $55 million at a $1.25 billion valuation ([TechCrunch](https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/)).
+- Amazon updated Alexa with new features to manage shopping lists, subscriptions and delivery instructions ([TechCrunch](https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions)).

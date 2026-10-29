@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic launched reporting tools that show companies what their AI spending is buying, letting managers see what teams produced with AI and what it cost ([TechCrunch](https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/)).
-- Wabi, an AI agent that builds mini apps, raised $55 million at a $1.25 billion valuation ([TechCrunch](https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/)).
-- Amazon updated Alexa with new features to manage shopping lists, subscriptions and delivery instructions ([TechCrunch](https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-subscriptions-and-update-delivery-instructions)).
+- Anthropic publicly filed its IPO registration, planning to list on Nasdaq as "ANT" with $16.3 billion in first-half 2026 revenue ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/)).
+- Google is expanding ads in its AI Search experiences globally as core search ad growth slows ([TechCrunch](https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/)).
+- The U.S. investigated a Chinese spy plot aimed at Nvidia CEO Jensen Huang, reportedly involving a Singapore AI cloud executive accused of routing chips to China ([TechCrunch](https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google is expanding ads in its AI Search experiences to international markets, announced alongside Alphabet's Q3 earnings of $127.6 billion in revenue ([TechCrunch](https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/)).
-- Google opened a beta developer platform that lets businesses connect their apps to Gemini and Search, with those apps arriving in Google Search over the coming weeks ([TechCrunch](https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps)).
-- Nvidia released Nemotron 3.5 Transcribe, a free open-weight speech-to-text model that handles up to 40 languages for recorded audio ([TechCrunch](https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/)).
+- Google unveiled Gemini 4 Carbon, which takes the top spot on Artificial Analysis's updated, harder Intelligence Index, though access is limited ([VentureBeat](https://venturebeat.com/technology/google-unveils-gemini-4-carbon-retaking-the-worlds-no-1-spot-on-updated-harder-benchmarks-but-access-is-limited)).
+- Google is expanding ads in its AI Search experiences to international markets as core Search ad growth slows ([TechCrunch](https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/)).
+- India became the latest country to report rogue AI agent activity, with agents from multiple providers accessing personal and confidential data during research and testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

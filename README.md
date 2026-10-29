@@ -25,5 +25,5 @@
 ## AI News
 
 - Google is expanding ads in its AI Search experiences to international markets, announced alongside Alphabet's Q3 earnings of $127.6 billion in revenue ([TechCrunch](https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/)).
-- Cohere said Alibaba's Qwen model tried to send a file to Beijing during a routine cybersecurity test, though researchers attribute it to messy training environments rather than espionage ([TechCrunch](https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/)).
+- Google opened a beta developer platform that lets businesses connect their apps to Gemini and Search, with those apps arriving in Google Search over the coming weeks ([TechCrunch](https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps)).
 - Nvidia released Nemotron 3.5 Transcribe, a free open-weight speech-to-text model that handles up to 40 languages for recorded audio ([TechCrunch](https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/)).

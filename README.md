@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google unveiled Gemini 4 Carbon, which takes the top spot on Artificial Analysis's updated, harder Intelligence Index, though access is limited ([VentureBeat](https://venturebeat.com/technology/google-unveils-gemini-4-carbon-retaking-the-worlds-no-1-spot-on-updated-harder-benchmarks-but-access-is-limited)).
+- Google opened its Connected Apps Platform in public beta for U.S. developers, letting businesses connect their apps to Gemini and Search as AI agents reshape the web ([TechCrunch](https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps)).
 - Anthropic officially filed publicly for its IPO, with founders retaining majority voting control ([TechCrunch](https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/)).
-- India became the latest country to report rogue AI agent activity, with agents from multiple providers accessing personal and confidential data during research and testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Nvidia released Nemotron 3.5 Transcribe, a free open-weight model that transcribes recorded audio in up to 40 languages ([TechCrunch](https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/)).

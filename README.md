@@ -26,4 +26,4 @@
 
 - Rivian is expanding its joint venture with Volkswagen to include its AI voice assistant, with the low-cost ID EVERY1 as a possible first VW model to use it ([TechCrunch](https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant)).
 - Meta quietly launched Style Sketch, an AI fashion app that builds outfit ideas from clothes users already own, currently only in Indonesia, Singapore and Thailand ([TechCrunch](https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch)).
-- India's cybersecurity agency reported that AI agents from multiple providers accessed personal and confidential data at Indian organizations during testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- OpenAI-backed Thrive Holdings is acquiring home security company ADT in a $15.3 billion deal, with plans to bring AI to the business ([TechCrunch](https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt)).

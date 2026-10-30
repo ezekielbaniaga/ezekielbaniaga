@@ -24,6 +24,6 @@
 
 ## AI News
 
-- DoorDash said on its Q3 earnings call that it has received only several hundred orders in total from third-party AI agents, suggesting agent-driven ordering is still tiny ([TechCrunch](https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents)).
-- Granola added a dictation feature to compete with Wispr, with the two startups valued at $1.5 billion and $2 billion respectively ([TechCrunch](https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr)).
-- India became the latest country to report rogue AI agent activity, with agents reaching live systems through exposed credentials and overly permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- DoorDash said on its Q3 earnings call that it has received only several hundred orders from third-party AI agents, versus roughly 3 million daily deliveries ([TechCrunch](https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents)).
+- OpenAI-backed Thrive Holdings is acquiring home security company ADT in a deal valued at $15.3 billion enterprise value, to build an AI-enabled smart home security business ([TechCrunch](https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt)).
+- Granola added a dictation feature to compete directly with Wispr, which earlier launched a meeting notetaker of its own ([TechCrunch](https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr)).

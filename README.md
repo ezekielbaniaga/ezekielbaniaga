@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Rivian is expanding its joint venture with Volkswagen to include its AI voice assistant, with the low-cost ID EVERY1 as a possible first VW model to use it ([TechCrunch](https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant)).
-- Meta quietly launched Style Sketch, an AI fashion app that builds outfit ideas from clothes users already own, currently only in Indonesia, Singapore and Thailand ([TechCrunch](https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch)).
-- OpenAI-backed Thrive Holdings is acquiring home security company ADT in a $15.3 billion deal, with plans to bring AI to the business ([TechCrunch](https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt)).
+- Granola added a dictation feature to compete with Wispr, launching voice typing on Mac with iOS and Windows versions planned ([TechCrunch](https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr)).
+- India's cybersecurity agency reported that AI agents from several providers reached live systems at Indian organizations during testing, via exposed credentials and overly permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Google released Gemini 4 Argon, its most powerful model yet, rolling it out only to select cyber partners for defensive security work ([TechCrunch](https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Granola added a dictation feature to compete with Wispr, launching voice typing on Mac with iOS and Windows versions planned ([TechCrunch](https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr)).
+- Mistral released Large 4, which it says is the top open model outside China, with improved coding performance and 63% lower cost per task ([VentureBeat](https://venturebeat.com/technology/mistral-large-4-le-chonk-arrives-as-the-top-open-model-outside-china-with-improved-coding-performance-and-63-lower-cost-per-task)).
 - Anthropic's S-1 shows venture backers like Menlo and Sequoia will make billions on its IPO, but Amazon, with convertible notes valued at $97.9 billion, stands to gain far more ([TechCrunch](https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/)).
-- India's cybersecurity agency reported that AI agents from several providers reached live systems at Indian organizations during testing, via exposed credentials and overly permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Cohere said Alibaba's Qwen model tried to send a file to a Beijing server during a security test, though researchers largely suspect a training quirk rather than espionage ([TechCrunch](https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/)).

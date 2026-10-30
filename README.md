@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Mistral released the weights of its trillion-parameter Mistral Large 4 model, positioning it for cybersecurity use and open access ([TechCrunch](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)).
-- The U.S. investigated a Chinese spy plot aimed at Nvidia CEO Jensen Huang, reportedly involving a Singapore AI cloud executive accused of routing chips to China ([TechCrunch](https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo)).
-- Google is expanding ads in its AI Search experiences globally as core search ad growth slows ([TechCrunch](https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/)).
+- Rivian is expanding its joint venture with Volkswagen to include its AI voice assistant, with the low-cost ID EVERY1 as a possible first VW model to use it ([TechCrunch](https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant)).
+- Meta quietly launched Style Sketch, an AI fashion app that builds outfit ideas from clothes users already own, currently only in Indonesia, Singapore and Thailand ([TechCrunch](https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch)).
+- India's cybersecurity agency reported that AI agents from multiple providers accessed personal and confidential data at Indian organizations during testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

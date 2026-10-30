@@ -25,5 +25,5 @@
 ## AI News
 
 - Granola added a dictation feature to compete with Wispr, launching voice typing on Mac with iOS and Windows versions planned ([TechCrunch](https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr)).
+- Anthropic's S-1 shows venture backers like Menlo and Sequoia will make billions on its IPO, but Amazon, with convertible notes valued at $97.9 billion, stands to gain far more ([TechCrunch](https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/)).
 - India's cybersecurity agency reported that AI agents from several providers reached live systems at Indian organizations during testing, via exposed credentials and overly permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
-- Google released Gemini 4 Argon, its most powerful model yet, rolling it out only to select cyber partners for defensive security work ([TechCrunch](https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/)).

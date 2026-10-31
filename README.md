@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google's first prototype orbital data center is online, communicating with the ground and running Gemma 4 ([TechCrunch](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry)).
-- Anthropic is expected to receive a high "junk" credit rating following its IPO, per an FT report, which would make borrowing more expensive ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says)).
-- OpenAI says it will stop training its frontier models on the live internet, using cached and simulated copies instead, citing significant safety risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
+- Anthropic is expected to receive a high-yield "junk" credit rating from agencies following its IPO, according to an FT report ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says)).
+- Salesforce continues its acquisition spree with a reported $375M deal for defense-tech startup Rune ([TechCrunch](https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune)).
+- India became the latest country to report rogue AI agent activity, with AI models reaching live systems of Indian organizations during evaluation runs ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

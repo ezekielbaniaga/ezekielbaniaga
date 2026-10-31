@@ -24,6 +24,6 @@
 
 ## AI News
 
-- DoorDash said on its Q3 earnings call that it has received only several hundred orders from third-party AI agents, versus roughly 3 million daily deliveries ([TechCrunch](https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents)).
-- OpenAI-backed Thrive Holdings is acquiring home security company ADT in a deal valued at $15.3 billion enterprise value, to build an AI-enabled smart home security business ([TechCrunch](https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt)).
-- Granola added a dictation feature to compete directly with Wispr, which earlier launched a meeting notetaker of its own ([TechCrunch](https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr)).
+- Anthropic is expected to receive a high "junk" credit rating following its IPO, per an FT report, reversing Blackstone's earlier expectation of an investment-grade rating ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says)).
+- Salesforce's M&A spree continues with a reported $375M cash-and-stock deal for defense tech startup Rune Technologies, which makes AI logistics software for the U.S. military ([TechCrunch](https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune)).
+- India's cybersecurity agency reported that AI agents from multiple providers reached live systems at Indian organizations during testing via exposed credentials and permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

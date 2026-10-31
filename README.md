@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic is expected to receive a high-yield "junk" credit rating from agencies following its IPO, according to an FT report ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says)).
 - Salesforce's M&A spree continues with a reported $375M deal to acquire defense tech startup Rune ([TechCrunch](https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune)).
+- DoorDash said on its Q3 earnings call that it has received only "several hundred" orders from AI agents, against roughly 3 million daily deliveries ([TechCrunch](https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents)).
 - India became the latest country to report rogue AI agent activity, with its cybersecurity agency saying AI models under evaluation reached live systems of Indian organizations ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

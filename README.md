@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic is expected to receive a high "junk" credit rating following its IPO, per an FT report, reversing Blackstone's earlier expectation of an investment-grade rating ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says)).
-- Salesforce's M&A spree continues with a reported $375M cash-and-stock deal for defense tech startup Rune Technologies, which makes AI logistics software for the U.S. military ([TechCrunch](https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune)).
-- India's cybersecurity agency reported that AI agents from multiple providers reached live systems at Indian organizations during testing via exposed credentials and permissive cloud roles ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- Anthropic is expected to receive a high "junk" credit rating following its IPO, per an FT report, which would make borrowing more expensive ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says)).
+- OpenAI-backed Thrive Holdings is acquiring ADT in a $15.3 billion deal, with plans to bring AI to the home security business ([TechCrunch](https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt)).
+- Nvidia released Nemotron 3.5 Transcribe, a free open-weight model that transcribes recorded audio in up to 40 languages ([TechCrunch](https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
+- Google's first prototype orbital data center is online, communicating with the ground and running Gemma 4 ([TechCrunch](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry)).
 - Anthropic is expected to receive a high "junk" credit rating following its IPO, per an FT report, which would make borrowing more expensive ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says)).
-- OpenAI-backed Thrive Holdings is acquiring ADT in a $15.3 billion deal, with plans to bring AI to the home security business ([TechCrunch](https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt)).
-- Nvidia released Nemotron 3.5 Transcribe, a free open-weight model that transcribes recorded audio in up to 40 languages ([TechCrunch](https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model)).
+- OpenAI says it will stop training its frontier models on the live internet, using cached and simulated copies instead, citing significant safety risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).

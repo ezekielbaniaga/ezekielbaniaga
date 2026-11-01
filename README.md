@@ -26,4 +26,4 @@
 
 - OpenAI reportedly lowered its new funding round target to $20 billion, with about $11 billion secured so far ([TechCrunch](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)).
 - Anthropic, having filed to go public, is expected to receive a speculative-grade "junk" credit rating from agencies, according to the FT ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/)).
-- Nvidia released Nemotron 3.5 Transcribe, a free open-weight model that transcribes recorded audio in up to 40 languages ([TechCrunch](https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model)).
+- Wabi, the AI agent that builds mini apps, is now valued at $1.25 billion after its latest funding round ([TechCrunch](https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/)).

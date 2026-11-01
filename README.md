@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI reportedly lowered its new funding round target to $20 billion, with about $11 billion secured so far ([TechCrunch](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)).
-- Anthropic, having filed to go public, is expected to receive a speculative-grade "junk" credit rating from agencies, according to the FT ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/)).
-- Wabi, the AI agent that builds mini apps, is now valued at $1.25 billion after its latest funding round ([TechCrunch](https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/)).
+- Nvidia is weighing guaranteeing debt financing for Nscale's planned Anthropic-linked AI data center in West Virginia, per The Information ([TechCrunch](https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia)).
+- Mistral released the open weights of its trillion-parameter Mistral Large 4 model, targeting cybersecurity use ([TechCrunch](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)).
+- OpenAI says it will stop training its models on the live internet, using cached and simulated web copies instead, citing significant risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).

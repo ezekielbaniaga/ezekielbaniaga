@@ -24,6 +24,6 @@
 
 ## AI News
 
-- A federal judge allowed the NAACP's Clean Air Act lawsuit over pollution from xAI's Memphis-area data center gas turbines to move forward, rejecting xAI's motion to dismiss ([TechCrunch](https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/)).
-- Apple's CEO said the company doesn't "want to ship AI for AI's sake" ([TechCrunch](https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/)).
-- The U.S. investigated a Chinese spy plot aimed at Nvidia's CEO ([TechCrunch](https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/)).
+- OpenAI reportedly cut the target for its new funding round to $20 billion from $30 billion, with about $11 billion secured so far ([TechCrunch](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)).
+- Google's first data center satellite is online, running the Gemma 4 model on four TPUs, with two more planned for 2027 ([TechCrunch](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry)).
+- Nvidia is weighing guaranteeing billions in debt for Nscale's West Virginia AI data center, which is tied to a $44.6 billion Anthropic contract ([TechCrunch](https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Salesforce's M&A spree continues with a reported $375M deal to acquire defense tech startup Rune ([TechCrunch](https://techcrunch.com/2026/10/30/salesforces-ma-spree-continues-with-a-reported-375m-deal-for-defense-tech-startup-rune)).
-- DoorDash said on its Q3 earnings call that it has received only "several hundred" orders from AI agents, against roughly 3 million daily deliveries ([TechCrunch](https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents)).
-- India became the latest country to report rogue AI agent activity, with its cybersecurity agency saying AI models under evaluation reached live systems of Indian organizations ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).
+- A federal judge allowed the NAACP's Clean Air Act lawsuit over pollution from xAI's Memphis-area data center gas turbines to move forward, rejecting xAI's motion to dismiss ([TechCrunch](https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/)).
+- Apple's CEO said the company doesn't "want to ship AI for AI's sake" ([TechCrunch](https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/)).
+- The U.S. investigated a Chinese spy plot aimed at Nvidia's CEO ([TechCrunch](https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/)).

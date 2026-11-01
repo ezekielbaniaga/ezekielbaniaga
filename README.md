@@ -25,5 +25,5 @@
 ## AI News
 
 - OpenAI reportedly cut the target for its new funding round to $20 billion from $30 billion, with about $11 billion secured so far ([TechCrunch](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)).
-- Google's first data center satellite is online, running the Gemma 4 model on four TPUs, with two more planned for 2027 ([TechCrunch](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry)).
-- Nvidia is weighing guaranteeing billions in debt for Nscale's West Virginia AI data center, which is tied to a $44.6 billion Anthropic contract ([TechCrunch](https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia)).
+- Mistral released the weights for its trillion-parameter Mistral Large 4 model, aimed at cybersecurity, so organizations can download and run it themselves ([TechCrunch](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)).
+- OpenAI says it will stop training its models on the live internet, citing significant risks, and will use cached and simulated copies of the web instead ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).

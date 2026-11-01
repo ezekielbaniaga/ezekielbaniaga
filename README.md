@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI reportedly cut the target for its new funding round to $20 billion from $30 billion, with about $11 billion secured so far ([TechCrunch](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)).
-- Mistral released the weights for its trillion-parameter Mistral Large 4 model, aimed at cybersecurity, so organizations can download and run it themselves ([TechCrunch](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)).
-- OpenAI says it will stop training its models on the live internet, citing significant risks, and will use cached and simulated copies of the web instead ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
+- OpenAI reportedly lowered its new funding round target to $20 billion, with about $11 billion secured so far ([TechCrunch](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)).
+- Anthropic, having filed to go public, is expected to receive a speculative-grade "junk" credit rating from agencies, according to the FT ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/)).
+- Nvidia released Nemotron 3.5 Transcribe, a free open-weight model that transcribes recorded audio in up to 40 languages ([TechCrunch](https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model)).

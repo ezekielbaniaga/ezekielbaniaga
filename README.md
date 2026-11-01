@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Nvidia is weighing guaranteeing debt financing for Nscale's planned Anthropic-linked AI data center in West Virginia, per The Information ([TechCrunch](https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia)).
-- Mistral released the open weights of its trillion-parameter Mistral Large 4 model, targeting cybersecurity use ([TechCrunch](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)).
-- OpenAI says it will stop training its models on the live internet, using cached and simulated web copies instead, citing significant risks ([TechCrunch](https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/)).
+- Data centers have become a midterm election issue, with local opposition delaying or blocking nearly $200 billion in projects in the first half of 2026 ([TechCrunch](https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn)).
+- A federal judge let the NAACP's Clean Air Act lawsuit over pollution from xAI's data center move forward, rejecting xAI's argument that its turbines are exempt from permits ([TechCrunch](https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward)).
+- Google's first TPU-equipped data center satellite is online and running Gemma 4, though it can only run its TPUs for about 20 minutes at a time ([TechCrunch](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry)).

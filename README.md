@@ -26,4 +26,4 @@
 
 - OpenAI is merging ChatGPT's Chat and Work tabs, keeping Codex as a separate app while both draw from the same token allowance pool ([TechCrunch](https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/)).
 - Elon Musk throttled Grok Bot usage limits, saying the cost of serving it is "unsustainably high" ([TechCrunch](https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs)).
-- MIT Technology Review's latest Download says AI agents are starting to make the agentic web a reality ([MIT Technology Review](https://technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths)).
+- Israeli startup 42AI emerged from stealth with $62.5M in seed funding for a "behavioral world model" that aims to predict human behavior, already used by brokerages to forecast trader behavior ([TechCrunch](https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic filed publicly for a Nasdaq listing under the ticker ANT, disclosing $16.3 billion in revenue for the first half of 2026 ([VentureBeat](https://venturebeat.com/technology/anthropic-files-to-go-public-on-nasdaq-as-ant-with-16-3b-in-revenue-for-first-six-months-of-2026)).
+- OpenAI is reportedly considering rebranding its data centers as "AI compute campuses" as part of a post-midterms PR push, according to Axios ([TechCrunch](https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/)).
 - The Financial Times reports Anthropic is expected to receive a high-yield "junk" credit rating following its IPO ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/)).
-- Apple's iOS 27.2 expands Siri's AI features to new languages and ships security fixes ([TechCrunch](https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes)).
+- Mistral released the open weights of its trillion-parameter Large 4 model, pitching it at enterprise and government cybersecurity use ([TechCrunch](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)).

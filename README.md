@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Mistral released the open weights of its trillion-parameter Mistral Large 4 model, pitching it for cybersecurity use ([TechCrunch](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)).
-- OpenAI reportedly lowered its funding target to $20 billion after a tepid response from some large investors ([TechCrunch](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)).
-- Google's first TPU-equipped data center satellite is online and running Gemma 4, though it can only run its TPUs for about 20 minutes at a time ([TechCrunch](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry)).
+- Anthropic filed publicly for a Nasdaq listing under the ticker ANT, disclosing $16.3 billion in revenue for the first half of 2026 ([VentureBeat](https://venturebeat.com/technology/anthropic-files-to-go-public-on-nasdaq-as-ant-with-16-3b-in-revenue-for-first-six-months-of-2026)).
+- The Financial Times reports Anthropic is expected to receive a high-yield "junk" credit rating following its IPO ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/)).
+- Apple's iOS 27.2 expands Siri's AI features to new languages and ships security fixes ([TechCrunch](https://techcrunch.com/2026/10/27/apple-rolls-out-ios-27-2-with-new-siri-ai-languages-and-security-fixes)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI is reportedly considering rebranding its data centers as "AI compute campuses" as part of a post-midterms PR push, according to Axios ([TechCrunch](https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/)).
-- A federal judge let the NAACP's Clean Air Act lawsuit over pollution from xAI's gas-turbine-powered Memphis data center move forward ([TechCrunch](https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/)).
-- The Financial Times reports Anthropic is expected to receive a high-yield "junk" credit rating following its IPO ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/)).
+- OpenAI is merging ChatGPT's Chat and Work tabs, keeping Codex as a separate app while both draw from the same token allowance pool ([TechCrunch](https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/)).
+- Elon Musk throttled Grok Bot usage limits, saying the cost of serving it is "unsustainably high" ([TechCrunch](https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs)).
+- MIT Technology Review's latest Download says AI agents are starting to make the agentic web a reality ([MIT Technology Review](https://technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths)).

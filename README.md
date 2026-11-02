@@ -25,5 +25,5 @@
 ## AI News
 
 - OpenAI is reportedly considering rebranding its data centers as "AI compute campuses" as part of a post-midterms PR push, according to Axios ([TechCrunch](https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/)).
+- A federal judge let the NAACP's Clean Air Act lawsuit over pollution from xAI's gas-turbine-powered Memphis data center move forward ([TechCrunch](https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/)).
 - The Financial Times reports Anthropic is expected to receive a high-yield "junk" credit rating following its IPO ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/)).
-- Mistral released the open weights of its trillion-parameter Large 4 model, pitching it at enterprise and government cybersecurity use ([TechCrunch](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)).

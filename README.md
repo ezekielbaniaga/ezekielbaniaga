@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Data centers have become a midterm election issue, with local opposition delaying or blocking nearly $200 billion in projects in the first half of 2026 ([TechCrunch](https://techcrunch.com/2026/10/31/data-centers-are-now-a-midterm-issue-even-in-brooklyn)).
-- A federal judge let the NAACP's Clean Air Act lawsuit over pollution from xAI's data center move forward, rejecting xAI's argument that its turbines are exempt from permits ([TechCrunch](https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward)).
+- Mistral released the open weights of its trillion-parameter Mistral Large 4 model, pitching it for cybersecurity use ([TechCrunch](https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/)).
+- OpenAI reportedly lowered its funding target to $20 billion after a tepid response from some large investors ([TechCrunch](https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/)).
 - Google's first TPU-equipped data center satellite is online and running Gemma 4, though it can only run its TPUs for about 20 minutes at a time ([TechCrunch](https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry)).

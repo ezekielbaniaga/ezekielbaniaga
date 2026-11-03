@@ -24,6 +24,6 @@
 
 ## AI News
 
-- The New York Times and other outlets sued the Brave browser, alleging it scraped copyrighted content that was then supplied to AI firms including Anthropic, Perplexity, Mistral, xAI and Cohere ([TechCrunch](https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping)).
-- Elon Musk throttled Grok Bot usage limits, saying the cost of serving it is "unsustainably high" ([TechCrunch](https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs)).
-- MIT researchers used GPT-6 Astra to directly edit about 0.016% of Qwen's open weights, lifting a small model's MATH-500 score from 7.9% to 48.1% ([VentureBeat](https://venturebeat.com/technology/like-gene-editing-for-neural-networks-mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-performance)).
+- Anthropic's revised S-1/A filing warns that its growing use of AI in its own R&D could soon meet its Responsible Scaling Policy threshold for "dramatically accelerated progress," though no current model has crossed it ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).
+- Elon Musk throttled Grok Bot usage limits, saying the cost of serving it is "unsustainably high" relative to revenue ([TechCrunch](https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs)).
+- Google brought its experimental AI storytelling app Dreambeans to India with support for 13 local languages ([TechCrunch](https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses)).

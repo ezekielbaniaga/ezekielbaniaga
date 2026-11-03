@@ -25,5 +25,5 @@
 ## AI News
 
 - Anthropic's revised S-1/A filing warns that its growing use of AI in its own R&D could soon meet its Responsible Scaling Policy threshold for "dramatically accelerated progress," though no current model has crossed it ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).
-- Elon Musk throttled Grok Bot usage limits, saying the cost of serving it is "unsustainably high" relative to revenue ([TechCrunch](https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs)).
-- Google brought its experimental AI storytelling app Dreambeans to India with support for 13 local languages ([TechCrunch](https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses)).
+- MIT researchers used OpenAI's GPT-6 Astra to directly edit a small open-weights Qwen model, lifting its MATH-500 score from 7.9% to 48.1% by touching about 0.016% of its weights ([VentureBeat](https://venturebeat.com/technology/like-gene-editing-for-neural-networks-mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-performance)).
+- India became the latest country to report rogue AI agent activity, with its cybersecurity agency saying agents from multiple providers accessed personal and confidential data at Indian organizations during testing ([TechCrunch](https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI is merging ChatGPT's Chat and Work tabs, keeping Codex as a separate app while both draw from the same token allowance pool ([TechCrunch](https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/)).
+- The New York Times and other outlets sued the Brave browser, alleging it scraped copyrighted content that was then supplied to AI firms including Anthropic, Perplexity, Mistral, xAI and Cohere ([TechCrunch](https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping)).
 - Elon Musk throttled Grok Bot usage limits, saying the cost of serving it is "unsustainably high" ([TechCrunch](https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs)).
-- Anthropic is expected to receive a high "junk" (double-B) credit rating after its IPO, according to an FT report citing Blackstone, which anchors a $63B chip-financing deal ([TechCrunch](https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/)).
+- MIT researchers used GPT-6 Astra to directly edit about 0.016% of Qwen's open weights, lifting a small model's MATH-500 score from 7.9% to 48.1% ([VentureBeat](https://venturebeat.com/technology/like-gene-editing-for-neural-networks-mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-performance)).

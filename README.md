@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic's revised IPO filing warns it may soon approach the threshold for recursive self-improvement, though no current model has crossed it ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).
-- Anthropic published research on FlashProve, a system where labs publish model fingerprints so outputs can be cryptographically matched to the model that produced them, though there are no plans to deploy it yet ([TechCrunch](https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/)).
-- AI inference startup Fal doubled its valuation to $16B as demand for AI inference surges ([TechCrunch](https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/)).
+- Anthropic's revised IPO filing warns it may soon meet its own definition of recursive self-improvement, though no current model has crossed that threshold ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).
+- Anthropic published research on FlashProve, a cryptographic system for proving which AI model produced a given output, though there are no plans to deploy it yet ([TechCrunch](https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/)).
+- Google expanded its experimental AI personal-story app Dreambeans to India with support for 13 local languages plus English ([TechCrunch](https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses)).

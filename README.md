@@ -24,6 +24,6 @@
 
 ## AI News
 
+- CrowdStrike will pay nearly $500M to acquire AI security startups Fiddler AI and Dreadnode as demand for securing AI agents takes off ([TechCrunch](https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off)).
 - Anthropic's revised IPO filing warns it may soon meet its own definition of recursive self-improvement, though no current model has crossed that threshold ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).
-- Anthropic published research on FlashProve, a cryptographic system for proving which AI model produced a given output, though there are no plans to deploy it yet ([TechCrunch](https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/)).
-- Google expanded its experimental AI personal-story app Dreambeans to India with support for 13 local languages plus English ([TechCrunch](https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses)).
+- Google faced backlash over a plan to turn off Search for schools that restrict AI, then said Gemini and Search AI tools will be off by default and schools can opt in individually ([TechCrunch](https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/)).

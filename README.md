@@ -24,6 +24,6 @@
 
 ## AI News
 
-- CrowdStrike will pay nearly $500M for two AI security startups, Fiddler AI (agent observability) and Dreadnode (security testing for AI models and agents), as the market for securing AI agents takes off ([TechCrunch](https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off)).
-- MIT researchers used OpenAI's GPT-6 Astra to directly edit a small open-weights Qwen model, lifting its MATH-500 score from 7.9% to 48.1% by touching about 0.016% of its weights ([VentureBeat](https://venturebeat.com/technology/like-gene-editing-for-neural-networks-mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-performance)).
+- Anthropic is developing FlashProve, an open-source system for verifying which AI model produced a given output, though it has no plans to deploy it yet ([TechCrunch](https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity)).
+- CrowdStrike will pay nearly $500M for two AI security startups, Fiddler AI and Dreadnode, as the market for securing AI agents takes off ([TechCrunch](https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off)).
 - Anthropic warns that its growing use of AI in its own R&D puts it very close to the "self-building AI" capability threshold in its Responsible Scaling Policy ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).

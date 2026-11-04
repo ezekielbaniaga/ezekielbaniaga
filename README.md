@@ -24,6 +24,6 @@
 
 ## AI News
 
-- CrowdStrike will pay nearly $500M to acquire AI security startups Fiddler AI and Dreadnode as demand for securing AI agents takes off ([TechCrunch](https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off)).
-- Anthropic's revised IPO filing warns it may soon meet its own definition of recursive self-improvement, though no current model has crossed that threshold ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).
-- Google faced backlash over a plan to turn off Search for schools that restrict AI, then said Gemini and Search AI tools will be off by default and schools can opt in individually ([TechCrunch](https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/)).
+- Google faced backlash over a plan to turn off Search for schools that restrict AI, then said Gemini and Search will be off by default and schools can enable each individually ([TechCrunch](https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/)).
+- Meta acquired AI coding startup Conductor, which runs multiple agents in parallel workspaces, and its cloud service will shut down on November 20 ([TechCrunch](https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor)).
+- Stuck in long waits for grid power, some AI data centers are generating their own electricity with converted old jet engines ([TechCrunch](https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows)).

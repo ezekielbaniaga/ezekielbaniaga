@@ -25,5 +25,5 @@
 ## AI News
 
 - Anthropic's revised IPO filing warns it may soon approach the threshold for recursive self-improvement, though no current model has crossed it ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).
-- Anthropic is still grappling with the economics of compute, which consumed 58% of its revenue in the latest quarter per its IPO filing ([TechCrunch](https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/)).
+- Anthropic published research on FlashProve, a system where labs publish model fingerprints so outputs can be cryptographically matched to the model that produced them, though there are no plans to deploy it yet ([TechCrunch](https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/)).
 - AI inference startup Fal doubled its valuation to $16B as demand for AI inference surges ([TechCrunch](https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/)).

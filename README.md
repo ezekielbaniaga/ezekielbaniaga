@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google drew backlash from senators including Bernie Sanders and Richard Blumenthal for a plan that would turn off Search for K-12 schools unless they opt in to AI tools like Gemini ([TechCrunch](https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/)).
-- Apple is reportedly cutting the daily amount its engineering teams can spend on internal AI usage, after lowering the cap from $300 to $200 in October ([TechCrunch](https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/)).
+- Dropbox is acquiring Tigris Data for $350M to bolster its AI infrastructure and support its DBX Agent Cloud, with the deal expected to close in Q4 2026 ([TechCrunch](https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure)).
+- OpenAI president Greg Brockman said the company could be IPO ready in 2027, citing growing enterprise revenue ([TechCrunch](https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027)).
 - Meta acquired AI coding startup Conductor, which runs multiple agents in parallel workspaces, and its cloud service will shut down on November 20 ([TechCrunch](https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor)).

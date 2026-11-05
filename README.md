@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic's revised S-1/A filing says it may soon reach its own threshold for dramatically AI-accelerated progress (recursive self-improvement), though no current model has crossed it and humans will stay in the R&D loop ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).
-- DuckDuckGo is pitching itself to schools frustrated by Google's AI policy, pointing educators to its search engine and options to disable AI features ([TechCrunch](https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy)).
+- Google drew backlash from senators including Bernie Sanders and Richard Blumenthal for a plan that would turn off Search for K-12 schools unless they opt in to AI tools like Gemini ([TechCrunch](https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/)).
+- Apple is reportedly cutting the daily amount its engineering teams can spend on internal AI usage, after lowering the cap from $300 to $200 in October ([TechCrunch](https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/)).
 - Meta acquired AI coding startup Conductor, which runs multiple agents in parallel workspaces, and its cloud service will shut down on November 20 ([TechCrunch](https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor)).

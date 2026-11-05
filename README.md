@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Dropbox is acquiring Tigris Data for $350M to bolster its AI infrastructure and support its DBX Agent Cloud, with the deal expected to close in Q4 2026 ([TechCrunch](https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure)).
-- OpenAI president Greg Brockman said the company could be IPO ready in 2027, citing growing enterprise revenue ([TechCrunch](https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027)).
-- Meta acquired AI coding startup Conductor, which runs multiple agents in parallel workspaces, and its cloud service will shut down on November 20 ([TechCrunch](https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor)).
+- OpenAI released ChatGPT Cyber, a cybersecurity-focused model for the top tier of its Daybreak Red program, alongside a $1 billion initiative for critical-infrastructure defenders ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
+- Meta's Muse AI agent now lets all US users video chat with an animated avatar via Muse Voice ([TechCrunch](https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/)).
+- Anthropic launched a read-only Personal Finance tool for Claude that analyzes spending via Plaid-connected accounts, rolling out in beta to US Pro, Max and Ultra users ([TechCrunch](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool)).

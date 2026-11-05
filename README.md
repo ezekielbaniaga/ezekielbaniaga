@@ -25,5 +25,5 @@
 ## AI News
 
 - Google faced backlash, including from Sen. Bernie Sanders, over a plan to disable Search for schools that don't opt in to AI, then said schools can enable Gemini and Search individually ([TechCrunch](https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/)).
-- Anthropic's revised S-1/A filing warns it is very close to recursive self-improvement (self-building AI) capability, though none of its models have crossed that threshold yet ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).
+- Bloomberg reported Apple is cutting the daily AI spending cap for its engineering teams, lowering it from $300 to $200 in October with further cuts reportedly planned ([TechCrunch](https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage)).
 - Meta acquired AI coding startup Conductor, which runs multiple agents in parallel workspaces, and its cloud service will shut down on November 20 ([TechCrunch](https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor)).

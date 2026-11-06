@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI released a new cybersecurity model restricted to the top tier of its Daybreak program, alongside a $1B initiative for critical-infrastructure defenders ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
-- Anthropic's Claude can now analyze users' spending through a read-only Plaid bank connection in a US beta for Pro, Max and Ultra subscribers ([TechCrunch](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool)).
-- Meta opened video chats with its Muse AI avatar to all US users, with a Tamagotchi-like wearable planned before year-end ([TechCrunch](https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar)).
+- Meta launched Spaces, a feature where its Muse agent builds custom trackers, planners and project boards from a chat request ([TechCrunch](https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/)).
+- OpenAI released a cybersecurity model for its top-tier Daybreak program and committed $1B to support critical-infrastructure defenders ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
+- Palo Alto Networks is in talks to buy AI agent security startup Clutch Security for $500M in cash plus milestone payments ([TechCrunch](https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m)).

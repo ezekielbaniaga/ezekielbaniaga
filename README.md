@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI launched GPT-6 Cyber, an approval-gated security model priced above rival cyber models from Anthropic and Google ([VentureBeat](https://venturebeat.com/technology/openai-launches-gpt-6-cyber-with-stronger-exploit-research-and-higher-api-price-than-anthropic-and-google)).
-- Anthropic launched a Personal Finance tool for Claude that analyzes spending via Plaid-connected accounts, rolling out in beta to US Pro, Max and Ultra users ([TechCrunch](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool)).
-- Apple is reportedly cutting the daily AI spending budgets of its internal engineering teams ([TechCrunch](https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/)).
+- Dropbox agreed to acquire Tigris Data for $350M, its largest acquisition to date, to bolster its AI infrastructure ([TechCrunch](https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure)).
+- Palo Alto Networks is reportedly in talks to buy AI agent security startup Clutch for $500M in cash plus milestone-based payouts ([TechCrunch](https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m)).
+- OpenAI president Greg Brockman said the company could be IPO-ready in 2027, citing enterprise revenue growth ([TechCrunch](https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027)).

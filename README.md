@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Meta launched Spaces, a feature where its Muse agent builds custom trackers, planners and project boards from a chat request ([TechCrunch](https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/)).
-- OpenAI released a cybersecurity model for its top-tier Daybreak program and committed $1B to support critical-infrastructure defenders ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
-- Palo Alto Networks is in talks to buy AI agent security startup Clutch Security for $500M in cash plus milestone payments ([TechCrunch](https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m)).
+- OpenAI unveiled ChatGPT Cyber for the top tier of its Daybreak cybersecurity program and announced a $1B initiative to support defenders of critical infrastructure ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
+- OpenAI president Greg Brockman said the company could be IPO-ready in 2027, citing growing enterprise revenue ([TechCrunch](https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027)).
+- Meta now lets all US users video chat with its Muse AI agent through an animated avatar ([TechCrunch](https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar)).

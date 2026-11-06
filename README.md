@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI released ChatGPT Cyber, a cybersecurity-focused model for the top tier of its Daybreak Red program, alongside a $1 billion initiative for critical-infrastructure defenders ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
-- Meta's Muse AI agent now lets all US users video chat with an animated avatar via Muse Voice ([TechCrunch](https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/)).
-- Anthropic launched a read-only Personal Finance tool for Claude that analyzes spending via Plaid-connected accounts, rolling out in beta to US Pro, Max and Ultra users ([TechCrunch](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool)).
+- OpenAI launched GPT-6 Cyber, an approval-gated security model priced above rival cyber models from Anthropic and Google ([VentureBeat](https://venturebeat.com/technology/openai-launches-gpt-6-cyber-with-stronger-exploit-research-and-higher-api-price-than-anthropic-and-google)).
+- Anthropic launched a Personal Finance tool for Claude that analyzes spending via Plaid-connected accounts, rolling out in beta to US Pro, Max and Ultra users ([TechCrunch](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool)).
+- Apple is reportedly cutting the daily AI spending budgets of its internal engineering teams ([TechCrunch](https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/)).

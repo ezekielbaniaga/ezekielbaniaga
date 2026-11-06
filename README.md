@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Dropbox agreed to acquire Tigris Data for $350M, its largest acquisition to date, to bolster its AI infrastructure ([TechCrunch](https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure)).
-- Palo Alto Networks is reportedly in talks to buy AI agent security startup Clutch for $500M in cash plus milestone-based payouts ([TechCrunch](https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m)).
-- OpenAI president Greg Brockman said the company could be IPO-ready in 2027, citing enterprise revenue growth ([TechCrunch](https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027)).
+- OpenAI released a new cybersecurity model restricted to the top tier of its Daybreak program, alongside a $1B initiative for critical-infrastructure defenders ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
+- Anthropic's Claude can now analyze users' spending through a read-only Plaid bank connection in a US beta for Pro, Max and Ultra subscribers ([TechCrunch](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool)).
+- Apple is reportedly cutting budgets for internal AI usage, lowering its engineers' daily AI spending cap from $300 to $200 ([TechCrunch](https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic launched a beta Personal Finance tool that lets Claude analyze spending through read-only bank and card connections via Plaid for US Pro, Max and Ultra subscribers ([TechCrunch](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/)).
-- Meta opened video chat with its Muse AI avatar to all US users and introduced Spaces, a way to collaborate with the Muse agent ([TechCrunch](https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent)).
-- OpenAI has reportedly raised an additional $11 billion at a $1.25 trillion valuation, with the round not yet closed ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
+- OpenAI has reportedly raised an additional $11 billion at a $1.25 trillion valuation, with the round still open and possibly heading toward about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
+- OpenAI released a cybersecurity-focused model to vetted users in its Daybreak program, saying it was used to scan the Linux kernel and flagged 948 potential vulnerabilities ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
+- Censys found more than 800 deployments of the open-source autonomous pentesting tool Artex exposed to the web without passwords ([TechCrunch](https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web)).

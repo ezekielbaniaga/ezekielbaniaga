@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI has reportedly raised $11 billion so far at a $1.25 trillion valuation, with the round not yet closed and possibly reaching about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
-- OpenAI announced ChatGPT Cyber, a cybersecurity-focused model for top-tier Daybreak Red users that found 948 potential issues while scanning the Linux kernel ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
-- AI inference startup Fal raised $1.3 billion in a round led by Bessemer Venture Partners, doubling its valuation to $16 billion as demand surges ([TechCrunch](https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/)).
+- Anthropic launched a beta Personal Finance tool that lets Claude analyze spending through read-only bank and card connections via Plaid for US Pro, Max and Ultra subscribers ([TechCrunch](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/)).
+- Meta opened video chat with its Muse AI avatar to all US users and introduced Spaces, a way to collaborate with the Muse agent ([TechCrunch](https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent)).
+- OpenAI has reportedly raised an additional $11 billion at a $1.25 trillion valuation, with the round not yet closed ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).

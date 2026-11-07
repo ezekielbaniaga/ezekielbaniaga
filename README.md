@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI unveiled ChatGPT Cyber for the top tier of its Daybreak cybersecurity program and announced a $1B initiative to support defenders of critical infrastructure ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
-- OpenAI president Greg Brockman said the company could be IPO-ready in 2027, citing growing enterprise revenue ([TechCrunch](https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027)).
-- Meta now lets all US users video chat with its Muse AI agent through an animated avatar ([TechCrunch](https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar)).
+- OpenAI has reportedly raised an additional $11 billion at a $1.25 trillion valuation, though the round hasn't closed yet ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
+- Security researchers found hundreds of Artex AI hacking tool deployments exposed to the web with no password required ([TechCrunch](https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web)).
+- Palo Alto Networks is reportedly in talks to buy AI agent security startup Clutch for $500M ([TechCrunch](https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI has reportedly raised an additional $11 billion at a $1.25 trillion valuation, though the round hasn't closed yet ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
-- Security researchers found hundreds of Artex AI hacking tool deployments exposed to the web with no password required ([TechCrunch](https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web)).
-- Palo Alto Networks is reportedly in talks to buy AI agent security startup Clutch for $500M ([TechCrunch](https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m)).
+- OpenAI has reportedly raised $11 billion so far at a $1.25 trillion valuation, with the round not yet closed and possibly reaching about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
+- OpenAI announced ChatGPT Cyber, a cybersecurity-focused model for top-tier Daybreak Red users that found 948 potential issues while scanning the Linux kernel ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
+- Underdog demoed a game powered by Woof, a voice model only 32MB in size ([TechCrunch](https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo)).

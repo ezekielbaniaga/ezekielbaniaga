@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI has reportedly raised an additional $11 billion at a $1.25 trillion valuation, with the round still open and possibly heading toward about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
-- OpenAI released a cybersecurity-focused model to vetted users in its Daybreak program, saying it was used to scan the Linux kernel and flagged 948 potential vulnerabilities ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
-- Censys found more than 800 deployments of the open-source autonomous pentesting tool Artex exposed to the web without passwords ([TechCrunch](https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web)).
+- OpenAI has reportedly raised $11 billion so far at a $1.25 trillion valuation, with the round still open and possibly reaching about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
+- Anthropic's revised IPO filing warns it may soon meet its own definition of recursive self-improvement, though none of its models have crossed that threshold yet ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).
+- AI inference startup Fal doubled its valuation to $16 billion after raising $1.3 billion as demand surges ([TechCrunch](https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/)).

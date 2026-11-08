@@ -25,5 +25,5 @@
 ## AI News
 
 - OpenAI has reportedly raised $11 billion so far at a $1.25 trillion valuation, with the round still open and possibly reaching about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
-- Censys found hundreds of Artex AI hacking tool deployments exposed publicly on the web with no password required ([TechCrunch](https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/)).
-- A San Francisco startup is sending humanoid robots to clean homes, though they still rely heavily on remote human help ([MIT Technology Review](https://technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future)).
+- OpenAI released a cybersecurity-focused model for its top-tier cyber program users, backed by a $1 billion initiative for critical infrastructure defenders ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
+- Ramp data shows enterprise AI spending stalling, with token spend up just 1.5% across August and September, as Anthropic nears its IPO ([TechCrunch](https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/)).

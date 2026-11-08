@@ -25,5 +25,5 @@
 ## AI News
 
 - OpenAI has reportedly raised $11 billion so far at a $1.25 trillion valuation, with the round still open and possibly reaching about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
-- Anthropic's revised IPO filing warns it may soon meet its own definition of recursive self-improvement, though none of its models have crossed that threshold yet ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).
-- AI inference startup Fal doubled its valuation to $16 billion after raising $1.3 billion as demand surges ([TechCrunch](https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/)).
+- Censys found hundreds of Artex AI hacking tool deployments exposed publicly on the web with no password required ([TechCrunch](https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/)).
+- A San Francisco startup is sending humanoid robots to clean homes, though they still rely heavily on remote human help ([MIT Technology Review](https://technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future)).

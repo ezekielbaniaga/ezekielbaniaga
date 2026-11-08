@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic's Claude gained a read-only Personal Finance tool, connecting to bank and card accounts via Plaid, rolling out in beta to U.S. Pro, Max and Ultra subscribers ([TechCrunch](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/)).
+- OpenAI has reportedly raised $11 billion so far in a new funding round at a $1.25 trillion valuation, with the round expected to total about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
 - OpenAI released a new cybersecurity-focused model, ChatGPT Cyber, available to the top tier of its cybersecurity program ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
-- Meta introduced Spaces, a new way to collaborate with its Muse AI agent in project-based workspaces ([TechCrunch](https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent)).
+- Anthropic's Claude gained a Personal Finance tool that can analyze your spending ([TechCrunch](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/)).

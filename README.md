@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI has reportedly raised $11 billion so far at a $1.25 trillion valuation, with the round still open and possibly reaching about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
-- OpenAI released a cybersecurity-focused model for its top-tier cyber program users, backed by a $1 billion initiative for critical infrastructure defenders ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
-- Ramp data shows enterprise AI spending stalling, with token spend up just 1.5% across August and September, as Anthropic nears its IPO ([TechCrunch](https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/)).
+- Anthropic's Claude gained a read-only Personal Finance tool, connecting to bank and card accounts via Plaid, rolling out in beta to U.S. Pro, Max and Ultra subscribers ([TechCrunch](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/)).
+- Palo Alto Networks is reportedly in talks to buy AI agent security startup Clutch for about $500 million ([TechCrunch](https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m)).
+- Meta introduced Spaces, a new way to collaborate with its Muse AI agent ([TechCrunch](https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Nvidia says its board is investigating CEO Jensen Huang's relationship with a possible Chinese spy, a former Megaspeed executive reportedly recruited to spy on him ([TechCrunch](https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/)).
+- Meta is expanding Instagram's AI age-estimation technology worldwide to identify teens who list adult birthdays, with a similar Threads rollout planned later this year ([TechCrunch](https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally)).
 - OpenAI has reportedly raised an additional $11 billion at a $1.25 trillion valuation, with the round expected to close at about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
-- Apple is reportedly cutting the daily budgets its engineering teams can spend on internal AI usage ([TechCrunch](https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/)).
+- Anthropic's revised S-1 warns it may be close to recursive self-improvement capability, though none of its current models have crossed that threshold ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).

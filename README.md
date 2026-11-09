@@ -26,4 +26,4 @@
 
 - OpenAI has reportedly raised $11 billion so far in a new funding round at a $1.25 trillion valuation, with the round expected to total about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
 - OpenAI released a new cybersecurity-focused model, ChatGPT Cyber, available to the top tier of its cybersecurity program ([TechCrunch](https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/)).
-- Anthropic's Claude gained a Personal Finance tool that can analyze your spending ([TechCrunch](https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/)).
+- Ramp data shows AI spending stalling just as Anthropic nears its IPO, with reports that potential buyers value it well below earlier expectations ([TechCrunch](https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/)).

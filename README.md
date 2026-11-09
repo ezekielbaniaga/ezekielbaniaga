@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Meta is expanding Instagram's AI age-estimation technology worldwide to identify teens who list adult birthdays, with a similar Threads rollout planned later this year ([TechCrunch](https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally)).
-- OpenAI has reportedly raised an additional $11 billion at a $1.25 trillion valuation, with the round expected to close at about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
-- Anthropic's revised S-1 warns it may be close to recursive self-improvement capability, though none of its current models have crossed that threshold ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).
+- Meta released Muse Ember, a lightweight, low-cost model built for agent tasks like tool calls and document parsing ([TechCrunch](https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/)).
+- Anthropic is buying $3.4B worth of Caterpillar gas turbines, capable of up to 1.7 gigawatts, as it joins AI's rush for on-site power ([TechCrunch](https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/)).
+- Ramp data shows company AI spending stalled over late summer even as token volumes kept rising, just as Anthropic nears its IPO ([TechCrunch](https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/)).

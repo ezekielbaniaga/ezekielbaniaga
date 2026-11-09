@@ -26,4 +26,4 @@
 
 - Nvidia says its board is investigating CEO Jensen Huang's relationship with a possible Chinese spy, a former Megaspeed executive reportedly recruited to spy on him ([TechCrunch](https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/)).
 - OpenAI has reportedly raised an additional $11 billion at a $1.25 trillion valuation, with the round expected to close at about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
-- Ramp data shows AI spending stalling just as Anthropic nears its IPO ([TechCrunch](https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/)).
+- Apple is reportedly cutting the daily budgets its engineering teams can spend on internal AI usage ([TechCrunch](https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Meta released Muse Ember, a lightweight, low-cost model built for agent tasks like tool calls and document parsing ([TechCrunch](https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/)).
-- Anthropic is buying $3.4B worth of Caterpillar gas turbines, capable of up to 1.7 gigawatts, as it joins AI's rush for on-site power ([TechCrunch](https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/)).
-- Ramp data shows company AI spending stalled over late summer even as token volumes kept rising, just as Anthropic nears its IPO ([TechCrunch](https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/)).
+- Anthropic released Claude Fable 5.2 and Mythos 5.2 with record benchmarks and a roughly 20% API price cut, amid METR-flagged concerns about recursive self-improvement ([TechCrunch](https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/)).
+- Meta released Muse Ember, its lightest and cheapest model yet, designed to pair with larger models in agentic harnesses ([TechCrunch](https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/)).
+- Nvidia CEO Jensen Huang pulled out of the ElevenLabs Summit amid reports Nvidia opened an investigation into his relationship with a possible Chinese spy ([TechCrunch](https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/)).

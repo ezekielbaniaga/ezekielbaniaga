@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI has reportedly raised $11 billion so far in a new round at a $1.25 trillion valuation, with the total expected to reach about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
-- Anthropic warned in its revised S-1 that it is very close to recursive self-improvement capability, though none of its models have crossed that threshold yet ([TechCrunch](https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/)).
-- Meta acquired AI coding startup Conductor, which runs teams of agents in parallel workspaces, and will shut down its cloud service on November 20 ([TechCrunch](https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/)).
+- Nvidia says its board is investigating CEO Jensen Huang's relationship with a possible Chinese spy, a former Megaspeed executive reportedly recruited to spy on him ([TechCrunch](https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/)).
+- OpenAI has reportedly raised an additional $11 billion at a $1.25 trillion valuation, with the round expected to close at about $20 billion ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
+- Ramp data shows AI spending stalling just as Anthropic nears its IPO ([TechCrunch](https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/)).

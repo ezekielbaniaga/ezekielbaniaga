@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic released Mythos 5.2 and Fable 5.2 amid concerns about recursive self-improvement, following a METR report suggesting labs may be nearing it ([TechCrunch](https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/)).
-- Meta released Muse Ember, a lightweight proprietary model for agent execution that Meta positions as its most cost-efficient yet ([TechCrunch](https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/)).
-- Nvidia's Jensen Huang is under scrutiny after reportedly engaging a PR firm known for handling high-profile scandals a year ago, as Nvidia's board opened an independent investigation ([TechCrunch](https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago)).
+- Scott Wiener, author of legislation aimed at curbing advanced-AI risks, won the race for Nancy Pelosi's open San Francisco congressional seat, while data centers face growing power woes ([MIT Technology Review](https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash)).
+- Meta released Muse Ember, a lightweight model for agent execution that it calls its lightest and most cost-efficient yet ([TechCrunch](https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/)).
+- Nvidia CEO Jensen Huang pulled out of the ElevenLabs Summit amid controversy over his reported engagement of a PR firm, raising questions about his standing at the company ([TechCrunch](https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/)).

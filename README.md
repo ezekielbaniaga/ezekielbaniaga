@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic released Claude Fable 5.2 and Mythos 5.2, its most advanced models yet, cutting Fable's price to $8 per million input tokens amid METR-flagged concerns about recursive self-improvement ([TechCrunch](https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/)).
+- Anthropic released Claude Fable 5.2 and Mythos 5.2 with record-high benchmarks and a roughly 20% API price cut ([VentureBeat](https://venturebeat.com/technology/anthropic-releases-claude-fable-5-2-and-mythos-5-2-pairing-new-record-high-benchmarks-with-20-api-cost-reduction)).
 - Anthropic reportedly plans to press ahead with its IPO, setting a valuation range this week and starting trading as soon as next week, per the WSJ ([TechCrunch](https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/)).
-- OpenAI has reportedly raised another $11 billion at a $1.25 trillion valuation in a round that has not yet closed ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).
+- Otter.ai can now follow conversations across more than 30 languages, its largest language expansion to date ([TechCrunch](https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/)).

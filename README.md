@@ -24,6 +24,6 @@
 
 ## AI News
 
+- Anthropic released Claude Fable 5.2 and Mythos 5.2, its most advanced models yet, cutting Fable's price to $8 per million input tokens amid METR-flagged concerns about recursive self-improvement ([TechCrunch](https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/)).
 - Anthropic reportedly plans to press ahead with its IPO, setting a valuation range this week and starting trading as soon as next week, per the WSJ ([TechCrunch](https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/)).
-- Anthropic released Claude Fable 5.2 and Mythos 5.2 with record-high benchmark scores and a 20% API cost reduction ([VentureBeat](https://venturebeat.com/technology/anthropic-releases-claude-fable-5-2-and-mythos-5-2-pairing-new-record-high-benchmarks-with-20-api-cost-reduction)).
-- Meta released Muse Ember, a lightweight, low-cost model built for agent execution at about 10 cents per million input tokens ([TechCrunch](https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/)).
+- OpenAI has reportedly raised another $11 billion at a $1.25 trillion valuation in a round that has not yet closed ([TechCrunch](https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/)).

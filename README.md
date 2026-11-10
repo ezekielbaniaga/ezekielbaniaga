@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Scott Wiener, author of legislation aimed at curbing advanced-AI risks, won the race for Nancy Pelosi's open San Francisco congressional seat, while data centers face growing power woes ([MIT Technology Review](https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash)).
-- Meta released Muse Ember, a lightweight model for agent execution that it calls its lightest and most cost-efficient yet ([TechCrunch](https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/)).
-- Nvidia CEO Jensen Huang pulled out of the ElevenLabs Summit amid controversy over his reported engagement of a PR firm, raising questions about his standing at the company ([TechCrunch](https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/)).
+- Google made Gemini 4 Carbon generally available, pricing its API below Anthropic's Claude Fable 5.2 and Opus 5.5 at $2 per million input tokens and $10 per million output tokens ([VentureBeat](https://venturebeat.com/technology/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price)).
+- Adobe added AI agents and new creative tools to Photoshop, Premiere and Firefly, and launched an MCP server that lets chatbots like ChatGPT, Claude and Gemini use Adobe features ([TechCrunch](https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/)).
+- Anthropic released Claude Fable 5.2 and Mythos 5.2 with record benchmark scores and a 20% API price cut, while restricting Mythos to vetted cybersecurity and life-sciences users ([VentureBeat](https://venturebeat.com/technology/anthropic-releases-claude-fable-5-2-and-mythos-5-2-pairing-new-record-high-benchmarks-with-20-api-cost-reduction)).

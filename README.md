@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic released Claude Fable 5.2 and Mythos 5.2 with record-high benchmarks and a roughly 20% API price cut ([VentureBeat](https://venturebeat.com/technology/anthropic-releases-claude-fable-5-2-and-mythos-5-2-pairing-new-record-high-benchmarks-with-20-api-cost-reduction)).
-- Anthropic reportedly plans to press ahead with its IPO, setting a valuation range this week and starting trading as soon as next week, per the WSJ ([TechCrunch](https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/)).
-- Otter.ai can now follow conversations across more than 30 languages, its largest language expansion to date ([TechCrunch](https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/)).
+- Anthropic released Mythos 5.2 and Fable 5.2 amid concerns about recursive self-improvement, following a METR report suggesting labs may be nearing it ([TechCrunch](https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/)).
+- Meta released Muse Ember, a lightweight proprietary model for agent execution that Meta positions as its most cost-efficient yet ([TechCrunch](https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/)).
+- Nvidia's Jensen Huang is under scrutiny after reportedly engaging a PR firm known for handling high-profile scandals a year ago, as Nvidia's board opened an independent investigation ([TechCrunch](https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago)).

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google made Gemini 4 Carbon generally available, pricing its API below Anthropic's Claude Fable 5.2 and Opus 5.5 at $2 per million input tokens and $10 per million output tokens ([VentureBeat](https://venturebeat.com/technology/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price)).
-- Adobe added AI agents and new creative tools to Photoshop, Premiere and Firefly, and launched an MCP server that lets chatbots like ChatGPT, Claude and Gemini use Adobe features ([TechCrunch](https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/)).
-- Anthropic released Claude Fable 5.2 and Mythos 5.2 with record benchmark scores and a 20% API price cut, while restricting Mythos to vetted cybersecurity and life-sciences users ([VentureBeat](https://venturebeat.com/technology/anthropic-releases-claude-fable-5-2-and-mythos-5-2-pairing-new-record-high-benchmarks-with-20-api-cost-reduction)).
+- Anthropic launched Claude Meetings in beta for Team and Enterprise plans, an assistant that joins Google Meet calls and turns discussions into plans and tasks in real time ([TechCrunch](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/)).
+- New York's RAISE Act AI safety law took effect, requiring frontier developers such as OpenAI and Anthropic to register with the state by January 1, 2027 ([TechCrunch](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/)).
+- Hugging Face's Irene Solaiman warned that rising cyberattacks on open AI platforms could force tighter security restrictions on open-source AI ([TechCrunch](https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/)).

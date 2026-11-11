@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic launched Claude Meetings in beta for Team and Enterprise plans, an assistant that joins Google Meet calls and turns discussions into plans and tasks in real time ([TechCrunch](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/)).
-- New York's RAISE Act AI safety law took effect, requiring frontier developers such as OpenAI and Anthropic to register with the state by January 1, 2027 ([TechCrunch](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/)).
-- Hugging Face's Irene Solaiman warned that rising cyberattacks on open AI platforms could force tighter security restrictions on open-source AI ([TechCrunch](https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/)).
+- OpenAI rolled out a beta Business Hub that lets companies create verified profiles in ChatGPT to update information about their products and services, much like Google business listings ([Source](https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/))
+- Adobe added AI agents and new tools across Photoshop, Premiere and Firefly, and released a local MCP server so chatbots like ChatGPT, Claude and Gemini can use Adobe features ([Source](https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/))
+- PayPal says its internal AI assistant jumped from 43% to 95% accuracy on business questions by adding a separate knowledge layer, without changing the underlying model ([Source](https://venturebeat.com/orchestration/paypal-says-its-ai-assistant-went-from-43-to-95-accuracy-without-changing-the-model))

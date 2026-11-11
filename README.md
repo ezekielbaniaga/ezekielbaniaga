@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI's quarterly revenue reportedly topped $10 billion for the first time, roughly a 50% jump from the prior quarter ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))
-- Anthropic published a report arguing that a powerful open model from China's Z.ai poses a serious cyberattack risk, reigniting debate over open frontier models ([Source](https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/))
-- Plurai raised $13 million in seed funding to simulate and test AI agents before deployment, borrowing the approach used to get self-driving cars onto roads ([Source](https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/))
+- Britain's Fractile raised a $720 million Series C to accelerate its AI inference chips, giving it a leg up in the race to challenge incumbent chipmakers ([Source](https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/))
+- Anthropic launched Claude Meetings in beta for Team and Enterprise plans, letting Claude join video calls and turn discussions into plans and tasks, alongside new Whiteboards and Sheets tools ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks))
+- Google broadened its AI hardware lineup with two new specialized TPU variants, the TPU 8tx and TPU 8i Max, aimed at confidential training and large-memory workloads ([Source](https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/))

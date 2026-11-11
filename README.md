@@ -24,6 +24,6 @@
 
 ## AI News
 
-- New York opened registration for its RAISE Act AI safety law, requiring large frontier AI developers such as OpenAI and Anthropic to register by January 1, 2027 ([Source](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/))
-- Databricks unveiled an upgraded Genie AI agent that can carry out extended multi-step jobs and give executives like CEO Ali Ghodsi unvarnished answers about the business ([Source](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/))
-- A Hugging Face executive warned that rising cyberattacks threaten to make open source AI less open ([Source](https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/))
+- OpenAI's quarterly revenue reportedly topped $10 billion for the first time, roughly a 50% jump from the prior quarter ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))
+- Anthropic published a report arguing that a powerful open model from China's Z.ai poses a serious cyberattack risk, reigniting debate over open frontier models ([Source](https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/))
+- Plurai raised $13 million in seed funding to simulate and test AI agents before deployment, borrowing the approach used to get self-driving cars onto roads ([Source](https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/))

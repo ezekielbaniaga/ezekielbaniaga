@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic set its IPO price range at $70 to $78 per share, implying a valuation of up to $1.404 trillion ahead of a planned Nasdaq listing under the ticker "ANT" ([Source](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/))
-- Anthropic launched Claude Meetings, which joins video calls as a visible participant and turns discussions into plans and tasks, alongside beta Claude Whiteboards and Claude Sheets ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))
-- Oura agreed to acquire AI-native primary care startup Counsel Health for $625 million ([Source](https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/))
+- New York opened registration for its RAISE Act AI safety law, requiring large frontier AI developers such as OpenAI and Anthropic to register by January 1, 2027 ([Source](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/))
+- Databricks unveiled an upgraded Genie AI agent that can carry out extended multi-step jobs and give executives like CEO Ali Ghodsi unvarnished answers about the business ([Source](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/))
+- A Hugging Face executive warned that rising cyberattacks threaten to make open source AI less open ([Source](https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/))

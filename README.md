@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic released its Mythos 5.2 and Fable 5.2 models on November 9 and cut Fable's API price from $10 to $8 per million input tokens ([Source](https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/))
-- Google made Gemini 4 Carbon generally available at $2 per million uncached input tokens and $10 per million output tokens, undercutting Claude Fable 5.2 and Opus 5.5 on API price ([Source](https://venturebeat.com/technology/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price))
-- Anthropic launched Claude Meetings in beta for Team and Enterprise plans, letting Claude join video calls as a visible participant and turn discussions into plans and tasks ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))
+- New York opened registration under its RAISE Act AI safety law, which requires large frontier developers like OpenAI and Anthropic to register by January 1, 2027 ([Source](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/))
+- A Hugging Face executive warned that rising cyberattacks could push open-source AI platforms toward tighter access controls ([Source](https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/))
+- Adobe used its MAX event to bring AI agents, new creative tools and an MCP server to Photoshop, Premiere and Firefly ([Source](https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/))

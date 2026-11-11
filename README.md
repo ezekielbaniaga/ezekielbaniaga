@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI rolled out a beta Business Hub that lets companies create verified profiles in ChatGPT to update information about their products and services, much like Google business listings ([Source](https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/))
-- Adobe added AI agents and new tools across Photoshop, Premiere and Firefly, and released a local MCP server so chatbots like ChatGPT, Claude and Gemini can use Adobe features ([Source](https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/))
-- PayPal says its internal AI assistant jumped from 43% to 95% accuracy on business questions by adding a separate knowledge layer, without changing the underlying model ([Source](https://venturebeat.com/orchestration/paypal-says-its-ai-assistant-went-from-43-to-95-accuracy-without-changing-the-model))
+- Anthropic's seven co-founders will each sell about 3.4 million shares, roughly $250M apiece, in the company's upcoming IPO while keeping control through supervoting Class F stock ([Source](https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/))
+- New York's AI safety law has taken effect, requiring large frontier developers like OpenAI and Anthropic to register by January 1, 2027, with penalties of up to $1M for a first violation and $3M for later ones ([Source](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/))
+- Oura agreed to acquire AI-native primary care startup Counsel Health for $625M, weeks after indefinitely postponing its own IPO ([Source](https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/))

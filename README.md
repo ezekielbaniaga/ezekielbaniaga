@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic's seven co-founders will each sell about 3.4 million shares, roughly $250M apiece, in the company's upcoming IPO while keeping control through supervoting Class F stock ([Source](https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/))
-- New York's AI safety law has taken effect, requiring large frontier developers like OpenAI and Anthropic to register by January 1, 2027, with penalties of up to $1M for a first violation and $3M for later ones ([Source](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/))
-- Oura agreed to acquire AI-native primary care startup Counsel Health for $625M, weeks after indefinitely postponing its own IPO ([Source](https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/))
+- Anthropic released its Mythos 5.2 and Fable 5.2 models on November 9 and cut Fable's API price from $10 to $8 per million input tokens ([Source](https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/))
+- Google made Gemini 4 Carbon generally available at $2 per million uncached input tokens and $10 per million output tokens, undercutting Claude Fable 5.2 and Opus 5.5 on API price ([Source](https://venturebeat.com/technology/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price))
+- Anthropic launched Claude Meetings in beta for Team and Enterprise plans, letting Claude join video calls as a visible participant and turn discussions into plans and tasks ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- New York opened registration under its RAISE Act AI safety law, which requires large frontier developers like OpenAI and Anthropic to register by January 1, 2027 ([Source](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/))
-- A Hugging Face executive warned that rising cyberattacks could push open-source AI platforms toward tighter access controls ([Source](https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/))
-- Adobe used its MAX event to bring AI agents, new creative tools and an MCP server to Photoshop, Premiere and Firefly ([Source](https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/))
+- Anthropic set its IPO price range at $70 to $78 per share, implying a valuation of up to $1.404 trillion ahead of a planned Nasdaq listing under the ticker "ANT" ([Source](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/))
+- Anthropic launched Claude Meetings, which joins video calls as a visible participant and turns discussions into plans and tasks, alongside beta Claude Whiteboards and Claude Sheets ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))
+- Oura agreed to acquire AI-native primary care startup Counsel Health for $625 million ([Source](https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/))

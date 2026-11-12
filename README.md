@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic set its IPO price range at $70 to $78 per share, implying a valuation of up to about $1.4 trillion ahead of a planned Nasdaq listing under the ticker ANT ([Source](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/))
-- Nvidia CEO Jensen Huang faces a growing scandal after admitting to an affair with a woman U.S. officials reportedly believe is a Chinese spy, with reports that the board may move to oust him ([Source](https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/))
-- Meta's longtime head of infrastructure Santosh Janardhan is stepping down, with Dave Brown taking over the company's AI-heavy infrastructure buildout ([Source](https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/))
+- Nvidia CEO Jensen Huang resigned effective immediately amid a widening personal scandal, with the chipmaker naming CFO Colette Kress as interim CEO as its shares fell sharply ([Source](https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/))
+- A cyberattack on inference provider Fireworks AI let hackers access chat transcripts from some Notion AI users, exposing customer data downstream ([Source](https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/))
+- OpenAI's quarterly revenue reportedly topped $10 billion for the first time ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))

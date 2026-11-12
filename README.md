@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Nvidia's stock fell after Bloomberg reported that its board is preparing to replace CEO Jensen Huang and has begun working with an outside firm to identify candidates ([Source](https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/))
-- CoreWeave said on its Q3 earnings call that it is funding AI growth through customer prepayments and contract-backed loans instead of unsecured debt, citing a $132.5 billion backlog ([Source](https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/))
-- Attackers breached Fireworks AI storage holding Notion AI chat transcripts kept outside zero data retention, with Notion saying fewer than 1% of workspaces may be affected ([Source](https://venturebeat.com/security/attackers-breached-the-fireworks-ai-storage-where-notion-ai-chats-sat-outside-zero-data-retention))
+- Databricks unveiled an updated version of its Genie AI agent that can now carry out multistep jobs requiring extended work ([Source](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth))
+- Anthropic launched Claude Meetings, which joins video calls as a visible participant to follow the discussion and turn it into plans and tasks in real time ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))
+- A Hugging Face executive warned that rising cyberattacks could push open source AI to become a little less open ([Source](https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/))

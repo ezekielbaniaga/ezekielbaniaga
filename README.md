@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Britain's Fractile raised a $720 million Series C to accelerate its AI inference chips, giving it a leg up in the race to challenge incumbent chipmakers ([Source](https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/))
-- Anthropic launched Claude Meetings in beta for Team and Enterprise plans, letting Claude join video calls and turn discussions into plans and tasks, alongside new Whiteboards and Sheets tools ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks))
-- Google broadened its AI hardware lineup with two new specialized TPU variants, the TPU 8tx and TPU 8i Max, aimed at confidential training and large-memory workloads ([Source](https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/))
+- OpenAI's quarterly revenue reportedly topped $10 billion for the first time, about 50% above the prior quarter, putting it at a roughly $50 billion annual run rate ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))
+- Anthropic set its IPO price range at $70 to $78 per share, implying a valuation of up to $1.404 trillion, with Nasdaq trading under the ticker "ANT" expected around November 19 ([Source](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/))
+- Anthropic released its new Mythos 5.2 and Fable 5.2 models and cut Fable's input token price, amid concerns that it is nearing recursive self-improvement capability ([Source](https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/))

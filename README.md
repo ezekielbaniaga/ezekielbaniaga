@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI's quarterly revenue reportedly topped $10 billion for the first time, according to Bloomberg ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))
-- Adobe added AI agents and new generative tools to Photoshop, Premiere, and Firefly, and released an MCP server that lets chatbots like ChatGPT, Claude, and Gemini use Adobe features ([Source](https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/))
-- New York's RAISE Act AI safety law moved into enforcement, requiring large frontier AI developers like OpenAI and Anthropic to register with the state by January 1, 2027 ([Source](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/))
+- Anthropic set its IPO price range at $70 to $78 per share, implying a valuation of up to about $1.4 trillion ahead of a planned Nasdaq listing under the ticker ANT ([Source](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/))
+- Nvidia CEO Jensen Huang faces a growing scandal after admitting to an affair with a woman U.S. officials reportedly believe is a Chinese spy, with reports that the board may move to oust him ([Source](https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/))
+- Meta's longtime head of infrastructure Santosh Janardhan is stepping down, with Dave Brown taking over the company's AI-heavy infrastructure buildout ([Source](https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/))

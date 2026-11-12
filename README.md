@@ -24,6 +24,6 @@
 
 ## AI News
 
-- President Trump floated Apple's Tim Cook as the "only one man" who could replace Jensen Huang at Nvidia after Huang's resignation, as CFO Colette Kress serves as interim CEO ([Source](https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/))
-- United Airlines is restricting AI agents from booking flights and managing reservations on users' behalf, citing cybersecurity risks ([Source](https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/))
-- Norwest raised a new $4 billion fund as it pushes deeper into AI investing ([Source](https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/))
+- Google is rolling out Gemini 4 Hydrogen to all Search users globally to improve how AI Mode answers complex, multi-part questions ([Source](https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/))
+- Nvidia privately told a lawmaker it could implement anti-smuggling chip tracking, even as industry groups publicly questioned whether such measures were feasible ([Source](https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/))
+- A cyberattack on developer platform Fireworks AI let hackers access chat transcripts of Notion customers, affecting about 1% of Notion's customer base ([Source](https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/))

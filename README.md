@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Databricks unveiled an updated version of its Genie AI agent that can now carry out multistep jobs requiring extended work ([Source](https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth))
-- Anthropic launched Claude Meetings, which joins video calls as a visible participant to follow the discussion and turn it into plans and tasks in real time ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))
-- A Hugging Face executive warned that rising cyberattacks could push open source AI to become a little less open ([Source](https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/))
+- OpenAI's quarterly revenue reportedly topped $10 billion for the first time, according to Bloomberg ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))
+- Adobe added AI agents and new generative tools to Photoshop, Premiere, and Firefly, and released an MCP server that lets chatbots like ChatGPT, Claude, and Gemini use Adobe features ([Source](https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/))
+- New York's RAISE Act AI safety law moved into enforcement, requiring large frontier AI developers like OpenAI and Anthropic to register with the state by January 1, 2027 ([Source](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/))

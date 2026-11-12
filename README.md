@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI's quarterly revenue reportedly topped $10 billion for the first time, about 50% above the prior quarter, putting it at a roughly $50 billion annual run rate ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))
-- Anthropic set its IPO price range at $70 to $78 per share, implying a valuation of up to $1.404 trillion, with Nasdaq trading under the ticker "ANT" expected around November 19 ([Source](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/))
-- Anthropic released its new Mythos 5.2 and Fable 5.2 models and cut Fable's input token price, amid concerns that it is nearing recursive self-improvement capability ([Source](https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/))
+- Nvidia's stock fell after Bloomberg reported that its board is preparing to replace CEO Jensen Huang and has begun working with an outside firm to identify candidates ([Source](https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/))
+- CoreWeave said on its Q3 earnings call that it is funding AI growth through customer prepayments and contract-backed loans instead of unsecured debt, citing a $132.5 billion backlog ([Source](https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/))
+- Attackers breached Fireworks AI storage holding Notion AI chat transcripts kept outside zero data retention, with Notion saying fewer than 1% of workspaces may be affected ([Source](https://venturebeat.com/security/attackers-breached-the-fireworks-ai-storage-where-notion-ai-chats-sat-outside-zero-data-retention))

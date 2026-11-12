@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Nvidia CEO Jensen Huang resigned effective immediately amid a widening personal scandal, with the chipmaker naming CFO Colette Kress as interim CEO as its shares fell sharply ([Source](https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/))
-- A cyberattack on inference provider Fireworks AI let hackers access chat transcripts from some Notion AI users, exposing customer data downstream ([Source](https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/))
-- OpenAI's quarterly revenue reportedly topped $10 billion for the first time ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))
+- President Trump floated Apple's Tim Cook as the "only one man" who could replace Jensen Huang at Nvidia after Huang's resignation, as CFO Colette Kress serves as interim CEO ([Source](https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/))
+- United Airlines is restricting AI agents from booking flights and managing reservations on users' behalf, citing cybersecurity risks ([Source](https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/))
+- Norwest raised a new $4 billion fund as it pushes deeper into AI investing ([Source](https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/))

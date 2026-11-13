@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI launched a ChatGPT Wallet that lets its AI agents pick products and complete checkout on users' behalf, starting with a limited group of U.S. Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
-- United Airlines is blocking customers from using AI agents to book flights and manage reservations, citing cybersecurity risks ([Source](https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks))
-- ElevenLabs unveiled a new app for teams that combines AI meeting note-taking with dictation, now in early-access preview ([Source](https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/))
+- Hugging Face's CEO vowed to keep fighting for open-source AI after Jensen Huang's exit as Nvidia CEO, with CFO Colette Kress stepping in as interim chief ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))
+- Meta's Muse assistant can now place phone calls to U.S. businesses on users' behalf, a feature limited to paid subscribers ([Source](https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/))
+- Anthropic launched Claude Meetings, a beta for Team and Enterprise plans that joins video calls and turns workplace discussions into plans and tasks ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))

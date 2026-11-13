@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Hugging Face CEO Clément Delangue vowed to keep fighting for open-source AI after Jensen Huang's departure from Nvidia, which had agreed to acquire Hugging Face for $12.9 billion ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))
-- Anthropic set its IPO price range at $70 to $78 per share, implying a valuation of up to about $1.404 trillion ahead of an expected Nasdaq listing under the ticker "ANT" ([Source](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/))
-- Meta's consumer AI agent Muse can now place phone calls to U.S. businesses on users' behalf, but only for paid subscribers ([Source](https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay))
+- Jensen Huang has resigned as Nvidia's CEO, a leadership shake-up with wide implications for the AI chip and infrastructure industry ([Source](https://venturebeat.com/infrastructure/nvidias-jensen-huang-resigns-what-does-it-mean-for-the-ai-industry))
+- Google launched Gemini 4 Hydrogen, a faster and smarter but pricier successor to its Flash models aimed at developers building code, document and multi-step agent workflows ([Source](https://venturebeat.com/technology/google-launches-gemini-4-hydrogen-a-faster-smarter-pricier-flash-successor))
+- Neocloud provider Nebius outlined $40 billion in planned 2027 spending on AI infrastructure, far above Wall Street expectations, sending its shares down 17% ([Source](https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/))

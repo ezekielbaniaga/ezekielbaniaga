@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Jensen Huang has resigned as Nvidia's CEO, a leadership shake-up with wide implications for the AI chip and infrastructure industry ([Source](https://venturebeat.com/infrastructure/nvidias-jensen-huang-resigns-what-does-it-mean-for-the-ai-industry))
-- Google launched Gemini 4 Hydrogen, a faster and smarter but pricier successor to its Flash models aimed at developers building code, document and multi-step agent workflows ([Source](https://venturebeat.com/technology/google-launches-gemini-4-hydrogen-a-faster-smarter-pricier-flash-successor))
-- Neocloud provider Nebius outlined $40 billion in planned 2027 spending on AI infrastructure, far above Wall Street expectations, sending its shares down 17% ([Source](https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/))
+- Google made Gemini 4 Carbon generally available, pricing its API below Anthropic's newly launched Claude Fable 5.2 and Opus 5.5 models ([Source](https://venturebeat.com/technology/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price))
+- United Airlines is blocking customers from using AI agents to book flights and manage reservations, citing cybersecurity risks ([Source](https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks))
+- Congressional Democrats launched an investigation into Nvidia following Jensen Huang's exit, sending a scathing letter about his dealings with the Trump administration ([Source](https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/))

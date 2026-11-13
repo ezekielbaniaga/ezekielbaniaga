@@ -24,6 +24,6 @@
 
 ## AI News
 
-- A cyberattack on AI inference provider Fireworks AI let hackers reach customer data, including chat transcripts belonging to roughly 1% of Notion's customers ([Source](https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts))
-- OpenAI's quarterly revenue reportedly topped $10 billion for the first time, putting the company at a $50 billion annual run rate ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))
-- Meta's consumer AI agent Muse can now place phone calls to US businesses on a user's behalf, but only for paying subscribers ([Source](https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/))
+- Following Jensen Huang's resignation as Nvidia CEO, a report says he privately showed little confidence in interim CEO Colette Kress as the chipmaker searches for a permanent successor ([Source](https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/))
+- Hugging Face's CEO vowed to keep fighting for open source AI in the wake of Jensen Huang's exit from Nvidia ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))
+- Venture firm Norwest is pushing deeper into AI investing with a new $4 billion fund ([Source](https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/))

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google is rolling out Gemini 4 Hydrogen to all Search users globally to improve how AI Mode answers complex, multi-part questions ([Source](https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/))
-- Nvidia privately told a lawmaker it could implement anti-smuggling chip tracking, even as industry groups publicly questioned whether such measures were feasible ([Source](https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/))
-- A cyberattack on developer platform Fireworks AI let hackers access chat transcripts of Notion customers, affecting about 1% of Notion's customer base ([Source](https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/))
+- Hugging Face CEO Clément Delangue vowed to keep fighting for open-source AI after Jensen Huang's departure from Nvidia, which had agreed to acquire Hugging Face for $12.9 billion ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))
+- Anthropic set its IPO price range at $70 to $78 per share, implying a valuation of up to about $1.404 trillion ahead of an expected Nasdaq listing under the ticker "ANT" ([Source](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/))
+- Meta's consumer AI agent Muse can now place phone calls to U.S. businesses on users' behalf, but only for paid subscribers ([Source](https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay))

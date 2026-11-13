@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Hugging Face's CEO vowed to keep fighting for open-source AI after Jensen Huang's exit as Nvidia CEO, with CFO Colette Kress stepping in as interim chief ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))
-- Meta's Muse assistant can now place phone calls to U.S. businesses on users' behalf, a feature limited to paid subscribers ([Source](https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/))
-- Anthropic launched Claude Meetings, a beta for Team and Enterprise plans that joins video calls and turns workplace discussions into plans and tasks ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))
+- New research suggests top Chinese open-weight models like Moonshot's Kimi K3 and DeepSeek V4 show signs of training on export-banned Nvidia Blackwell chips ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
+- OpenAI launched ChatGPT Wallet, letting AI agents shop and check out on users' behalf, initially for a limited number of U.S. Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
+- AI agent startup LangChain raised a $300 million Series C at a $3 billion valuation ([Source](https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/))

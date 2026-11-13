@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Following Jensen Huang's resignation as Nvidia CEO, a report says he privately showed little confidence in interim CEO Colette Kress as the chipmaker searches for a permanent successor ([Source](https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/))
-- Hugging Face's CEO vowed to keep fighting for open source AI in the wake of Jensen Huang's exit from Nvidia ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))
-- Venture firm Norwest is pushing deeper into AI investing with a new $4 billion fund ([Source](https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/))
+- OpenAI launched a ChatGPT Wallet that lets its AI agents pick products and complete checkout on users' behalf, starting with a limited group of U.S. Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
+- United Airlines is blocking customers from using AI agents to book flights and manage reservations, citing cybersecurity risks ([Source](https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks))
+- ElevenLabs unveiled a new app for teams that combines AI meeting note-taking with dictation, now in early-access preview ([Source](https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/))

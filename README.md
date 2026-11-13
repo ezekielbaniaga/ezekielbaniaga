@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google made Gemini 4 Carbon generally available, pricing its API below Anthropic's newly launched Claude Fable 5.2 and Opus 5.5 models ([Source](https://venturebeat.com/technology/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price))
-- United Airlines is blocking customers from using AI agents to book flights and manage reservations, citing cybersecurity risks ([Source](https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks))
-- Congressional Democrats launched an investigation into Nvidia following Jensen Huang's exit, sending a scathing letter about his dealings with the Trump administration ([Source](https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/))
+- A cyberattack on AI inference provider Fireworks AI let hackers reach customer data, including chat transcripts belonging to roughly 1% of Notion's customers ([Source](https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts))
+- OpenAI's quarterly revenue reportedly topped $10 billion for the first time, putting the company at a $50 billion annual run rate ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))
+- Meta's consumer AI agent Muse can now place phone calls to US businesses on a user's behalf, but only for paying subscribers ([Source](https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/))

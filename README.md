@@ -24,6 +24,6 @@
 
 ## AI News
 
-- A new research effort claims the leading open-weight AI models from Chinese companies were trained on Nvidia chips the US had barred from export to China ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen))
-- Uber confirmed hackers stole thousands of drivers' license records that were stored by its AI cloud vendor Fireworks AI ([Source](https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach))
-- OpenAI's quarterly revenue reportedly crossed $10 billion for the first time, driven by strong demand for its latest AI models ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))
+- OpenAI added a Wallet to ChatGPT that lets its AI agents shop and check out for users, starting with a limited number of US Pro subscribers who approve each purchase with a biometric check ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
+- ElevenLabs released an experimental app for teams that combines meeting note-taking with dictation, available in preview through early-access sign-up ([Source](https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams))
+- Hugging Face CEO Clem Delangue vowed to keep fighting for open-source AI after Jensen Huang's exit from Nvidia ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))

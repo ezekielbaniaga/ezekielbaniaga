@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI added a Wallet to ChatGPT that lets its AI agents shop and check out for users, starting with a limited number of US Pro subscribers who approve each purchase with a biometric check ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
-- ElevenLabs released an experimental app for teams that combines meeting note-taking with dictation, available in preview through early-access sign-up ([Source](https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams))
-- Hugging Face CEO Clem Delangue vowed to keep fighting for open-source AI after Jensen Huang's exit from Nvidia ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))
+- A new research effort claims that leading open-weight models from Chinese companies were trained on Nvidia chips the US had banned from export to China ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
+- AI agent startup LangChain raised a $300 million Series C led by CapitalG, valuing the company at $3 billion ([Source](https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/))
+- Thinking Machines launched Inkling 2 Small, a model it says delivers near-frontier performance on enterprise benchmarks ([Source](https://venturebeat.com/technology/thinking-machines-launches-inkling-2-small-with-near-frontier-performance-on-enterprise-benchmarks))

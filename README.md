@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Nvidia co-founder and longtime CEO Jensen Huang has resigned, according to a company announcement, raising questions about the AI chip giant's direction ([Source](https://venturebeat.com/infrastructure/nvidias-jensen-huang-resigns-what-does-it-mean-for-the-ai-industry))
-- OpenAI launched ChatGPT Wallet, letting its AI agents shop and check out on users' behalf, starting with a limited set of U.S. Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
-- New research suggests leading Chinese open-weight models from DeepSeek and Moonshot AI were trained on Nvidia Blackwell chips banned from export to China ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
+- Nvidia named CFO Colette Kress interim CEO after Jensen Huang's resignation, as South Korea and Taiwan said their Nvidia GPU supply and headquarters plans remain on track ([Source](https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/))
+- Uber confirmed hackers stole thousands of drivers' license records that were stored by AI cloud company Fireworks AI during a security incident ([Source](https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach))
+- TechCrunch's running AI graveyard list tracks AI projects and startups that failed, including Character.ai's October bankruptcy filing and the shutdown of family assistant Ollie ([Source](https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/))

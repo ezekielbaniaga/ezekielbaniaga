@@ -24,6 +24,6 @@
 
 ## AI News
 
-- New research suggests top Chinese open-weight models like Moonshot's Kimi K3 and DeepSeek V4 show signs of training on export-banned Nvidia Blackwell chips ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
-- OpenAI launched ChatGPT Wallet, letting AI agents shop and check out on users' behalf, initially for a limited number of U.S. Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
-- AI agent startup LangChain raised a $300 million Series C at a $3 billion valuation ([Source](https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/))
+- Nvidia co-founder Jensen Huang resigned as CEO and board member amid an affair scandal, with CFO Colette Kress named interim CEO ([Source](https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/))
+- OpenAI's quarterly revenue reportedly crossed $10 billion for the first time, according to Bloomberg ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))
+- Uber confirmed hackers stole thousands of drivers' license records stored by AI cloud company Fireworks AI in a security incident that also hit Notion ([Source](https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/))

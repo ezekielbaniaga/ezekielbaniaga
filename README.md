@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI launched a ChatGPT Wallet that lets its AI agents shop and check out on users' behalf, starting with a limited group of US ChatGPT Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
-- ElevenLabs released an experimental app, ElevenAI, that combines meeting note-taking, dictation and agent integrations for teams ([Source](https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams))
-- United Airlines is blocking customers from using AI agents to book flights and manage reservations, citing cybersecurity risks ([Source](https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks))
+- A new research effort claims the leading open-weight AI models from Chinese companies were trained on Nvidia chips the US had barred from export to China ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen))
+- Uber confirmed hackers stole thousands of drivers' license records that were stored by its AI cloud vendor Fireworks AI ([Source](https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach))
+- OpenAI's quarterly revenue reportedly crossed $10 billion for the first time, driven by strong demand for its latest AI models ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))

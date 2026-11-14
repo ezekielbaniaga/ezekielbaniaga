@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Nvidia named CFO Colette Kress interim CEO after Jensen Huang's resignation, as South Korea and Taiwan said their Nvidia GPU supply and headquarters plans remain on track ([Source](https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/))
-- Uber confirmed hackers stole thousands of drivers' license records that were stored by AI cloud company Fireworks AI during a security incident ([Source](https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach))
-- TechCrunch's running AI graveyard list tracks AI projects and startups that failed, including Character.ai's October bankruptcy filing and the shutdown of family assistant Ollie ([Source](https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/))
+- OpenAI launched a Wallet feature in ChatGPT that lets its AI agents shop and check out on users' behalf, starting with a limited U.S. rollout to Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
+- New research claims open-weight models from Moonshot and DeepSeek show signs of being trained on export-banned Nvidia Blackwell chips, though it doesn't prove export laws were broken ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
+- Meta's Muse AI agent can now place phone calls to U.S. businesses for users, but only for paid subscribers ([Source](https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay))

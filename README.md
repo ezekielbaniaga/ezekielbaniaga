@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Nvidia co-founder Jensen Huang resigned as CEO and board member amid an affair scandal, with CFO Colette Kress named interim CEO ([Source](https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/))
-- OpenAI's quarterly revenue reportedly crossed $10 billion for the first time, according to Bloomberg ([Source](https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/))
-- Uber confirmed hackers stole thousands of drivers' license records stored by AI cloud company Fireworks AI in a security incident that also hit Notion ([Source](https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/))
+- OpenAI launched a ChatGPT Wallet that lets its AI agents shop and check out on users' behalf, starting with a limited group of US ChatGPT Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
+- ElevenLabs released an experimental app, ElevenAI, that combines meeting note-taking, dictation and agent integrations for teams ([Source](https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams))
+- United Airlines is blocking customers from using AI agents to book flights and manage reservations, citing cybersecurity risks ([Source](https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks))

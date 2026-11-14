@@ -24,6 +24,6 @@
 
 ## AI News
 
-- A new research effort claims that leading open-weight models from Chinese companies were trained on Nvidia chips the US had banned from export to China ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
-- AI agent startup LangChain raised a $300 million Series C led by CapitalG, valuing the company at $3 billion ([Source](https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/))
-- Thinking Machines launched Inkling 2 Small, a model it says delivers near-frontier performance on enterprise benchmarks ([Source](https://venturebeat.com/technology/thinking-machines-launches-inkling-2-small-with-near-frontier-performance-on-enterprise-benchmarks))
+- Nvidia co-founder and longtime CEO Jensen Huang has resigned, according to a company announcement, raising questions about the AI chip giant's direction ([Source](https://venturebeat.com/infrastructure/nvidias-jensen-huang-resigns-what-does-it-mean-for-the-ai-industry))
+- OpenAI launched ChatGPT Wallet, letting its AI agents shop and check out on users' behalf, starting with a limited set of U.S. Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
+- New research suggests leading Chinese open-weight models from DeepSeek and Moonshot AI were trained on Nvidia Blackwell chips banned from export to China ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))

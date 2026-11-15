@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Researchers found that the leading open-weight AI models from Chinese companies were trained on Nvidia chips the U.S. government had banned from export to China ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
-- OpenAI launched ChatGPT Wallet, which lets its AI agents shop and check out on users' behalf, starting with some U.S. Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
-- Anthropic set an IPO price range of $70 to $78 per share, implying a valuation of about $1.404 trillion, with Nasdaq trading under the ticker "ANT" expected around November 19 ([Source](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/))
+- Hugging Face CEO Clément Delangue vowed to keep fighting for open-source AI after Jensen Huang's departure from Nvidia, which had planned to acquire Hugging Face ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))
+- Meta's consumer AI agent Muse can now place phone calls to U.S. businesses on users' behalf, a feature limited to paid subscribers ([Source](https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay))
+- Anthropic launched Claude Meetings in beta for Team and Enterprise plans, bringing Claude into video calls to turn workplace discussions into plans and tasks ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))

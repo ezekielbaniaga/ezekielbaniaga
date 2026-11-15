@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI launched a Wallet feature in ChatGPT that lets its AI agents shop and check out on users' behalf, starting with a limited U.S. rollout to Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
-- New research claims open-weight models from Moonshot and DeepSeek show signs of being trained on export-banned Nvidia Blackwell chips, though it doesn't prove export laws were broken ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
-- Meta's Muse AI agent can now place phone calls to U.S. businesses for users, but only for paid subscribers ([Source](https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay))
+- A cyberattack on AI cloud provider Fireworks AI let hackers reach stored customer data, including chat transcripts from roughly 1% of Notion's customers, its second breach in about two months ([Source](https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/))
+- Hugging Face's CEO vowed to keep fighting for open-source AI following Jensen Huang's exit from Nvidia ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))
+- Anthropic launched Claude Meetings, which joins video calls to turn workplace discussions into plans and tasks while participants are still talking ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- New research claims China's most powerful open-weight AI models, including Moonshot's Kimi K3 and DeepSeek's V4, were trained on export-banned Nvidia Blackwell chips ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
-- OpenAI launched ChatGPT Wallet, letting AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. ChatGPT Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
-- A Hugging Face executive warned that rising cyberattacks could push open-source AI to become a little less open ([Source](https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/))
+- TechCrunch's running "AI graveyard" list tracks failed AI projects and startups, including Character.ai's bankruptcy filing and the shutdown of privacy-focused assistant Ollie ([Source](https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/))
+- ElevenLabs released ElevenAI, an experimental app in preview that combines meeting note-taking and dictation for teams ([Source](https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams))
+- Hugging Face's CEO vowed to keep fighting for open-source AI following Jensen Huang's exit from Nvidia, which had agreed to acquire the platform for $12.9 billion ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))

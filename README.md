@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Hugging Face CEO Clément Delangue vowed to keep fighting for open-source AI after Jensen Huang's departure from Nvidia, which had planned to acquire Hugging Face ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))
-- Meta's consumer AI agent Muse can now place phone calls to U.S. businesses on users' behalf, a feature limited to paid subscribers ([Source](https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay))
-- Anthropic launched Claude Meetings in beta for Team and Enterprise plans, bringing Claude into video calls to turn workplace discussions into plans and tasks ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))
+- New research claims China's most powerful open-weight AI models, including Moonshot's Kimi K3 and DeepSeek's V4, were trained on export-banned Nvidia Blackwell chips ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
+- OpenAI launched ChatGPT Wallet, letting AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. ChatGPT Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
+- A Hugging Face executive warned that rising cyberattacks could push open-source AI to become a little less open ([Source](https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/))

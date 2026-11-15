@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Elon Musk and other tech executives signed a petition, which topped 115,000 signatures, calling on Nvidia's board to reinstate Jensen Huang as CEO ([Source](https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/))
-- Governments in Japan, South Korea, Taiwan and Singapore moved to shore up chip supply commitments after Jensen Huang's exit, with Nvidia reportedly reaffirming plans to supply South Korea with 260,000 advanced GPUs ([Source](https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/))
-- VCs and founders say Jensen Huang's departure leaves a big hole in AI startup funding, with founders bracing for smaller checks from Nvidia ([Source](https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/))
+- Researchers found that the leading open-weight AI models from Chinese companies were trained on Nvidia chips the U.S. government had banned from export to China ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
+- OpenAI launched ChatGPT Wallet, which lets its AI agents shop and check out on users' behalf, starting with some U.S. Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
+- Anthropic set an IPO price range of $70 to $78 per share, implying a valuation of about $1.404 trillion, with Nasdaq trading under the ticker "ANT" expected around November 19 ([Source](https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/))

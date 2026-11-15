@@ -24,6 +24,6 @@
 
 ## AI News
 
-- A cyberattack on AI cloud provider Fireworks AI let hackers reach stored customer data, including chat transcripts from roughly 1% of Notion's customers, its second breach in about two months ([Source](https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/))
-- Hugging Face's CEO vowed to keep fighting for open-source AI following Jensen Huang's exit from Nvidia ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))
-- Anthropic launched Claude Meetings, which joins video calls to turn workplace discussions into plans and tasks while participants are still talking ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))
+- OpenAI launched a ChatGPT Wallet that lets its AI agents help users pick products and complete purchases, initially for a limited group of U.S. ChatGPT Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you))
+- New research claims China's leading open-weight AI models were trained on Nvidia chips that the U.S. government had barred from export ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
+- TechCrunch's running "AI graveyard" tracks AI projects and startups that didn't make it, from Character.ai's bankruptcy to the shutdown of OpenAI's Sora video-sharing platform ([Source](https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/))

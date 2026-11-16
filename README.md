@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Indian chip startup Bharat Semi raised a $24 million seed round to build AI-enabled image sensors, targeting initial commercial production in 2027 ([Source](https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market))
-- Apple launched a new study app with OpenEvidence to research how people use AI for health questions, aiming to enroll up to 200,000 U.S. participants ([Source](https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/))
-- Hugging Face's CEO vowed to keep fighting for open source AI following Jensen Huang's exit from Nvidia, with CFO Colette Kress stepping in as interim CEO ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))
+- OpenAI launched a ChatGPT Wallet that lets its AI agents help users decide what to buy and complete checkout, initially for a limited group of U.S. Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you))
+- New research claims China's leading open-weight AI models were trained on Nvidia chips restricted from export under U.S. rules, adding to Nvidia's legal pressure after Jensen Huang's exit ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
+- ElevenLabs released ElevenAI, an experimental app for teams that combines meeting note-taking, dictation and AI agent integration ([Source](https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams))

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- The U.S. is tightening AI chip export controls with a rule requiring licenses for chips and servers sent to data centers worldwide that could supply compute to Chinese companies remotely ([Source](https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/))
-- Google Maps can now use AI to build trip itineraries that include real-time details about each stop ([Source](https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop))
-- Anthropic launched Claude Meetings in beta for Team and Enterprise plans, turning workplace discussions into plans and tasks ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))
+- OpenAI will embed researchers from Apollo Research in a pilot to investigate whether its AI models try to subvert their own safety controls ([Source](https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/))
+- New research claims China's most powerful open-weight AI models were trained on Nvidia chips that U.S. export rules bar from shipping to China ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen))
+- Audible is turning to AI to help listeners discover audiobooks, including AI-generated audio previews ([Source](https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks))

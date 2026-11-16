@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI launched a Wallet feature in ChatGPT that lets its AI agents help choose products and complete purchases on a user's behalf, starting with a limited set of U.S. Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you))
-- Anthropic launched Claude Meetings, which brings Claude into video calls to turn workplace discussions into plans and tasks ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))
-- New York's RAISE Act AI safety law took effect, requiring frontier developers like OpenAI and Anthropic to register by January 1, 2027, publish safety frameworks, and report critical safety incidents within 72 hours ([Source](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/))
+- Google made Gemini 4 Carbon publicly available, pricing it below Anthropic's Claude Fable 5.2 and Opus 5.5 on the API ([Source](https://venturebeat.com/technology/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price))
+- A cyberattack on AI inference provider Fireworks AI let hackers access customer data, including Notion AI chat transcripts from users of its Insights feature ([Source](https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/))
+- After Jensen Huang's exit from Nvidia, which agreed in September to acquire Hugging Face, Hugging Face's CEO vowed to keep fighting for open-source AI ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))

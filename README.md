@@ -24,6 +24,6 @@
 
 ## AI News
 
-- TechCrunch's running "AI graveyard" list tracks failed AI projects and startups, including Character.ai's bankruptcy filing and the shutdown of privacy-focused assistant Ollie ([Source](https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/))
-- ElevenLabs released ElevenAI, an experimental app in preview that combines meeting note-taking and dictation for teams ([Source](https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams))
-- Hugging Face's CEO vowed to keep fighting for open-source AI following Jensen Huang's exit from Nvidia, which had agreed to acquire the platform for $12.9 billion ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))
+- OpenAI launched a Wallet feature in ChatGPT that lets its AI agents help choose products and complete purchases on a user's behalf, starting with a limited set of U.S. Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you))
+- Anthropic launched Claude Meetings, which brings Claude into video calls to turn workplace discussions into plans and tasks ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))
+- New York's RAISE Act AI safety law took effect, requiring frontier developers like OpenAI and Anthropic to register by January 1, 2027, publish safety frameworks, and report critical safety incidents within 72 hours ([Source](https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/))

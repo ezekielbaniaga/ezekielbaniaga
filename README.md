@@ -24,6 +24,6 @@
 
 ## AI News
 
+- Indian chip startup Bharat Semi raised a $24 million seed round to build AI-enabled image sensors, targeting initial commercial production in 2027 ([Source](https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market))
 - Apple launched a new study app with OpenEvidence to research how people use AI for health questions, aiming to enroll up to 200,000 U.S. participants ([Source](https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/))
-- New research claims China's leading open-weight AI models were trained on Nvidia Blackwell chips that are banned from export to the country ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
-- OpenAI launched ChatGPT Wallet, letting its AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/))
+- Hugging Face's CEO vowed to keep fighting for open source AI following Jensen Huang's exit from Nvidia, with CFO Colette Kress stepping in as interim CEO ([Source](https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/))

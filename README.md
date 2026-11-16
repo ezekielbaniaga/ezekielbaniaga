@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI launched a ChatGPT Wallet that lets its AI agents help users decide what to buy and complete checkout, initially for a limited group of U.S. Pro subscribers ([Source](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you))
-- New research claims China's leading open-weight AI models were trained on Nvidia chips restricted from export under U.S. rules, adding to Nvidia's legal pressure after Jensen Huang's exit ([Source](https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/))
-- ElevenLabs released ElevenAI, an experimental app for teams that combines meeting note-taking, dictation and AI agent integration ([Source](https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams))
+- The U.S. is tightening AI chip export controls with a rule requiring licenses for chips and servers sent to data centers worldwide that could supply compute to Chinese companies remotely ([Source](https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/))
+- Google Maps can now use AI to build trip itineraries that include real-time details about each stop ([Source](https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop))
+- Anthropic launched Claude Meetings in beta for Team and Enterprise plans, turning workplace discussions into plans and tasks ([Source](https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/))

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI will embed safety researchers from Apollo Research and other firms in a pilot program to investigate AI subversion after a series of safety incidents ([Source](https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/))
-- Google says attackers built an AI framework that turns software patches into working exploits without human intervention ([Source](https://venturebeat.com/security/google-says-attackers-built-an-ai-framework-to-turn-software-patches-into-exploits-without-human-intervention))
-- The FBI warned that the open-source Artex AI hacking tool has been used to breach networks in under three hours ([Source](https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/))
+- Sam Altman said the AI industry will be "fine" without Jensen Huang as Nvidia faces fallout from its leadership shake-up ([Source](https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine))
+- OpenAI released a new image classifier to detect CSAM, offered to select companies via its API, along with ChatGPT warnings and temporary account suspensions for attempts to access such content ([Source](https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/))
+- Apple launched a research app with OpenEvidence to study how people use AI to answer health questions, aiming to enroll up to 200,000 U.S. participants ([Source](https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/))

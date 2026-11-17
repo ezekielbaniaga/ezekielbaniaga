@@ -24,6 +24,6 @@
 
 ## AI News
 
-- DeepMind spinout Isomorphic Labs raised $5 billion in a Series C as it works to take its AI-designed drug candidates into clinical trials ([Source](https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/))
-- In its first big move since Jensen Huang stepped down as CEO, Nvidia formed a board committee on national security and export compliance ([Source](https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/))
-- Alibaba launched Qwen4-Max as a proprietary model that cuts the cost of a benchmark task from $4.43 to $1.67, though it still trails frontier rivals on overall rankings ([Source](https://venturebeat.com/technology/alibabas-qwen4-max-cuts-ai-task-costs-but-benchmarks-show-an-uneven-challenge-to-frontier-rivals))
+- Genesis AI raised a $500 million Series A led by Khosla Ventures, Premji Invest and Eclipse to deploy dexterous robots trained on data from workers wearing sensor gloves ([Source](https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/))
+- A Vals report found that models from Anthropic, OpenAI, Google and DeepSeek could be tricked into flagging civilians and schools as military strike targets when the scenario was framed as a game ([Source](https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/))
+- Google is extending retention of Gemini chats, even with history turned off, from 72 hours to about two months, rolling out globally over the coming weeks ([Source](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/))

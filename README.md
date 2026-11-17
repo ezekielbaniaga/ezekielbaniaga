@@ -24,6 +24,6 @@
 
 ## AI News
 
-- The US is tightening AI chip export controls to require licenses for chips sent to data centers worldwide that could give Chinese companies remote access to compute ([Source](https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/))
-- OpenAI released a new image classifier and ChatGPT warnings to combat CSAM, suspending offending accounts for 24 hours on a first warning and permanently for repeat offenses ([Source](https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/))
-- AI cybersecurity startup Corma reached a $1 billion valuation about three months after launch with a $125 million Series A led by NEA ([Source](https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/))
+- DeepMind spinout Isomorphic Labs raised $5 billion in a Series C as it works to take its AI-designed drug candidates into clinical trials ([Source](https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/))
+- In its first big move since Jensen Huang stepped down as CEO, Nvidia formed a board committee on national security and export compliance ([Source](https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/))
+- Alibaba launched Qwen4-Max as a proprietary model that cuts the cost of a benchmark task from $4.43 to $1.67, though it still trails frontier rivals on overall rankings ([Source](https://venturebeat.com/technology/alibabas-qwen4-max-cuts-ai-task-costs-but-benchmarks-show-an-uneven-challenge-to-frontier-rivals))

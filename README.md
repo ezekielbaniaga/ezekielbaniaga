@@ -25,5 +25,5 @@
 ## AI News
 
 - OpenAI will embed safety evaluators from Apollo Research, Goodfire, METR and Transluce inside the company in a pilot to investigate AI subversion, though critics question their independence ([Source](https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/))
-- Google's Threat Intelligence Group says attackers built an AI framework, "exploit_agent," that turns software patches into working exploits without human intervention ([Source](https://venturebeat.com/security/google-says-attackers-built-an-ai-framework-to-turn-software-patches-into-exploits-without-human-intervention))
+- OpenAI CEO Sam Altman said the AI industry will be "fine" after Jensen Huang resigned as Nvidia CEO following his admission of an affair with an alleged Chinese spy ([Source](https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/))
 - The FBI warned that the open-source AI hacking tool Artex has been used in attacks that move from targeting to network compromise in under three hours ([Source](https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/))

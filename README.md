@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI will embed safety evaluators from Apollo Research, Goodfire, METR and Transluce inside the company in a pilot to investigate AI subversion, though critics question their independence ([Source](https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/))
-- OpenAI CEO Sam Altman said the AI industry will be "fine" after Jensen Huang resigned as Nvidia CEO following his admission of an affair with an alleged Chinese spy ([Source](https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/))
-- The FBI warned that the open-source AI hacking tool Artex has been used in attacks that move from targeting to network compromise in under three hours ([Source](https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/))
+- The US is tightening AI chip export controls to require licenses for chips sent to data centers worldwide that could give Chinese companies remote access to compute ([Source](https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/))
+- OpenAI released a new image classifier and ChatGPT warnings to combat CSAM, suspending offending accounts for 24 hours on a first warning and permanently for repeat offenses ([Source](https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/))
+- AI cybersecurity startup Corma reached a $1 billion valuation about three months after launch with a $125 million Series A led by NEA ([Source](https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/))

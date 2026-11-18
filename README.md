@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Isomorphic Labs raised a $5 billion Series C to push its AI-designed drug candidates toward clinical trials after positive preclinical results in oncology and immunology ([Source](https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/))
-- Alibaba launched its proprietary Qwen4-Max model, which cut average task costs in internal evaluations from $4.43 to $1.67 but still trails frontier rivals on independent benchmarks ([Source](https://venturebeat.com/technology/alibabas-qwen4-max-cuts-ai-task-costs-but-benchmarks-show-an-uneven-challenge-to-frontier-rivals))
-- Amazon warned that attackers are using stolen AI API keys to power autonomous agents that hunt for more exposed credentials ([Source](https://venturebeat.com/security/amazon-says-hackers-are-using-stolen-ai-api-keys-to-power-agents-that-hunt-for-more))
+- OpenAI launched GPT-6.2 Astra and GPT-6.2 Sol, drawing sharp criticism from AI power users, some of whom called the models "essentially unusable" ([Source](https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users))
+- Anthropic's IPO filing shows Amazon and Google will together own nearly 30% of the company, with Amazon at just under 15% and Google just under 14% ([Source](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/))
+- The SEC is reportedly investigating whether Nvidia's disclosures misled investors following CEO Jensen Huang's exit ([Source](https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/))

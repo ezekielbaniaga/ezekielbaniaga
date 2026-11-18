@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Amazon and Google are set to together own nearly 30% of Anthropic after its IPO, with Amazon's stake just under 15% and Google's just under 14% ([Source](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/))
-- Amazon warned that hackers are using stolen AI API keys to power autonomous agents that hunt for even more exposed credentials ([Source](https://venturebeat.com/security/amazon-says-hackers-are-using-stolen-ai-api-keys-to-power-agents-that-hunt-for-more))
-- Google will now keep Gemini chats for about two months, up from 72 hours, even when users have chat history turned off ([Source](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/))
+- OpenAI launched GPT-6.2 Astra and Sol, including a 20% API price cut for Astra, but early reception from AI power users has been sharply negative ([Source](https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users))
+- Nvidia says its open-source AI strategy remains intact following Jensen Huang's exit, with interim leadership reaffirming the commitment on its earnings call ([Source](https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/))
+- India's Humyn Labs raised $47M in a Series A to supply the training data U.S. robotics AI developers need ([Source](https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/))

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Nvidia's interim CEO Colette Kress said in the first earnings call since Jensen Huang's exit that the company's open source AI strategy remains intact ([Source](https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/))
-- OpenAI launched GPT-6.2 Astra and Sol to harsh criticism from AI power users, while saying both models reach its Critical cybersecurity threshold ([Source](https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users))
-- Google is widening free access to Gemini Tasks, an agent mode that can call businesses, book appointments and complete purchases on users' behalf ([Source](https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases))
+- Amazon and Google are set to together own nearly 30% of Anthropic after its IPO, with Amazon's stake just under 15% and Google's just under 14% ([Source](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/))
+- Amazon warned that hackers are using stolen AI API keys to power autonomous agents that hunt for even more exposed credentials ([Source](https://venturebeat.com/security/amazon-says-hackers-are-using-stolen-ai-api-keys-to-power-agents-that-hunt-for-more))
+- Google will now keep Gemini chats for about two months, up from 72 hours, even when users have chat history turned off ([Source](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/))

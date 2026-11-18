@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google is widening access to Gemini Tasks, an agent feature that can make calls, book appointments and complete purchases on users' behalf ([Source](https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases))
-- Google will now keep temporary Gemini chats and conversations made with history turned off for about two months, up from 72 hours ([Source](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/))
-- The FBI warned that attackers using the open-source Artex AI hacking tool have gone from targeting to compromising networks in under three hours ([Source](https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/))
+- Nvidia's interim CEO Colette Kress said in the first earnings call since Jensen Huang's exit that the company's open source AI strategy remains intact ([Source](https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/))
+- OpenAI launched GPT-6.2 Astra and Sol to harsh criticism from AI power users, while saying both models reach its Critical cybersecurity threshold ([Source](https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users))
+- Google is widening free access to Gemini Tasks, an agent mode that can call businesses, book appointments and complete purchases on users' behalf ([Source](https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases))

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI launched GPT-6.2 Astra and Sol, including a 20% API price cut for Astra, but early reception from AI power users has been sharply negative ([Source](https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users))
-- Nvidia says its open-source AI strategy remains intact following Jensen Huang's exit, with interim leadership reaffirming the commitment on its earnings call ([Source](https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/))
-- India's Humyn Labs raised $47M in a Series A to supply the training data U.S. robotics AI developers need ([Source](https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/))
+- Sam Altman and Greg Brockman used the DealBook Summit to reject a gradual handover of decision-making to AI, arguing humans must stay in control of the future ([Source](https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/))
+- Snapchat now lets Lens creators build AR Lenses using AI coding assistants such as Claude Code, Cursor and Codex ([Source](https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/))
+- Google will keep temporary Gemini chats for about two months instead of 72 hours, even with history turned off, citing safety and security ([Source](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/))

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI launched GPT-6.2 Astra and GPT-6.2 Sol, drawing sharp criticism from AI power users, some of whom called the models "essentially unusable" ([Source](https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users))
-- Anthropic's IPO filing shows Amazon and Google will together own nearly 30% of the company, with Amazon at just under 15% and Google just under 14% ([Source](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/))
-- The SEC is reportedly investigating whether Nvidia's disclosures misled investors following CEO Jensen Huang's exit ([Source](https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/))
+- Google is widening access to Gemini Tasks, an agent feature that can make calls, book appointments and complete purchases on users' behalf ([Source](https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases))
+- Google will now keep temporary Gemini chats and conversations made with history turned off for about two months, up from 72 hours ([Source](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/))
+- The FBI warned that attackers using the open-source Artex AI hacking tool have gone from targeting to compromising networks in under three hours ([Source](https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/))

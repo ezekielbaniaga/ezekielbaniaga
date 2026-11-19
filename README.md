@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic priced its IPO at $83 a share, above its $70–$78 target range, valuing the company at roughly $1.5 trillion ahead of its Nasdaq debut under the ticker "ANT" ([Source](https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range))
-- Google launched Gemini 4 Neon, a mid-range model it says matches Opus 5.5-level coding performance at 25% lower API token prices ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))
-- Google will keep temporary Gemini chats for about two months instead of 72 hours, even with history off, while separating chat history from AI training settings ([Source](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/))
+- The UK AI Security Institute built a universal jailbreak against pre-release versions of OpenAI's GPT-6.2 Astra, which OpenAI's system card says showed a substantial robustness regression versus GPT-6 Astra ([Source](https://venturebeat.com/security/openais-pre-release-gpt-6-2-astra-was-easier-to-jailbreak-than-its-predecessor-uk-government-testers-found))
+- Nvidia's board said it does not plan to reappoint Jensen Huang as CEO and is weighing internal and external candidates, with CFO Colette Kress serving as interim CEO ([Source](https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/))
+- Citibank and Citizens are telling customers that use third-party AI agents for their finances that they are responsible for any problems, even if they get hacked ([Source](https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/))

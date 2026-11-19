@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Sam Altman and Greg Brockman used the DealBook Summit to reject a gradual handover of decision-making to AI, arguing humans must stay in control of the future ([Source](https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/))
-- Snapchat now lets Lens creators build AR Lenses using AI coding assistants such as Claude Code, Cursor and Codex ([Source](https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/))
-- Google will keep temporary Gemini chats for about two months instead of 72 hours, even with history turned off, citing safety and security ([Source](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/))
+- At the DealBook Summit, Satya Nadella predicted AI agents will reshuffle the economics of the web and warned Amazon could lose ground by blocking agents from its store ([Source](https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/))
+- Accel-backed Indian startup Humyn Labs raised $47M in equity and venture debt to supply training data to US robotics AI developers ([Source](https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/))
+- Anthropic's IPO filings show Amazon and Google will together own nearly 30% of the company after it goes public ([Source](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo))

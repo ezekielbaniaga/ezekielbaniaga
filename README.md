@@ -24,6 +24,6 @@
 
 ## AI News
 
-- At the DealBook Summit, Satya Nadella predicted AI agents will reshuffle the economics of the web and warned Amazon could lose ground by blocking agents from its store ([Source](https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/))
-- Accel-backed Indian startup Humyn Labs raised $47M in equity and venture debt to supply training data to US robotics AI developers ([Source](https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/))
-- Anthropic's IPO filings show Amazon and Google will together own nearly 30% of the company after it goes public ([Source](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo))
+- Snapchat launched Easy Lens CLI, letting developers build AR Lenses with AI coding assistants like Claude Code and Cursor ([Source](https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor))
+- Genesis AI raised a $500M Series A led by Khosla Ventures, Premji Invest and Eclipse to deploy glove-wearing robots ([Source](https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/))
+- Google will now keep Gemini chats for two months instead of 72 hours even with history turned off, saying the data won't be used for model training ([Source](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/))

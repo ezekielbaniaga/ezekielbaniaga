@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Snapchat launched Easy Lens CLI, letting developers build AR Lenses with AI coding assistants like Claude Code and Cursor ([Source](https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor))
-- Genesis AI raised a $500M Series A led by Khosla Ventures, Premji Invest and Eclipse to deploy glove-wearing robots ([Source](https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/))
-- Google will now keep Gemini chats for two months instead of 72 hours even with history turned off, saying the data won't be used for model training ([Source](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/))
+- Microsoft CEO Satya Nadella predicted at the NYT DealBook Summit that AI agents will reshuffle the business models of ad-driven web companies ([Source](https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/))
+- DeepMind spin-off Isomorphic Labs raised a $5B Series C led by Greenoaks and Sequoia to take its AI-designed drug candidates into clinical trials ([Source](https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials))
+- Amazon and Google will together own nearly 30% of Anthropic after its IPO, with stakes of 14.7% and 13.7% respectively ([Source](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo))

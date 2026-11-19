@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Microsoft CEO Satya Nadella predicted at the NYT DealBook Summit that AI agents will reshuffle the business models of ad-driven web companies ([Source](https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/))
-- DeepMind spin-off Isomorphic Labs raised a $5B Series C led by Greenoaks and Sequoia to take its AI-designed drug candidates into clinical trials ([Source](https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials))
-- Amazon and Google will together own nearly 30% of Anthropic after its IPO, with stakes of 14.7% and 13.7% respectively ([Source](https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo))
+- Anthropic priced its IPO at $83 a share, above its $70–$78 target range, valuing the company at roughly $1.5 trillion ahead of its Nasdaq debut under the ticker "ANT" ([Source](https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range))
+- Google launched Gemini 4 Neon, a mid-range model it says matches Opus 5.5-level coding performance at 25% lower API token prices ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))
+- Google will keep temporary Gemini chats for about two months instead of 72 hours, even with history off, while separating chat history from AI training settings ([Source](https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/))

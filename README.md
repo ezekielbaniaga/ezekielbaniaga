@@ -24,6 +24,6 @@
 
 ## AI News
 
-- The UK AI Security Institute built a universal jailbreak against pre-release versions of OpenAI's GPT-6.2 Astra, which OpenAI's system card says showed a substantial robustness regression versus GPT-6 Astra ([Source](https://venturebeat.com/security/openais-pre-release-gpt-6-2-astra-was-easier-to-jailbreak-than-its-predecessor-uk-government-testers-found))
-- Nvidia's board said it does not plan to reappoint Jensen Huang as CEO and is weighing internal and external candidates, with CFO Colette Kress serving as interim CEO ([Source](https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/))
-- Citibank and Citizens are telling customers that use third-party AI agents for their finances that they are responsible for any problems, even if they get hacked ([Source](https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/))
+- Anthropic debuted on Nasdaq after pricing its IPO at $83 a share, and at the opening bell CEO Dario Amodei recommitted to keeping AI under human control and pacing its deployments ([Source](https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/))
+- Meta employees flagged that the company's fast-growing Muse AI agent is mixing up conversations across accounts and could be exposing private data, according to a Reuters report ([Source](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says))
+- METR updated its widely cited AI time-horizon analysis, finding capabilities keep improving quickly while models still trail humans on open-ended, judgment-heavy tasks ([Source](https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/))

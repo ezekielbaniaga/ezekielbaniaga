@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic debuted on Nasdaq after pricing its IPO at $83 a share, and at the opening bell CEO Dario Amodei recommitted to keeping AI under human control and pacing its deployments ([Source](https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/))
-- Meta employees flagged that the company's fast-growing Muse AI agent is mixing up conversations across accounts and could be exposing private data, according to a Reuters report ([Source](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says))
-- METR updated its widely cited AI time-horizon analysis, finding capabilities keep improving quickly while models still trail humans on open-ended, judgment-heavy tasks ([Source](https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/))
+- Thinking Machines released Inkling 2 Mini, an open-weights multimodal looped-transformer model under Apache 2.0 that runs offline on a 32GB MacBook Pro or a single desktop GPU ([Source](https://venturebeat.com/technology/thinking-machines-wows-with-inkling-2-mini-looped-transformer-model-that-runs-locally-on-laptops))
+- Google launched Gemini 4 Neon, a mid-range model claiming top-tier coding performance at 25% lower API prices of $3 per million input and $15 per million output tokens ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))
+- Apple is reportedly developing its own AI agent that can operate a Mac and do computer work for users, though Bloomberg says the effort is still early ([Source](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/))

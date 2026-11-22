@@ -24,6 +24,6 @@
 
 ## AI News
 
-- METR's updated time-horizon study finds some AI capabilities are still improving exponentially, though models remain weaker at judgment-heavy tasks than at coding ([Source](https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/))
-- Google brought computer use to the Gemini desktop app on macOS, letting Gemini operate your Mac for you ([Source](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you))
-- Nvidia's interim CEO Colette Kress says the company's open-source AI strategy, including its pending Hugging Face acquisition, remains intact after Jensen Huang's exit ([Source](https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/))
+- Google launched Gemini 4 Neon, claiming Opus 5.5-level coding performance at API token prices about 25% lower ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))
+- OpenAI will embed safety researchers from Apollo Research, Goodfire, METR and Transluce inside the company in a pilot to investigate AI subversion ([Source](https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/))
+- Meta's upcoming Tamagotchi-like AI device, Muse Charm, may cost $300, according to a new report ([Source](https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300))

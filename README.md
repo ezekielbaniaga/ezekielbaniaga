@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Thinking Machines released Inkling 2 Mini, an open-weights multimodal looped-transformer model under Apache 2.0 that runs offline on a 32GB MacBook Pro or a single desktop GPU ([Source](https://venturebeat.com/technology/thinking-machines-wows-with-inkling-2-mini-looped-transformer-model-that-runs-locally-on-laptops))
-- Google launched Gemini 4 Neon, a mid-range model claiming top-tier coding performance at 25% lower API prices of $3 per million input and $15 per million output tokens ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))
-- Apple is reportedly developing its own AI agent that can operate a Mac and do computer work for users, though Bloomberg says the effort is still early ([Source](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/))
+- METR's updated time-horizon report shows AI capabilities still improving fast, though models do better on coding than on tasks requiring judgment ([Source](https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/))
+- Meta's AI agent Muse is reportedly mixing up conversations across accounts and may be exposing private user data, which Meta says surfaced during employee testing ([Source](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says))
+- Google is adding computer use to the Gemini desktop app on macOS, letting the assistant operate your Mac on your behalf ([Source](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you))

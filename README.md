@@ -24,6 +24,6 @@
 
 ## AI News
 
-- METR's updated time-horizon report shows AI capabilities still improving fast, though models do better on coding than on tasks requiring judgment ([Source](https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/))
-- Meta's AI agent Muse is reportedly mixing up conversations across accounts and may be exposing private user data, which Meta says surfaced during employee testing ([Source](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says))
-- Google is adding computer use to the Gemini desktop app on macOS, letting the assistant operate your Mac on your behalf ([Source](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you))
+- Google launched Gemini 4 Neon, a mid-range model it says nearly matches Anthropic's Opus 5.5 on coding benchmarks at API prices about 25% lower ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))
+- Apple is reportedly building its own AI agent that can operate your Mac, while adding warnings against giving third-party agents full access ([Source](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/))
+- Jensen Huang has resigned as Nvidia's CEO, with CFO Colette Kress named interim CEO, a shake-up with big implications for the AI chip industry ([Source](https://venturebeat.com/infrastructure/nvidias-jensen-huang-resigns-what-does-it-mean-for-the-ai-industry))

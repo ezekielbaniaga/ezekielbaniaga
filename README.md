@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI chief scientist Jakub Pachocki proposed using perplexity as a shared yardstick for setting limits on frontier AI development ([Source](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development))
-- Ringing the Nasdaq opening bell after Anthropic's record IPO, CEO Dario Amodei recommitted the company to pacing AI development ([Source](https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/))
-- Google launched Gemini 4 Neon, claiming Opus 5.5-level coding performance at API token prices 25% lower ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))
+- Google brought computer use to the Gemini desktop app on macOS, letting the assistant operate your Mac on your behalf ([Source](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you))
+- Apple is reportedly developing its own AI agent that can carry out computer work on the Mac for users, according to Bloomberg ([Source](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/))
+- Microsoft CEO Satya Nadella predicted that the rise of AI agents will reshape the economics of the web ([Source](https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/))

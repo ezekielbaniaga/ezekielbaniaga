@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic raised $81.3 billion in the largest IPO on record, a windfall for early backers like Notable Capital, GIC and Baillie Gifford ([Source](https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo))
-- OpenAI's chief scientist proposed using perplexity as a way to measure, and potentially limit, the pace of AI development ([Source](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/))
-- Google launched Gemini 4 Neon, which nears Opus 5.5-level coding performance at API prices 25% lower ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))
+- Apple appears to be developing its own AI agent that can operate a Mac on the user's behalf ([Source](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/))
+- Google is bringing computer use to the Gemini desktop app on macOS, letting Gemini operate your Mac for you ([Source](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/))
+- Sam Altman warned against a future where AI rather than humans makes the decisions, arguing people must stay in control ([Source](https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/))

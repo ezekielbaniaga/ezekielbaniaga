@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Apple appears to be developing its own AI agent that can operate a Mac on the user's behalf ([Source](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/))
-- Google is bringing computer use to the Gemini desktop app on macOS, letting Gemini operate your Mac for you ([Source](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/))
-- Sam Altman warned against a future where AI rather than humans makes the decisions, arguing people must stay in control ([Source](https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/))
+- OpenAI's chief scientist Jakub Pachocki shared ideas on how AI development could be limited, proposing perplexity as a shared yardstick for measuring progress ([Source](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/))
+- Notable Capital, GIC and Baillie Gifford made big early bets on Anthropic ahead of its record-breaking IPO ([Source](https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo))
+- Snapchat now lets developers build AR Lenses using AI coding assistants such as Claude Code and Cursor ([Source](https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor))

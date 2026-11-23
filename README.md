@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI chief scientist Jakub Pachocki floated using perplexity as a measurable "speed limit" for pacing AI development ([Source](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/))
-- Notable Capital, GIC and Baillie Gifford placed big early bets on Anthropic ahead of its record-setting IPO at a roughly $1.5 trillion valuation ([Source](https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo))
-- OpenAI will embed outside safety researchers from groups like Apollo Research and METR inside the company to investigate AI subversion risks ([Source](https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/))
+- Meta employees have warned that the company's AI agent Muse is mixing up conversations across accounts and may be exposing private user data, according to a Reuters report ([Source](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says))
+- Google added computer use to its Gemini desktop app for macOS, letting the AI operate native apps and websites for subscribers in the U.S. ([Source](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you))
+- Nvidia's interim CEO Colette Kress reaffirmed the company's open source AI commitment on its earnings call following Jensen Huang's exit ([Source](https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/))

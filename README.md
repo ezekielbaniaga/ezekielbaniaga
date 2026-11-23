@@ -24,6 +24,6 @@
 
 ## AI News
 
+- Google Search's AI Mode can now draw on users' Google Drive, Wallet and Gemini app data to give more personalized responses ([Source](https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/))
 - Amazon agreed to acquire Israeli startup Decart's AI optimization technology and team in a reported $7.5 billion deal as it prepares to sell its Trainium chips to customers ([Source](https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/))
-- Google launched Gemini 4 Neon, claiming Opus 5.5-level coding performance at 25% lower API token prices ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))
-- OpenAI will embed safety researchers from Apollo Research and other groups inside the company in a pilot to investigate AI subversion ([Source](https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/))
+- OpenAI chief scientist Jakub Pachocki proposed using perplexity as a shared measure for setting limits on AI development ([Source](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/))

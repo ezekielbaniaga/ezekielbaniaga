@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google brought computer use to the Gemini desktop app on macOS, letting the assistant operate your Mac on your behalf ([Source](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you))
-- Apple is reportedly developing its own AI agent that can carry out computer work on the Mac for users, according to Bloomberg ([Source](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/))
-- Microsoft CEO Satya Nadella predicted that the rise of AI agents will reshape the economics of the web ([Source](https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/))
+- OpenAI chief scientist Jakub Pachocki floated using perplexity as a measurable "speed limit" for pacing AI development ([Source](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/))
+- Notable Capital, GIC and Baillie Gifford placed big early bets on Anthropic ahead of its record-setting IPO at a roughly $1.5 trillion valuation ([Source](https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo))
+- OpenAI will embed outside safety researchers from groups like Apollo Research and METR inside the company to investigate AI subversion risks ([Source](https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/))

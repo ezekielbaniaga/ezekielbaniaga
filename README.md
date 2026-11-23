@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Meta employees have warned that the company's AI agent Muse is mixing up conversations across accounts and may be exposing private user data, according to a Reuters report ([Source](https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says))
-- Google added computer use to its Gemini desktop app for macOS, letting the AI operate native apps and websites for subscribers in the U.S. ([Source](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you))
-- Nvidia's interim CEO Colette Kress reaffirmed the company's open source AI commitment on its earnings call following Jensen Huang's exit ([Source](https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/))
+- Anthropic raised $81.3 billion in the largest IPO on record, a windfall for early backers like Notable Capital, GIC and Baillie Gifford ([Source](https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo))
+- OpenAI's chief scientist proposed using perplexity as a way to measure, and potentially limit, the pace of AI development ([Source](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/))
+- Google launched Gemini 4 Neon, which nears Opus 5.5-level coding performance at API prices 25% lower ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI's chief scientist Jakub Pachocki shared ideas on how AI development could be limited, proposing perplexity as a shared yardstick for measuring progress ([Source](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/))
-- Notable Capital, GIC and Baillie Gifford made big early bets on Anthropic ahead of its record-breaking IPO ([Source](https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo))
-- Snapchat now lets developers build AR Lenses using AI coding assistants such as Claude Code and Cursor ([Source](https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor))
+- Amazon agreed to acquire Israeli startup Decart's AI optimization technology and team in a reported $7.5 billion deal as it prepares to sell its Trainium chips to customers ([Source](https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/))
+- Google launched Gemini 4 Neon, claiming Opus 5.5-level coding performance at 25% lower API token prices ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))
+- OpenAI will embed safety researchers from Apollo Research and other groups inside the company in a pilot to investigate AI subversion ([Source](https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/))

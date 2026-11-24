@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Google Search's AI Mode can now draw on users' Google Drive, Wallet and Gemini app data to give more personalized responses ([Source](https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/))
-- Amazon agreed to acquire Israeli startup Decart's AI optimization technology and team in a reported $7.5 billion deal as it prepares to sell its Trainium chips to customers ([Source](https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/))
-- OpenAI chief scientist Jakub Pachocki proposed using perplexity as a shared measure for setting limits on AI development ([Source](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/))
+- Megaspeed, the company at the center of the Jensen Huang scandal, appears set to be added to the US Commerce Department's Entity List amid an export-control probe ([Source](https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist))
+- Nvidia employees gave Jensen Huang a hero's welcome as he returned to the company's headquarters ([Source](https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/))
+- Z.ai released GLM-5.4, which runs 28 of its layers twice in an effort to match models up to four times its size ([Source](https://venturebeat.com/technology/z-ais-glm-5-4-aims-to-match-models-up-to-four-times-its-size-by-running-28-layers-twice))

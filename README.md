@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic launched Claude Ship, a suite of AI agents that review, fix, and approve routine code changes, rolling out to Claude Team and Enterprise plans for GitHub repositories ([Source](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/))
-- Google Search's AI Mode can now draw on Google Drive, Google Wallet, and the Gemini app to give more personalized responses ([Source](https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/))
-- Thinking Machines released Inkling 2 Mini, an open-weights looped transformer model with 26.4B parameters and a ~20GB footprint that runs locally on laptops ([Source](https://venturebeat.com/technology/thinking-machines-wows-with-inkling-2-mini-looped-transformer-model-that-runs-locally-on-laptops))
+- Amazon is acquiring Decart's AI optimization technology and research team in a reported $7.5B deal as it prepares to sell its Trainium chips to outside customers ([Source](https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/))
+- Z.ai released GLM-5.4, which runs 28 layers twice to try to match models up to four times its size, now available through its GLM Coding Plan, ZCode, and Z.ai Chat ([Source](https://venturebeat.com/technology/z-ais-glm-5-4-aims-to-match-models-up-to-four-times-its-size-by-running-28-layers-twice))
+- OpenAI chief scientist Jakub Pachocki published a proposal suggesting perplexity as a possible measure for limiting how fast AI development advances ([Source](https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/))

@@ -25,5 +25,5 @@
 ## AI News
 
 - Anthropic's shares fell below their $83 IPO price to as low as $76 less than a week after its Nasdaq debut, a worrying sign for AI startup valuations ([Source](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/))
-- Amazon is acquiring Decart's AI optimization technology and research team in a reported $7.5 billion deal as it prepares to sell its Trainium chips to customers ([Source](https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/))
 - Tidal will start removing fully AI-generated tracks on December 9 after finding that more than 43% of recent uploads to its platform were made by AI ([Source](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/))
+- Walmart is letting shoppers browse and buy its Black Friday deals through Meta's Muse AI agent, a contrast to Amazon blocking third-party AI agents from purchasing on its site ([Source](https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/))

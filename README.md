@@ -24,6 +24,6 @@
 
 ## AI News
 
-- US data center developers have announced plans for more than 100 behind-the-meter natural gas power plants as AI's energy demand outpaces the grid, though only 4.9 GW of such projects are operating so far ([Source](https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/))
-- Google made Gemini 4 Carbon generally available, pricing its API below Anthropic's Claude Fable 5.2 and Opus 5.5 ([Source](https://venturebeat.com/ai/google-gemini-4-carbon-is-now-publicly-available-and-it-undercuts-claude-fable-5-2-and-opus-5-5-on-api-price))
-- Z.ai released GLM-5.4, which runs 28 of its layers twice in an attempt to match models up to four times its size ([Source](https://venturebeat.com/technology/z-ais-glm-5-4-aims-to-match-models-up-to-four-times-its-size-by-running-28-layers-twice))
+- Anthropic's shares fell below their $83 IPO price to as low as $76 less than a week after its Nasdaq debut, a worrying sign for AI startup valuations ([Source](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/))
+- Amazon is acquiring Decart's AI optimization technology and research team in a reported $7.5 billion deal as it prepares to sell its Trainium chips to customers ([Source](https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/))
+- Tidal will start removing fully AI-generated tracks on December 9 after finding that more than 43% of recent uploads to its platform were made by AI ([Source](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/))

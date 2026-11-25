@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Nvidia's board unanimously reinstated Jensen Huang as CEO just six days after saying it had no plans to bring him back, after U.S. officials said his return posed no national security risk ([Source](https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/))
-- The UK's National Cyber Security Centre warned of a marked rise in AI-driven cyberattacks that are exposing years of weak security, noting basic practices still stop many of them ([Source](https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/))
-- Walmart teamed up with Meta to let shoppers browse and buy its Black Friday deals through Meta's Muse AI agent ([Source](https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/))
+- CrowdStrike agreed to acquire Zscaler in an all-stock deal valued at about $43.9 billion, aiming to extend its AI "kill switch" from the AI gateway onto the network so security teams can stop rogue AI agents ([Source](https://venturebeat.com/security/crowdstrikes-zscaler-deal-aims-to-give-security-teams-a-single-kill-switch-for-rogue-ai-agents))
+- Meta brought its Muse AI assistant directly into Instagram DMs, rolling out on iOS and Android in the U.S., Canada, Mexico, Japan and Singapore ([Source](https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/))
+- Some AI data center developers are no longer waiting on the grid and are building their own off-grid gas power plants to fuel the AI boom ([Source](https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/))

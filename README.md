@@ -24,6 +24,6 @@
 
 ## AI News
 
-- CrowdStrike agreed to acquire Zscaler in an all-stock deal worth about $43.9 billion, aiming to extend its AI "kill switch" for rogue agents from the AI gateway to the network ([Source](https://venturebeat.com/security/crowdstrikes-zscaler-deal-aims-to-give-security-teams-a-single-kill-switch-for-rogue-ai-agents))
-- Meta is bringing its Muse AI assistant directly into Instagram DMs, rolling out to iOS and Android users in the U.S., Canada, Mexico, Japan and Singapore ([Source](https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms))
-- Pinterest will now let parents limit how much AI-generated content their teens see on the platform ([Source](https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see))
+- Nvidia's board unanimously reinstated Jensen Huang as CEO just six days after saying it had no plans to bring him back, after U.S. officials said his return posed no national security risk ([Source](https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/))
+- The UK's National Cyber Security Centre warned of a marked rise in AI-driven cyberattacks that are exposing years of weak security, noting basic practices still stop many of them ([Source](https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/))
+- Walmart teamed up with Meta to let shoppers browse and buy its Black Friday deals through Meta's Muse AI agent ([Source](https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/))

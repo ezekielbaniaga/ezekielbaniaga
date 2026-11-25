@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic's shares fell below their $83 IPO price to as low as $76 less than a week after its Nasdaq debut, a worrying sign for AI startup valuations ([Source](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/))
-- Tidal will start removing fully AI-generated tracks on December 9 after finding that more than 43% of recent uploads to its platform were made by AI ([Source](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/))
-- Walmart is letting shoppers browse and buy its Black Friday deals through Meta's Muse AI agent, a contrast to Amazon blocking third-party AI agents from purchasing on its site ([Source](https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/))
+- CrowdStrike agreed to acquire Zscaler in an all-stock deal worth about $43.9 billion, aiming to extend its AI "kill switch" for rogue agents from the AI gateway to the network ([Source](https://venturebeat.com/security/crowdstrikes-zscaler-deal-aims-to-give-security-teams-a-single-kill-switch-for-rogue-ai-agents))
+- Meta is bringing its Muse AI assistant directly into Instagram DMs, rolling out to iOS and Android users in the U.S., Canada, Mexico, Japan and Singapore ([Source](https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms))
+- Pinterest will now let parents limit how much AI-generated content their teens see on the platform ([Source](https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see))

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- CrowdStrike agreed to acquire Zscaler in an all-stock deal valued at about $43.9 billion, aiming to extend its AI "kill switch" from the AI gateway onto the network so security teams can stop rogue AI agents ([Source](https://venturebeat.com/security/crowdstrikes-zscaler-deal-aims-to-give-security-teams-a-single-kill-switch-for-rogue-ai-agents))
-- Meta brought its Muse AI assistant directly into Instagram DMs, rolling out on iOS and Android in the U.S., Canada, Mexico, Japan and Singapore ([Source](https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/))
-- Some AI data center developers are no longer waiting on the grid and are building their own off-grid gas power plants to fuel the AI boom ([Source](https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/))
+- Amazon is buying AI optimization startup Decart's technology for a reported $7.5 billion as it prepares to sell its Trainium AI chips more broadly ([Source](https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/))
+- Anthropic launched Claude Ship in beta, a set of AI agents that review and fix code changes and approve routine ones for GitHub repositories on Claude Team and Enterprise plans ([Source](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/))
+- Google Search's AI Mode can now tap into Google Drive and read-only Google Wallet data to give more personalized responses ([Source](https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/))

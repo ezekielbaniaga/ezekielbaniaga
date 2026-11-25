@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Meta is rolling out its Muse AI assistant directly inside Instagram DMs for iOS and Android users in the U.S., Canada, Mexico, Japan and Singapore ([Source](https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms))
-- Amazon is buying AI optimization startup Decart's technology for a reported $7.5 billion as it prepares to sell its Trainium AI chips more broadly ([Source](https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/))
-- Anthropic launched Claude Ship in beta, a set of AI agents that review and fix code changes and approve routine ones for GitHub repositories on Claude Team and Enterprise plans ([Source](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/))
+- Amazon and Meta are reportedly negotiating a deal to lift Amazon's two-month block on Meta's Muse AI agent making purchases on its store, with search and advertising terms still under discussion ([Source](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/))
+- Anthropic shares fell below their $83 IPO price on Tuesday, trading as low as $76, a slide observers see as a worrying signal for how public markets value AI startups ([Source](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/))
+- Tidal will start removing fully AI-generated tracks on December 9 after finding that more than 43% of uploads over the past 90 days were made by AI ([Source](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/))

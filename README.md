@@ -24,6 +24,6 @@
 
 ## AI News
 
-- A coalition of 42 state attorneys general is fighting bankrupt Character.ai's plan to auction chat data from more than 21 million U.S. accounts, including 2.1 million registered to minors, ahead of a December 1 sale ([Source](https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/))
-- Nvidia faces scrutiny over whether it knew where its chips ended up after the U.S. added Megaspeed and its affiliates to a trade restriction list, with Jensen Huang set to testify before the Senate Banking Committee on December 3 ([Source](https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/))
-- New York Governor Hochul signed a five-year ban on AI chatbot toys, making New York the second state after California to bar them ([Source](https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/))
+- Anthropic CEO Dario Amodei called accusations that the company wants to surrender human control to AI "absurd" and proposed drawing a line at recursive self-improvement ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
+- OpenAI is merging ChatGPT's Chat and Work experiences under a single shared usage meter, warning that heavy users may hit limits sooner ahead of a broader December rollout ([Source](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/))
+- Amazon and Meta are reportedly in talks to lift a two-month blockade on purchases through Amazon's store by Meta's Muse AI agent ([Source](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/))

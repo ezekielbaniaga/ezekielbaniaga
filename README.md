@@ -24,6 +24,6 @@
 
 ## AI News
 
-- MIT Technology Review reports that AI-written public records requests and data-reselling startups are swamping U.S. open records offices, prompting states like Indiana and California to pass laws that make bulk AI requests easier to deny ([Source](https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/))
-- S&P Global is weighing a downgrade of Nvidia's credit rating from AA to AA-, citing governance and "key man" risks after the CEO's ouster and reinstatement ([Source](https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/))
-- Tidal will ban and remove fully AI-generated tracks starting December 9 after finding that more than 43% of tracks uploaded over the past 90 days were AI-generated ([Source](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/))
+- OpenAI is rolling out a unified Chat and Work experience in ChatGPT and warns that heavy users may hit usage limits sooner, though Instant-model conversations stay unlimited ([Source](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/))
+- A coalition of 42 state attorneys general is fighting Character.AI's bankruptcy plan to auction off private chat data from more than 21 million U.S. accounts ([Source](https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/))
+- AI data centers are getting harder to build, and neoclouds are feeling the squeeze as Nvidia won't backstop a facility until it is nearly ready to run ([Source](https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/))

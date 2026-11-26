@@ -24,6 +24,6 @@
 
 ## AI News
 
-- The FCC conditionally approved SpaceX's plan to deploy up to 1 million satellites for orbital AI data centers, despite debris and congestion objections from Amazon, Viasat and astronomers ([Source](https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/))
-- MIT Technology Review reports that a flood of AI-generated public records requests is straining America's open records systems ([Source](https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/))
-- Nvidia reversed course and reinstated Jensen Huang as CEO after its board said it consulted government officials and found he posed no national security risk ([Source](https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/))
+- A coalition of 42 state attorneys general is intervening in Character.AI's bankruptcy to block the chatbot maker from auctioning off users' sensitive private chat data ([Source](https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/))
+- OpenAI is merging ChatGPT's Chat and Work experiences and warned that a small fraction of its heaviest users may hit usage limits sooner ([Source](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/))
+- MIT Technology Review reports that natural gas has become the default way to meet AI data centers' exploding power demand across the US ([Source](https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/))

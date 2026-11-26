@@ -24,6 +24,6 @@
 
 ## AI News
 
-- A coalition of 42 state attorneys general is challenging Character.AI's bankruptcy plan to sell private chat histories from more than 21 million U.S. accounts, including over 2.1 million belonging to minors ([Source](https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/))
-- The FCC conditionally approved SpaceX's plan for a constellation of up to 1 million satellites hosting AI data centers in orbit, despite objections from Amazon and others ([Source](https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/))
-- CrowdStrike agreed to buy Zscaler in an all-stock deal worth about $43.9 billion, aiming to extend its AI "kill switch" to the network so security teams can stop rogue AI agents ([Source](https://venturebeat.com/security/crowdstrikes-zscaler-deal-aims-to-give-security-teams-a-single-kill-switch-for-rogue-ai-agents))
+- MIT Technology Review reports that AI-written public records requests and data-reselling startups are swamping U.S. open records offices, prompting states like Indiana and California to pass laws that make bulk AI requests easier to deny ([Source](https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/))
+- S&P Global is weighing a downgrade of Nvidia's credit rating from AA to AA-, citing governance and "key man" risks after the CEO's ouster and reinstatement ([Source](https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/))
+- Tidal will ban and remove fully AI-generated tracks starting December 9 after finding that more than 43% of tracks uploaded over the past 90 days were AI-generated ([Source](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/))

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI is rolling out a unified Chat and Work experience in ChatGPT and warns that heavy users may hit usage limits sooner, though Instant-model conversations stay unlimited ([Source](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/))
-- A coalition of 42 state attorneys general is fighting Character.AI's bankruptcy plan to auction off private chat data from more than 21 million U.S. accounts ([Source](https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/))
-- AI data centers are getting harder to build, and neoclouds are feeling the squeeze as Nvidia won't backstop a facility until it is nearly ready to run ([Source](https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/))
+- Days after reinstating Jensen Huang as CEO, Nvidia still faces open questions about whether its advanced GPUs were smuggled into China through customer Megaspeed, with an independent board probe ongoing ([Source](https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/))
+- Anthropic CEO Dario Amodei called accusations that the company favors surrendering human control to AI "absurd" in a lengthy post on X ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
+- AI tools are flooding America's open records systems with public-records requests, straining the agencies that have to process them ([Source](https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/))

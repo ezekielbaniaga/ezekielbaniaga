@@ -24,6 +24,6 @@
 
 ## AI News
 
-- A coalition of 42 state attorneys general is intervening in Character.AI's bankruptcy to block the chatbot maker from auctioning off users' sensitive private chat data ([Source](https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/))
-- OpenAI is merging ChatGPT's Chat and Work experiences and warned that a small fraction of its heaviest users may hit usage limits sooner ([Source](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/))
-- MIT Technology Review reports that natural gas has become the default way to meet AI data centers' exploding power demand across the US ([Source](https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/))
+- Nvidia has reportedly paused server shipments to Malaysia, Singapore, Thailand and Indonesia while it checks that regional partners comply with tightened U.S. export rules ([Source](https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/))
+- Anthropic CEO Dario Amodei called accusations that the company wants to surrender human control to AI "absurd," arguing for a line against fully autonomous recursive self-improvement ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
+- Amazon and Meta are reportedly negotiating a deal to lift a two-month blockade on Meta's AI agent Muse ([Source](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/))

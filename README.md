@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic CEO Dario Amodei called accusations that the company wants to surrender human control to AI "absurd" and proposed drawing a line at recursive self-improvement ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
-- OpenAI is merging ChatGPT's Chat and Work experiences under a single shared usage meter, warning that heavy users may hit limits sooner ahead of a broader December rollout ([Source](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/))
-- Amazon and Meta are reportedly in talks to lift a two-month blockade on purchases through Amazon's store by Meta's Muse AI agent ([Source](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/))
+- A coalition of 42 state attorneys general is challenging Character.AI's bankruptcy plan to sell private chat histories from more than 21 million U.S. accounts, including over 2.1 million belonging to minors ([Source](https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/))
+- The FCC conditionally approved SpaceX's plan for a constellation of up to 1 million satellites hosting AI data centers in orbit, despite objections from Amazon and others ([Source](https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/))
+- CrowdStrike agreed to buy Zscaler in an all-stock deal worth about $43.9 billion, aiming to extend its AI "kill switch" to the network so security teams can stop rogue AI agents ([Source](https://venturebeat.com/security/crowdstrikes-zscaler-deal-aims-to-give-security-teams-a-single-kill-switch-for-rogue-ai-agents))

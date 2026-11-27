@@ -24,6 +24,6 @@
 
 ## AI News
 
-- House committees will privately question Jensen Huang and Nvidia's top lawyer after the U.S. blacklisted Megaspeed, a Singapore data center operator accused of smuggling Nvidia GPUs into China ([Source](https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/))
-- Anthropic CEO Dario Amodei called accusations that the company favors surrendering human control to AI "absurd" while suggesting limits on recursive self-improvement ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
-- X rolled out parental controls for the first time after criticism that its AI chatbot generated sexualized images ([Source](https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/))
+- Nvidia told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia while it checks whether regional partners comply with U.S. export rules ([Source](https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/))
+- Anthropic shares slid below their $83 IPO price days after a record-breaking Nasdaq debut, a worrying sign for AI startups eyeing public markets ([Source](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/))
+- MIT Technology Review reports that AI-generated requests are swamping public open-records systems ([Source](https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/))

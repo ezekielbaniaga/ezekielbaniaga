@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Nvidia told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia while it checks whether regional partners comply with U.S. export rules ([Source](https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/))
-- Anthropic shares slid below their $83 IPO price days after a record-breaking Nasdaq debut, a worrying sign for AI startups eyeing public markets ([Source](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/))
-- MIT Technology Review reports that AI-generated requests are swamping public open-records systems ([Source](https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/))
+- Nvidia reinstated Jensen Huang as CEO and president less than two weeks after his resignation, just six days after its board said it would not bring him back ([Source](https://venturebeat.com/technology/nvidia-brings-back-jensen-huang-as-ceo-just-six-days-after-ruling-out-his-return))
+- Anthropic CEO Dario Amodei called accusations that the company wants to surrender human control to AI "absurd" in a lengthy post on X ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
+- New York Governor Kathy Hochul signed a law banning the manufacture and sale of AI chatbot toys in the state for five years, following California's lead ([Source](https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/))

@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Nvidia has reportedly paused server shipments to Malaysia, Singapore, Thailand and Indonesia while it checks that regional partners comply with tightened U.S. export rules ([Source](https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/))
-- Hackers reportedly used Artex, an AI tool originally built for cyber defense, to breach US spy agencies and expose non-classified data, with sources pointing to China ([Source](https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/))
-- Anthropic shares slipped below their $83 IPO price, trading as low as $76, in a worrying sign for AI startups eyeing public markets ([Source](https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/))
+- House committees will privately question Jensen Huang and Nvidia's top lawyer after the U.S. blacklisted Megaspeed, a Singapore data center operator accused of smuggling Nvidia GPUs into China ([Source](https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/))
+- Anthropic CEO Dario Amodei called accusations that the company favors surrendering human control to AI "absurd" while suggesting limits on recursive self-improvement ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
+- X rolled out parental controls for the first time after criticism that its AI chatbot generated sexualized images ([Source](https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/))

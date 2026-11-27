@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic CEO Dario Amodei called accusations that the company wants to surrender human control to AI "absurd," pushing back on what he described as rivals' vibes-based positioning ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
-- Amazon and Meta are reportedly in talks to end a two-month blockade of Muse, Meta's AI shopping agent ([Source](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/))
-- Google Search's AI Mode can now tap into Google Drive and Google Wallet to give more personalized responses ([Source](https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/))
+- OpenAI is merging ChatGPT's Chat and Work experiences into one, warning that heavy users may hit shared usage limits sooner as the change rolls out more broadly in December ([Source](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/))
+- Google launched Gemini 4 Neon, claiming Opus 5.5-level coding performance at API token prices about 25% lower ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))
+- Microsoft CEO Satya Nadella predicted that AI agents will reshuffle the economics of the web ([Source](https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/))

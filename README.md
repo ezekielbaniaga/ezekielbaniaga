@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Nvidia reinstated Jensen Huang as CEO and president less than two weeks after his resignation, just six days after its board said it would not bring him back ([Source](https://venturebeat.com/technology/nvidia-brings-back-jensen-huang-as-ceo-just-six-days-after-ruling-out-his-return))
-- Anthropic CEO Dario Amodei called accusations that the company wants to surrender human control to AI "absurd" in a lengthy post on X ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
-- New York Governor Kathy Hochul signed a law banning the manufacture and sale of AI chatbot toys in the state for five years, following California's lead ([Source](https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/))
+- Google launched Gemini 4 Neon on its paid API, offering Opus 5.5-level coding performance at roughly 25% lower token prices ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))
+- OpenAI warned that heavy ChatGPT users may hit usage limits sooner as it merges Chat and Work under a single shared usage meter ([Source](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/))
+- Anthropic launched Claude Ship, a beta suite of AI agents that review, fix, and approve routine code changes ([Source](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/))

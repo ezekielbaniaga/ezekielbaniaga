@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI is merging ChatGPT's Chat and Work experiences into one, warning that heavy users may hit shared usage limits sooner as the change rolls out more broadly in December ([Source](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/))
-- Google launched Gemini 4 Neon, claiming Opus 5.5-level coding performance at API token prices about 25% lower ([Source](https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices))
-- Microsoft CEO Satya Nadella predicted that AI agents will reshuffle the economics of the web ([Source](https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/))
+- Anthropic CEO Dario Amodei called accusations that the company wants to surrender human control to AI "absurd" in a lengthy post on X ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
+- Amazon and Meta are reportedly in talks on a deal that would end a two-month blockade of Meta's AI agent Muse ([Source](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse))
+- Tidal will ban fully AI-generated tracks and remove millions of them starting December 9 after finding that over 43% of recent uploads were AI-generated ([Source](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming))

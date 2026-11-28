@@ -24,6 +24,6 @@
 
 ## AI News
 
-- OpenAI is merging ChatGPT's Chat and Work experiences and warned that heavy users may hit shared usage limits sooner, with broader rollout planned for December ([Source](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/))
-- Anthropic launched Claude Ship, a suite of AI agents that can review, fix, and approve code changes ([Source](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/))
-- Google Search's AI Mode can now optionally tap into users' Drive and Wallet data to give more personalized responses ([Source](https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/))
+- Anthropic CEO Dario Amodei called accusations that the company wants humans to surrender control to AI "absurd," while saying Claude should not build frontier models without meaningful human supervision ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
+- Amazon and Meta are reportedly negotiating a deal to end Amazon's two-month blockade of Meta's AI shopping agent Muse ([Source](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/))
+- Microsoft CEO Satya Nadella predicted that AI agents will reshuffle the economics of the web ([Source](https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/))

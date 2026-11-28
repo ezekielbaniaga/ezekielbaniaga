@@ -24,6 +24,6 @@
 
 ## AI News
 
+- OpenAI warned that heavy ChatGPT users may hit usage limits sooner as it merges Chat and Work under a single usage meter ([Source](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/))
 - Anthropic CEO Dario Amodei called accusations that the company wants to surrender human control to AI "absurd" ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
 - Amazon and Meta are reportedly in talks to end a two-month blockade of Meta's AI agent Muse ([Source](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/))
-- Anthropic launched Claude Ship, a set of AI agents that review, fix, and approve routine code changes ([Source](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/))

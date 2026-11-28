@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic CEO Dario Amodei called accusations that the company wants to surrender human control to AI "absurd" in a lengthy post on X ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
-- Amazon and Meta are reportedly in talks on a deal that would end a two-month blockade of Meta's AI agent Muse ([Source](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse))
-- Tidal will ban fully AI-generated tracks and remove millions of them starting December 9 after finding that over 43% of recent uploads were AI-generated ([Source](https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming))
+- OpenAI is merging ChatGPT's Chat and Work experiences and warned that heavy users may hit shared usage limits sooner, with broader rollout planned for December ([Source](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/))
+- Anthropic launched Claude Ship, a suite of AI agents that can review, fix, and approve code changes ([Source](https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/))
+- Google Search's AI Mode can now optionally tap into users' Drive and Wallet data to give more personalized responses ([Source](https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/))

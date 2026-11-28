@@ -24,6 +24,6 @@
 
 ## AI News
 
-- Anthropic CEO Dario Amodei called accusations that the company wants humans to surrender control to AI "absurd," while saying Claude should not build frontier models without meaningful human supervision ([Source](https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/))
-- Amazon and Meta are reportedly negotiating a deal to end Amazon's two-month blockade of Meta's AI shopping agent Muse ([Source](https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/))
-- Microsoft CEO Satya Nadella predicted that AI agents will reshuffle the economics of the web ([Source](https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/))
+- OpenAI warned that heavy ChatGPT users may hit usage limits sooner as it merges its Chat and Work products under shared limits ([Source](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/))
+- Nvidia reinstated Jensen Huang as CEO just six days after its board ruled out his return, saying it concluded his comeback poses no national security risk ([Source](https://venturebeat.com/technology/nvidia-brings-back-jensen-huang-as-ceo-just-six-days-after-ruling-out-his-return))
+- Google Search's AI Mode can now draw on users' Google Drive and Wallet data to give more personalized responses ([Source](https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/))
